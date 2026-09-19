@@ -1,0 +1,745 @@
+{
+ "headline": [
+  {
+   "appointments": 13951,
+   "avg_lead": 29.8,
+   "within_std_pct": 59.14,
+   "no_show_pct": 8.15,
+   "cancel_pct": 8.98,
+   "refillable": 507,
+   "unused_slots": 2087,
+   "dq_score": 99.31
+  }
+ ],
+ "wl_head": [
+  {
+   "waiting": 1786,
+   "past_requested": 946,
+   "avg_waiting": 44.1,
+   "high_priority": 1020
+  }
+ ],
+ "status": [
+  {
+   "Status": "Completed",
+   "appointments": 9400
+  },
+  {
+   "Status": "Scheduled",
+   "appointments": 2464
+  },
+  {
+   "Status": "Cancelled",
+   "appointments": 1253
+  },
+  {
+   "Status": "No Show",
+   "appointments": 834
+  }
+ ],
+ "by_specialty": [
+  {
+   "Specialty": "Orthopedics",
+   "target_days": 19,
+   "appointments": 2495,
+   "avg_lead": 20.0,
+   "within_std_pct": 57.35,
+   "no_show_pct": 5.03
+  },
+  {
+   "Specialty": "Cardiology",
+   "target_days": 24,
+   "appointments": 2109,
+   "avg_lead": 25.5,
+   "within_std_pct": 58.08,
+   "no_show_pct": 7.96
+  },
+  {
+   "Specialty": "Gastroenterology",
+   "target_days": 29,
+   "appointments": 2227,
+   "avg_lead": 30.6,
+   "within_std_pct": 59.27,
+   "no_show_pct": 8.48
+  },
+  {
+   "Specialty": "Pulmonology",
+   "target_days": 26,
+   "appointments": 3174,
+   "avg_lead": 26.9,
+   "within_std_pct": 59.77,
+   "no_show_pct": 7.81
+  },
+  {
+   "Specialty": "Endocrinology",
+   "target_days": 38,
+   "appointments": 2344,
+   "avg_lead": 39.1,
+   "within_std_pct": 59.81,
+   "no_show_pct": 10.25
+  },
+  {
+   "Specialty": "Neurology",
+   "target_days": 41,
+   "appointments": 1602,
+   "avg_lead": 41.8,
+   "within_std_pct": 60.92,
+   "no_show_pct": 11.45
+  }
+ ],
+ "reminder": [
+  {
+   "bucket": "Reminder sent",
+   "appointments": 10097,
+   "no_show_pct": 5.27
+  },
+  {
+   "bucket": "No reminder",
+   "appointments": 3854,
+   "no_show_pct": 15.68
+  }
+ ],
+ "lead_bands": [
+  {
+   "band": "0-14 days",
+   "appointments": 3300,
+   "no_show_pct": 6.32,
+   "cancel_pct": 9.36
+  },
+  {
+   "band": "15-30 days",
+   "appointments": 5468,
+   "no_show_pct": 7.93,
+   "cancel_pct": 9.78
+  },
+  {
+   "band": "31-60 days",
+   "appointments": 4044,
+   "no_show_pct": 9.34,
+   "cancel_pct": 8.33
+  },
+  {
+   "band": "60+ days",
+   "appointments": 1139,
+   "no_show_pct": 13.79,
+   "cancel_pct": 6.32
+  }
+ ],
+ "fill_sim": [
+  {
+   "scenario": "30% refill rate",
+   "slots": 152,
+   "pct_of_completed": 1.62,
+   "Note": "Modeled opportunity, subject to validation with scheduling staff"
+  },
+  {
+   "scenario": "50% refill rate",
+   "slots": 254,
+   "pct_of_completed": 2.7,
+   "Note": "Modeled opportunity, subject to validation with scheduling staff"
+  },
+  {
+   "scenario": "70% refill rate",
+   "slots": 355,
+   "pct_of_completed": 3.78,
+   "Note": "Modeled opportunity, subject to validation with scheduling staff"
+  }
+ ],
+ "cancel_reasons": [
+  {
+   "Cancellation_Reason": "Provider unavailable",
+   "cancellations": 237,
+   "avg_notice_days": 3.5,
+   "refillable": 98
+  },
+  {
+   "Cancellation_Reason": "Transportation",
+   "cancellations": 229,
+   "avg_notice_days": 3.3,
+   "refillable": 96
+  },
+  {
+   "Cancellation_Reason": "No reason given",
+   "cancellations": 211,
+   "avg_notice_days": 3.3,
+   "refillable": 79
+  },
+  {
+   "Cancellation_Reason": "Patient illness",
+   "cancellations": 203,
+   "avg_notice_days": 3.5,
+   "refillable": 84
+  },
+  {
+   "Cancellation_Reason": "Insurance issue",
+   "cancellations": 188,
+   "avg_notice_days": 3.5,
+   "refillable": 70
+  },
+  {
+   "Cancellation_Reason": "Patient request",
+   "cancellations": 185,
+   "avg_notice_days": 3.7,
+   "refillable": 80
+  }
+ ],
+ "time_block": [
+  {
+   "Time_Block": "Morning",
+   "appointments": 7985,
+   "no_show_pct": 8.39,
+   "cancel_pct": 9.02
+  },
+  {
+   "Time_Block": "Afternoon",
+   "appointments": 5966,
+   "no_show_pct": 7.83,
+   "cancel_pct": 8.93
+  }
+ ],
+ "by_hour": [
+  {
+   "hour": 8,
+   "appointments": 1978,
+   "no_show_pct": 8.51
+  },
+  {
+   "hour": 9,
+   "appointments": 2282,
+   "no_show_pct": 7.39
+  },
+  {
+   "hour": 10,
+   "appointments": 2025,
+   "no_show_pct": 8.29
+  },
+  {
+   "hour": 11,
+   "appointments": 1700,
+   "no_show_pct": 9.64
+  },
+  {
+   "hour": 13,
+   "appointments": 1547,
+   "no_show_pct": 8.53
+  },
+  {
+   "hour": 14,
+   "appointments": 1635,
+   "no_show_pct": 7.3
+  },
+  {
+   "hour": 15,
+   "appointments": 1511,
+   "no_show_pct": 7.19
+  },
+  {
+   "hour": 16,
+   "appointments": 1273,
+   "no_show_pct": 8.43
+  }
+ ],
+ "capacity": [
+  {
+   "Specialty": "Gastroenterology",
+   "available": 2282.0,
+   "booked": 2232.0,
+   "lost": 357.0,
+   "utilisation_pct": 97.8
+  },
+  {
+   "Specialty": "Endocrinology",
+   "available": 2542.0,
+   "booked": 2350.0,
+   "lost": 366.0,
+   "utilisation_pct": 92.4
+  },
+  {
+   "Specialty": "Cardiology",
+   "available": 2365.0,
+   "booked": 2118.0,
+   "lost": 334.0,
+   "utilisation_pct": 89.6
+  },
+  {
+   "Specialty": "Neurology",
+   "available": 1850.0,
+   "booked": 1608.0,
+   "lost": 294.0,
+   "utilisation_pct": 86.9
+  },
+  {
+   "Specialty": "Orthopedics",
+   "available": 3019.0,
+   "booked": 2508.0,
+   "lost": 297.0,
+   "utilisation_pct": 83.1
+  },
+  {
+   "Specialty": "Pulmonology",
+   "available": 3857.0,
+   "booked": 3184.0,
+   "lost": 448.0,
+   "utilisation_pct": 82.6
+  }
+ ],
+ "wl_priority": [
+  {
+   "Match_Priority": "Critical",
+   "entries": 316,
+   "avg_waiting": 53.0,
+   "avg_score": 86.0,
+   "past_requested": 262
+  },
+  {
+   "Match_Priority": "High",
+   "entries": 704,
+   "avg_waiting": 47.2,
+   "avg_score": 71.6,
+   "past_requested": 446
+  },
+  {
+   "Match_Priority": "Moderate",
+   "entries": 569,
+   "avg_waiting": 40.8,
+   "avg_score": 58.0,
+   "past_requested": 212
+  },
+  {
+   "Match_Priority": "Low",
+   "entries": 197,
+   "avg_waiting": 28.3,
+   "avg_score": 43.2,
+   "past_requested": 26
+  }
+ ],
+ "wl_specialty": [
+  {
+   "Specialty": "Orthopedics",
+   "entries": 299,
+   "avg_waiting": 43.4,
+   "slots_per_patient": 0.247,
+   "past_requested": 157
+  },
+  {
+   "Specialty": "Neurology",
+   "entries": 289,
+   "avg_waiting": 41.6,
+   "slots_per_patient": 0.256,
+   "past_requested": 136
+  },
+  {
+   "Specialty": "Endocrinology",
+   "entries": 288,
+   "avg_waiting": 45.5,
+   "slots_per_patient": 0.267,
+   "past_requested": 167
+  },
+  {
+   "Specialty": "Gastroenterology",
+   "entries": 323,
+   "avg_waiting": 43.0,
+   "slots_per_patient": 0.272,
+   "past_requested": 171
+  },
+  {
+   "Specialty": "Cardiology",
+   "entries": 288,
+   "avg_waiting": 44.1,
+   "slots_per_patient": 0.309,
+   "past_requested": 149
+  },
+  {
+   "Specialty": "Pulmonology",
+   "entries": 299,
+   "avg_waiting": 47.0,
+   "slots_per_patient": 0.351,
+   "past_requested": 166
+  }
+ ],
+ "optin": [
+  {
+   "bucket": "Not opted in",
+   "entries": 669,
+   "offers_made": 213,
+   "acceptance_pct": 55.87
+  },
+  {
+   "bucket": "Opted in to notifications",
+   "entries": 1117,
+   "offers_made": 350,
+   "acceptance_pct": 54.0
+  }
+ ],
+ "monthly": [
+  {
+   "month": "2026-01",
+   "appointments": 2163,
+   "avg_lead": 29.4,
+   "within_std_pct": 58.99
+  },
+  {
+   "month": "2026-02",
+   "appointments": 2240,
+   "avg_lead": 29.7,
+   "within_std_pct": 60.98
+  },
+  {
+   "month": "2026-03",
+   "appointments": 2517,
+   "avg_lead": 30.1,
+   "within_std_pct": 58.36
+  },
+  {
+   "month": "2026-04",
+   "appointments": 2321,
+   "avg_lead": 30.0,
+   "within_std_pct": 59.8
+  },
+  {
+   "month": "2026-05",
+   "appointments": 2574,
+   "avg_lead": 29.9,
+   "within_std_pct": 58.7
+  },
+  {
+   "month": "2026-06",
+   "appointments": 2136,
+   "avg_lead": 29.8,
+   "within_std_pct": 58.1
+  }
+ ],
+ "wl_queue": [
+  {
+   "Waitlist_ID": "WL-00315",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 144,
+   "Days_To_Requested_By": -130.0,
+   "Preferred_Time": "No preference",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 100.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-00106",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 112,
+   "Days_To_Requested_By": -52.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "15 to 40 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 100.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-01550",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 97,
+   "Days_To_Requested_By": -83.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "Over 40 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 100.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-00399",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 75,
+   "Days_To_Requested_By": -68.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 100.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-01169",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 65,
+   "Days_To_Requested_By": -51.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 100.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-00748",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 58,
+   "Days_To_Requested_By": -28.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "15 to 40 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 100.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-00114",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 50,
+   "Days_To_Requested_By": -29.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 100.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-01696",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 49,
+   "Days_To_Requested_By": -35.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "Over 40 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 100.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-01604",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 45,
+   "Days_To_Requested_By": 0.0,
+   "Preferred_Time": "No preference",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 100.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-01065",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 43,
+   "Days_To_Requested_By": -22.0,
+   "Preferred_Time": "No preference",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 100.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-00284",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 40,
+   "Days_To_Requested_By": -10.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "15 to 40 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 100.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-00096",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 34,
+   "Days_To_Requested_By": -20.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 100.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-01613",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 33,
+   "Days_To_Requested_By": -19.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 100.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-01764",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 30,
+   "Days_To_Requested_By": -9.0,
+   "Preferred_Time": "No preference",
+   "Travel_Category": "Over 40 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 100.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-00980",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 139,
+   "Days_To_Requested_By": -94.0,
+   "Preferred_Time": "No preference",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 95.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-01067",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 129,
+   "Days_To_Requested_By": -39.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "Over 40 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 95.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-01762",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 110,
+   "Days_To_Requested_By": -20.0,
+   "Preferred_Time": "No preference",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 95.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-00903",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 94,
+   "Days_To_Requested_By": -4.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 95.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-00951",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 90,
+   "Days_To_Requested_By": -45.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 95.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-00229",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 89,
+   "Days_To_Requested_By": -44.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 95.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-01756",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 84,
+   "Days_To_Requested_By": -70.0,
+   "Preferred_Time": "No preference",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 95.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-00206",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 81,
+   "Days_To_Requested_By": -36.0,
+   "Preferred_Time": "No preference",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 95.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-00856",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 73,
+   "Days_To_Requested_By": -66.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "15 to 40 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 95.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-00493",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 72,
+   "Days_To_Requested_By": -12.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "15 to 40 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 95.0,
+   "Match_Priority": "Critical"
+  },
+  {
+   "Waitlist_ID": "WL-01052",
+   "Specialty": "Pulmonology",
+   "Days_Waiting": 63,
+   "Days_To_Requested_By": -3.0,
+   "Preferred_Time": "Morning",
+   "Travel_Category": "Under 15 miles",
+   "Notification_Opt_In": "Yes",
+   "score": 95.0,
+   "Match_Priority": "Critical"
+  }
+ ],
+ "exceptions": [
+  {
+   "Rule_ID": "DQ-09",
+   "Severity": "Medium",
+   "Action_Taken": "Normalized to Yes/No",
+   "exceptions": 138
+  },
+  {
+   "Rule_ID": "DQ-06",
+   "Severity": "High",
+   "Action_Taken": "Retained, excluded from fill-opportunity analysis",
+   "exceptions": 60
+  },
+  {
+   "Rule_ID": "DQ-01",
+   "Severity": "High",
+   "Action_Taken": "First occurrence retained",
+   "exceptions": 48
+  },
+  {
+   "Rule_ID": "DQ-04",
+   "Severity": "Critical",
+   "Action_Taken": "Excluded from reporting",
+   "exceptions": 31
+  },
+  {
+   "Rule_ID": "DQ-14",
+   "Severity": "High",
+   "Action_Taken": "Requested_By_Date nulled; urgency scored as unknown",
+   "exceptions": 25
+  },
+  {
+   "Rule_ID": "DQ-07",
+   "Severity": "High",
+   "Action_Taken": "Cancellation date nulled, record retained",
+   "exceptions": 22
+  },
+  {
+   "Rule_ID": "DQ-15",
+   "Severity": "High",
+   "Action_Taken": "Offer_Accepted reset to Unknown",
+   "exceptions": 20
+  },
+  {
+   "Rule_ID": "DQ-03",
+   "Severity": "Critical",
+   "Action_Taken": "Excluded from reporting",
+   "exceptions": 18
+  },
+  {
+   "Rule_ID": "DQ-13",
+   "Severity": "Critical",
+   "Action_Taken": "Excluded from reporting",
+   "exceptions": 14
+  }
+ ]
+}
