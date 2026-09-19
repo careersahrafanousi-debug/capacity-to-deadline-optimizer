@@ -1,0 +1,1801 @@
+Waitlist_ID,Patient_Group,Specialty,Date_Added,Requested_By_Date,Preferred_Time,Travel_Category,Notification_Opt_In,Offered_Slot_Date,Offer_Accepted,Days_Waiting,Current_Lead_Time_Estimate
+WL-00001,Group B,Cardiology,2026-05-13,2026-07-12,Afternoon,15 to 40 miles,Yes,2026-05-26,No,44,24
+WL-00002,Group B,Cardiology,2026-04-18,2026-04-25,No preference,Over 40 miles,Yes,2026-04-24,No,69,24
+WL-00003,Group D,Orthopedics,2026-06-02,2025-11-15,Morning,Over 40 miles,No,,No,24,19
+WL-00004,Group D,Pulmonology,2026-04-29,2026-05-13,No preference,Under 15 miles,Yes,,No,58,26
+WL-00005,Group B,Neurology,2026-04-21,2026-05-12,Afternoon,Under 15 miles,Yes,,No,66,41
+WL-00006,Group C,Endocrinology,2026-06-19,2026-07-10,Morning,Under 15 miles,Yes,2026-07-09,Yes,7,38
+WL-00007,Group C,Neurology,2026-05-24,2026-06-07,No preference,15 to 40 miles,Yes,,No,33,41
+WL-00008,Group B,Pulmonology,2026-06-18,2026-07-02,Afternoon,Over 40 miles,Yes,,No,8,26
+WL-00009,Group A,Orthopedics,2026-04-04,2026-04-11,Afternoon,Over 40 miles,No,2026-04-30,No,83,19
+WL-00010,Group D,Cardiology,2026-06-10,2026-08-09,Afternoon,15 to 40 miles,Yes,,No,16,24
+WL-00011,Group B,Neurology,2026-05-23,2026-06-22,Morning,15 to 40 miles,No,,No,34,41
+WL-00012,Group D,Cardiology,2026-06-16,2026-07-31,Afternoon,15 to 40 miles,No,2026-07-03,No,10,24
+WL-00013,Group C,Orthopedics,2026-03-30,2026-04-29,Morning,Over 40 miles,Yes,2026-04-18,No,88,19
+WL-00014,Group A,Cardiology,2026-06-18,2026-06-25,Afternoon,Under 15 miles,Yes,,No,8,24
+WL-00015,Group A,Orthopedics,2026-05-16,2026-07-15,Afternoon,Over 40 miles,Yes,,No,41,19
+WL-00016,Group D,Neurology,2026-06-02,2026-07-02,Afternoon,15 to 40 miles,Yes,,No,24,41
+WL-00017,Group B,Cardiology,2026-05-14,2026-06-28,Afternoon,Under 15 miles,Yes,2026-06-09,No,43,24
+WL-00018,Group C,Orthopedics,2026-03-22,2026-04-21,Afternoon,Under 15 miles,Yes,,No,96,19
+WL-00019,Group A,Pulmonology,2026-06-14,2026-06-28,No preference,Under 15 miles,Yes,,No,12,26
+WL-00020,Group D,Neurology,2026-05-08,2026-06-22,Morning,Under 15 miles,Yes,,No,49,41
+WL-00021,Group A,Neurology,2026-06-09,2026-06-30,Morning,15 to 40 miles,Yes,,No,17,41
+WL-00022,Group C,Neurology,2026-05-13,2026-06-12,Afternoon,Under 15 miles,Yes,2026-05-29,Yes,44,41
+WL-00023,Group A,Pulmonology,2026-06-14,2026-08-13,Afternoon,Under 15 miles,No,,No,12,26
+WL-00024,Group D,Neurology,2026-05-02,2026-05-23,Afternoon,Under 15 miles,No,2026-05-04,Yes,55,41
+WL-00025,Group A,Endocrinology,2026-05-04,2026-07-03,No preference,15 to 40 miles,Yes,,No,53,38
+WL-00026,Group B,Orthopedics,2026-05-19,2026-06-02,Morning,15 to 40 miles,Yes,,No,38,19
+WL-00027,Group B,Pulmonology,2026-06-11,2026-09-09,Afternoon,Over 40 miles,No,,No,15,26
+WL-00028,Group A,Neurology,2026-03-28,2026-06-26,No preference,15 to 40 miles,No,2026-04-18,Yes,90,41
+WL-00029,Group B,Pulmonology,2026-05-23,2026-06-06,Morning,15 to 40 miles,No,2026-05-31,Yes,34,26
+WL-00030,Group A,Gastroenterology,2026-05-21,2026-06-20,Morning,Over 40 miles,Yes,,No,36,29
+WL-00031,Group D,Gastroenterology,2026-05-12,2026-07-11,Afternoon,Under 15 miles,No,,No,45,29
+WL-00032,Group A,Pulmonology,2026-03-25,2026-04-24,Afternoon,Under 15 miles,Yes,,No,93,26
+WL-00033,Group A,Gastroenterology,2026-05-17,2026-07-16,Afternoon,Under 15 miles,No,,No,40,29
+WL-00034,Group C,Endocrinology,2026-05-23,2026-08-21,Afternoon,Over 40 miles,Yes,,No,34,38
+WL-00035,Group C,Orthopedics,2026-06-23,2026-07-07,Morning,Under 15 miles,Yes,2026-06-27,No,3,19
+WL-00036,Group D,Gastroenterology,2026-06-11,2026-06-25,Morning,Over 40 miles,No,,No,15,29
+WL-00037,Group C,Pulmonology,2026-05-15,2026-05-29,Afternoon,15 to 40 miles,No,,No,42,26
+WL-00038,Group C,Gastroenterology,2026-05-29,2026-06-19,Morning,15 to 40 miles,No,,No,28,29
+WL-00039,Group D,Neurology,2026-06-21,2026-07-12,Morning,15 to 40 miles,Yes,2026-07-18,Yes,5,41
+WL-00040,Group A,Endocrinology,2026-06-03,2026-06-17,Afternoon,Under 15 miles,Yes,2026-06-14,No,23,38
+WL-00041,Group C,Neurology,2026-06-18,2026-08-17,Afternoon,Over 40 miles,No,,No,8,41
+WL-00042,Group B,Gastroenterology,2026-05-11,2026-06-01,No preference,Over 40 miles,No,,No,46,29
+WL-00043,Group C,Orthopedics,2026-05-03,2026-05-10,No preference,15 to 40 miles,Yes,,No,54,19
+WL-00044,Group D,Gastroenterology,2026-05-30,2026-08-28,No preference,15 to 40 miles,Yes,,No,27,29
+WL-00045,Group A,Endocrinology,2026-06-22,2026-08-06,Morning,Under 15 miles,No,,No,4,38
+WL-00046,Group A,Cardiology,2026-04-13,2026-05-13,Afternoon,15 to 40 miles,No,2026-04-26,Yes,74,24
+WL-00047,Group D,Pulmonology,2026-05-22,2026-06-21,Morning,Over 40 miles,Yes,,No,35,26
+WL-00048,Group A,Endocrinology,2026-05-24,2026-06-23,Morning,Under 15 miles,Yes,2026-06-09,No,33,38
+WL-00049,Group A,Cardiology,2026-05-17,2026-08-15,Morning,15 to 40 miles,Yes,,No,40,24
+WL-00050,Group A,Orthopedics,2026-05-27,2026-06-26,Afternoon,Under 15 miles,No,2026-06-03,No,30,19
+WL-00051,Group B,Neurology,2026-05-13,2026-06-12,Afternoon,15 to 40 miles,No,,No,44,41
+WL-00052,Group C,Gastroenterology,2026-04-29,2026-05-06,No preference,Over 40 miles,Yes,,No,58,29
+WL-00053,Group A,Cardiology,2026-03-06,2026-04-20,Afternoon,Under 15 miles,No,,No,112,24
+WL-00054,Group C,Pulmonology,2026-05-25,2026-07-24,Afternoon,15 to 40 miles,Yes,2026-06-23,Yes,32,26
+WL-00055,Group D,Endocrinology,2026-04-05,2025-11-15,Morning,Under 15 miles,No,2026-04-12,No,82,38
+WL-00056,Group A,Pulmonology,2026-05-12,2026-08-10,Morning,Under 15 miles,Yes,,No,45,26
+WL-00057,Group C,Endocrinology,2026-03-07,2026-04-06,Morning,Over 40 miles,No,,No,111,38
+WL-00058,Group C,Endocrinology,2026-04-11,2026-07-10,Afternoon,Over 40 miles,Yes,2026-04-21,No,76,38
+WL-00059,Group A,Pulmonology,2026-04-28,2026-05-19,Afternoon,15 to 40 miles,No,,No,59,26
+WL-00060,Group A,Pulmonology,2026-06-04,2026-07-04,Morning,Under 15 miles,Yes,,No,22,26
+WL-00061,Group A,Orthopedics,2026-04-07,2026-04-14,No preference,Under 15 miles,No,,No,80,19
+WL-00062,Group D,Endocrinology,2026-05-03,2026-07-02,Afternoon,15 to 40 miles,No,2026-06-02,Yes,54,38
+WL-00063,Group D,Endocrinology,2026-04-09,2026-05-24,Afternoon,15 to 40 miles,Yes,,Yes,78,38
+WL-00064,Group C,Pulmonology,2026-05-15,2026-06-05,Morning,Under 15 miles,No,,No,42,26
+WL-00065,Group D,Gastroenterology,2026-05-17,2026-07-01,Morning,15 to 40 miles,Yes,,No,40,29
+WL-00066,Group D,Gastroenterology,2026-06-02,2026-07-17,Morning,Under 15 miles,No,,No,24,29
+WL-00067,Group A,Neurology,2026-05-21,2026-07-20,Morning,Under 15 miles,Yes,2026-06-14,No,36,41
+WL-00068,Group C,Neurology,2026-05-19,2026-07-18,No preference,Over 40 miles,Yes,2026-06-14,Yes,38,41
+WL-00069,Group B,Orthopedics,2026-03-29,2026-04-12,Afternoon,Under 15 miles,Yes,,No,89,19
+WL-00070,Group B,Pulmonology,2026-04-15,2026-07-14,Morning,Over 40 miles,No,,No,72,26
+WL-00071,Group C,Cardiology,2026-05-03,2026-06-02,No preference,Under 15 miles,No,2026-06-02,Yes,54,24
+WL-00072,Group A,Pulmonology,2026-05-22,2026-07-21,Afternoon,Under 15 miles,No,,No,35,26
+WL-00073,Group C,Orthopedics,2026-06-09,2026-09-07,Morning,15 to 40 miles,Yes,,No,17,19
+WL-00074,Group B,Orthopedics,2026-04-21,2026-05-12,No preference,Over 40 miles,No,,No,66,19
+WL-00075,Group B,Orthopedics,2026-05-06,2026-08-04,No preference,Under 15 miles,No,,No,51,19
+WL-00076,Group D,Endocrinology,2026-05-02,2026-07-31,Morning,15 to 40 miles,No,2026-05-05,No,55,38
+WL-00077,Group A,Endocrinology,2026-05-30,2026-07-29,Afternoon,Under 15 miles,Yes,2026-06-10,Yes,27,38
+WL-00078,Group A,Neurology,2026-05-28,2026-08-26,Afternoon,Under 15 miles,No,,No,29,41
+WL-00079,Group D,Endocrinology,2026-05-23,2026-07-22,Morning,Under 15 miles,No,,No,34,38
+WL-00080,Group A,Pulmonology,2026-06-20,2026-07-20,No preference,Over 40 miles,Yes,,No,6,26
+WL-00081,Group A,Cardiology,2026-06-14,2026-06-21,Afternoon,15 to 40 miles,Yes,2026-07-06,No,12,24
+WL-00082,Group C,Endocrinology,2026-06-05,2026-06-26,Morning,15 to 40 miles,Yes,,No,21,38
+WL-00083,Group B,Orthopedics,2026-05-04,2026-08-02,No preference,15 to 40 miles,Yes,,No,53,19
+WL-00084,Group B,Cardiology,2026-06-06,2026-07-21,Afternoon,Under 15 miles,Yes,,No,20,24
+WL-00085,Group A,Endocrinology,2026-05-07,2026-05-28,No preference,15 to 40 miles,No,,No,50,38
+WL-00086,Group B,Neurology,2026-06-24,2026-07-01,Afternoon,15 to 40 miles,No,2026-07-10,Yes,2,41
+WL-00087,Group A,Orthopedics,2026-04-14,2026-04-28,Afternoon,Under 15 miles,Yes,2026-04-27,No,73,19
+WL-00088,Group C,Neurology,2026-06-04,2026-09-02,Afternoon,Under 15 miles,No,,No,22,41
+WL-00089,Group C,Endocrinology,2026-01-14,2026-02-13,Morning,15 to 40 miles,Yes,,No,163,38
+WL-00090,Group B,Orthopedics,2026-05-13,2026-06-27,Afternoon,Over 40 miles,Yes,2026-05-24,Yes,44,19
+WL-00091,Group A,Cardiology,2026-05-27,2026-07-11,Afternoon,15 to 40 miles,Yes,,No,30,24
+WL-00092,Group C,Pulmonology,2026-06-07,2026-06-14,Afternoon,Under 15 miles,Yes,,No,19,26
+WL-00093,Group B,Neurology,2026-04-28,2026-05-19,Morning,Under 15 miles,No,,No,59,41
+WL-00094,Group A,Cardiology,2026-04-20,2026-07-19,No preference,Under 15 miles,Yes,,No,67,24
+WL-00095,Group B,Pulmonology,2026-05-30,2026-06-29,No preference,Under 15 miles,Yes,,No,27,26
+WL-00096,Group B,Pulmonology,2026-05-23,2026-06-06,Morning,Under 15 miles,Yes,2026-06-15,Yes,34,26
+WL-00097,Group C,Orthopedics,2026-06-08,2026-07-08,Morning,15 to 40 miles,No,,No,18,19
+WL-00098,Group B,Endocrinology,2026-04-11,2025-11-15,Morning,Under 15 miles,Yes,2026-05-05,Yes,76,38
+WL-00099,Group A,Endocrinology,2026-06-08,2026-07-23,Morning,Under 15 miles,Yes,2026-06-23,No,18,38
+WL-00100,Group D,Neurology,2026-02-22,2026-04-23,Morning,Over 40 miles,No,2026-03-05,Yes,124,41
+WL-00101,Group A,Neurology,2026-06-15,2026-06-29,Morning,15 to 40 miles,Yes,,No,11,41
+WL-00102,Group A,Orthopedics,2026-06-19,2026-08-03,No preference,15 to 40 miles,No,,No,7,19
+WL-00103,Group B,Neurology,2026-05-25,2026-06-24,Afternoon,15 to 40 miles,Yes,,No,32,41
+WL-00104,Group D,Orthopedics,2026-04-29,2026-05-06,Morning,Over 40 miles,Yes,,No,58,19
+WL-00105,Group D,Pulmonology,2026-06-04,2026-06-11,Afternoon,Under 15 miles,Yes,2026-06-14,No,22,26
+WL-00106,Group C,Pulmonology,2026-03-06,2026-05-05,Morning,15 to 40 miles,Yes,2026-03-21,Yes,112,26
+WL-00107,Group C,Cardiology,2026-06-01,2026-07-31,No preference,15 to 40 miles,Yes,2026-06-15,Yes,25,24
+WL-00108,Group A,Neurology,2026-06-12,2026-08-11,Morning,Under 15 miles,Yes,,No,14,41
+WL-00109,Group A,Endocrinology,2026-05-01,2026-07-30,Morning,Over 40 miles,Yes,,Yes,56,38
+WL-00110,Group D,Pulmonology,2026-06-13,2026-07-04,Morning,15 to 40 miles,No,,No,13,26
+WL-00111,Group D,Endocrinology,2026-06-10,2026-07-01,Afternoon,15 to 40 miles,Yes,,No,16,38
+WL-00112,Group B,Orthopedics,2026-04-30,2026-05-30,Morning,Over 40 miles,Yes,,No,57,19
+WL-00113,Group C,Endocrinology,2026-04-23,2026-06-22,No preference,Under 15 miles,No,2026-05-07,No,64,38
+WL-00114,Group A,Pulmonology,2026-05-07,2026-05-28,Morning,Under 15 miles,Yes,2026-05-11,No,50,26
+WL-00115,Group D,Endocrinology,2026-05-01,2026-06-30,Morning,Under 15 miles,Yes,,No,56,38
+WL-00116,Group A,Cardiology,2026-05-09,2026-05-16,Morning,Under 15 miles,No,,No,48,24
+WL-00117,Group B,Pulmonology,2026-05-08,2026-05-15,Afternoon,Under 15 miles,Yes,,No,49,26
+WL-00118,Group C,Pulmonology,2026-05-13,2026-06-12,Afternoon,Under 15 miles,No,,No,44,26
+WL-00119,Group A,Neurology,2026-06-14,2026-08-13,Afternoon,Under 15 miles,No,2026-07-09,No,12,41
+WL-00120,Group B,Neurology,2026-03-27,2026-05-11,No preference,Over 40 miles,No,2026-04-04,Yes,91,41
+WL-00121,Group C,Orthopedics,2026-06-12,2026-06-26,Afternoon,Under 15 miles,Yes,2026-07-07,No,14,19
+WL-00122,Group B,Orthopedics,2026-06-11,2026-07-26,Afternoon,Over 40 miles,Yes,2026-06-26,Yes,15,19
+WL-00123,Group C,Endocrinology,2026-06-09,2026-08-08,Morning,Under 15 miles,Yes,2026-06-18,No,17,38
+WL-00124,Group C,Orthopedics,2026-05-16,2026-05-30,Morning,Under 15 miles,No,,No,41,19
+WL-00125,Group B,Endocrinology,2026-03-11,2026-03-25,Afternoon,Under 15 miles,No,,No,107,38
+WL-00126,Group D,Neurology,2026-04-30,2026-05-21,Afternoon,15 to 40 miles,Yes,,No,57,41
+WL-00127,Group B,Pulmonology,2026-04-30,2026-05-07,Morning,Under 15 miles,No,,No,57,26
+WL-00128,Group C,Neurology,2026-05-21,2026-06-20,Morning,Under 15 miles,No,,No,36,41
+WL-00129,Group D,Gastroenterology,2026-05-22,2026-05-29,Morning,Under 15 miles,No,2026-05-25,No,35,29
+WL-00130,Group A,Pulmonology,2026-06-09,2026-07-09,No preference,Under 15 miles,Yes,2026-06-11,No,17,26
+WL-00131,Group A,Pulmonology,2026-06-10,2026-07-01,Morning,Over 40 miles,Yes,,No,16,26
+WL-00132,Group C,Neurology,2026-05-26,2026-07-25,Afternoon,Over 40 miles,No,,No,31,41
+WL-00133,Group B,Gastroenterology,2026-04-28,2026-06-27,No preference,Under 15 miles,Yes,2026-05-24,No,59,29
+WL-00134,Group D,Neurology,2026-05-12,2026-05-26,Morning,15 to 40 miles,No,,No,45,41
+WL-00135,Group A,Orthopedics,2026-06-08,2026-07-08,Afternoon,Under 15 miles,No,,No,18,19
+WL-00136,Group A,Gastroenterology,2026-06-13,2026-07-13,No preference,15 to 40 miles,No,,No,13,29
+WL-00137,Group A,Cardiology,2026-05-14,2026-05-28,Afternoon,15 to 40 miles,No,,No,43,24
+WL-00138,Group A,Neurology,2026-06-17,2026-07-01,Afternoon,15 to 40 miles,Yes,2026-06-19,Yes,9,41
+WL-00139,Group C,Orthopedics,2026-04-14,2026-05-29,No preference,Under 15 miles,Yes,2026-05-01,No,73,19
+WL-00140,Group A,Gastroenterology,2026-05-04,2026-05-25,No preference,15 to 40 miles,No,2026-05-08,No,53,29
+WL-00141,Group C,Gastroenterology,2026-06-04,2026-07-04,Morning,Under 15 miles,Yes,,No,22,29
+WL-00142,Group C,Neurology,2026-01-28,2026-02-27,No preference,15 to 40 miles,Yes,2026-02-07,Yes,149,41
+WL-00143,Group B,Cardiology,2026-05-03,2026-07-02,Morning,15 to 40 miles,Yes,2026-05-13,Yes,54,24
+WL-00144,Group D,Pulmonology,2026-05-24,2026-07-08,Morning,Under 15 miles,Yes,2026-05-27,No,33,26
+WL-00145,Group A,Cardiology,2026-04-16,2026-05-16,Morning,15 to 40 miles,No,,No,71,24
+WL-00146,Group A,Endocrinology,2026-05-12,2026-05-19,Afternoon,Under 15 miles,No,,No,45,38
+WL-00147,Group A,Neurology,2026-06-22,2026-08-06,Morning,Under 15 miles,No,2026-07-20,Yes,4,41
+WL-00148,Group C,Orthopedics,2026-03-16,2026-04-15,Morning,Under 15 miles,No,,No,102,19
+WL-00149,Group D,Cardiology,2026-06-02,2026-08-01,No preference,15 to 40 miles,Yes,,No,24,24
+WL-00150,Group C,Pulmonology,2026-05-07,2026-06-21,No preference,Under 15 miles,Yes,,No,50,26
+WL-00151,Group C,Gastroenterology,2026-05-16,2026-06-15,Morning,Under 15 miles,No,,No,41,29
+WL-00152,Group D,Orthopedics,2026-05-17,2026-06-07,Morning,Under 15 miles,No,,No,40,19
+WL-00153,Group C,Orthopedics,2026-06-20,2026-07-20,Morning,Over 40 miles,Yes,,No,6,19
+WL-00154,Group D,Neurology,2026-06-02,2026-06-16,No preference,Under 15 miles,Yes,2026-06-12,No,24,41
+WL-00155,Group C,Neurology,2026-05-29,2026-06-28,No preference,Over 40 miles,No,,No,28,41
+WL-00156,Group C,Endocrinology,2026-05-22,2026-08-20,Morning,15 to 40 miles,Yes,,No,35,38
+WL-00157,Group A,Pulmonology,2026-06-24,2026-07-15,No preference,15 to 40 miles,Yes,2026-07-12,Yes,2,26
+WL-00158,Group C,Pulmonology,2026-05-05,2026-05-12,No preference,Over 40 miles,No,,No,52,26
+WL-00159,Group B,Pulmonology,2026-05-28,2026-08-26,Afternoon,Under 15 miles,No,,No,29,26
+WL-00160,Group B,Orthopedics,2026-05-09,2026-05-23,Morning,Under 15 miles,Yes,,No,48,19
+WL-00161,Group B,Cardiology,2026-05-24,2026-06-07,Afternoon,Under 15 miles,No,,No,33,24
+WL-00162,Group A,Gastroenterology,2026-05-12,2026-05-26,Afternoon,Under 15 miles,Yes,2026-06-03,No,45,29
+WL-00163,Group C,Neurology,2026-05-26,2026-07-10,Morning,Under 15 miles,Yes,,No,31,41
+WL-00164,Group C,Orthopedics,2026-04-27,2026-06-11,No preference,15 to 40 miles,Yes,,No,60,19
+WL-00165,Group D,Pulmonology,2026-04-12,2026-05-03,Morning,15 to 40 miles,Yes,,No,75,26
+WL-00166,Group D,Endocrinology,2026-04-26,2026-06-10,No preference,Under 15 miles,No,,No,61,38
+WL-00167,Group D,Neurology,2026-02-18,2026-03-04,Afternoon,Under 15 miles,Yes,,No,128,41
+WL-00168,Group C,Neurology,2026-05-03,2026-07-02,No preference,Under 15 miles,Yes,,No,54,41
+WL-00169,Group C,Gastroenterology,2026-04-25,2026-07-24,Afternoon,15 to 40 miles,Yes,2026-05-05,Yes,62,29
+WL-00170,Group A,Pulmonology,2026-04-11,2026-05-11,Afternoon,15 to 40 miles,No,2026-04-28,No,76,26
+WL-00171,Group A,Pulmonology,2026-05-14,2026-06-28,Morning,Under 15 miles,Yes,,No,43,26
+WL-00172,Group A,Endocrinology,2026-03-27,2026-05-11,No preference,15 to 40 miles,No,,No,91,38
+WL-00173,Group C,Pulmonology,2026-06-06,2026-06-20,Morning,Over 40 miles,No,,No,20,26
+WL-00174,Group D,Cardiology,2026-06-16,2026-07-31,Morning,Under 15 miles,Yes,,No,10,24
+WL-00175,Group C,Gastroenterology,2026-06-14,2026-07-29,Morning,Over 40 miles,No,,No,12,29
+WL-00176,Group C,Cardiology,2026-05-29,2026-07-13,Morning,Over 40 miles,Yes,2026-06-14,Yes,28,24
+WL-00177,Group C,Orthopedics,2026-03-10,2026-03-17,Morning,Under 15 miles,Yes,,No,108,19
+WL-00178,Group B,Gastroenterology,2026-05-15,2026-05-22,No preference,Under 15 miles,No,2026-05-24,No,42,29
+WL-00179,Group C,Gastroenterology,2026-06-08,2026-08-07,No preference,Over 40 miles,Yes,2026-07-01,Yes,18,29
+WL-00180,Group A,Cardiology,2026-05-23,2026-07-07,Morning,Over 40 miles,No,,No,34,24
+WL-00181,Group A,Neurology,2026-05-18,2026-05-25,Morning,Over 40 miles,Yes,,No,39,41
+WL-00182,Group D,Gastroenterology,2026-03-24,2026-04-07,Afternoon,15 to 40 miles,Yes,,No,94,29
+WL-00183,Group D,Gastroenterology,2026-05-22,2026-05-29,Morning,Over 40 miles,No,,No,35,29
+WL-00184,Group B,Gastroenterology,2026-06-08,2026-09-06,Morning,Under 15 miles,No,2026-06-18,Yes,18,29
+WL-00185,Group A,Gastroenterology,2026-04-08,2026-06-07,Morning,15 to 40 miles,Yes,2026-04-16,Yes,79,29
+WL-00186,Group A,Neurology,2026-06-10,2026-08-09,Afternoon,Under 15 miles,Yes,,No,16,41
+WL-00187,Group D,Neurology,2026-06-04,2026-08-03,No preference,Under 15 miles,No,,No,22,41
+WL-00188,Group B,Neurology,2026-05-20,2026-07-19,Morning,Under 15 miles,Yes,2026-06-11,Yes,37,41
+WL-00189,Group B,Orthopedics,2026-06-20,2026-06-27,Morning,15 to 40 miles,Yes,,No,6,19
+WL-00190,Group C,Endocrinology,2026-02-10,2026-04-11,Afternoon,Under 15 miles,No,,No,136,38
+WL-00191,Group D,Endocrinology,2026-05-26,2026-06-16,Afternoon,Under 15 miles,Yes,,No,31,38
+WL-00192,Group C,Orthopedics,2026-06-06,2025-11-15,Morning,Over 40 miles,Yes,2026-06-15,Yes,20,19
+WL-00193,Group D,Cardiology,2026-05-19,2026-07-18,No preference,Over 40 miles,Yes,2026-06-03,No,38,24
+WL-00194,Group B,Gastroenterology,2026-04-18,2026-05-09,Morning,Under 15 miles,No,2026-04-27,No,69,29
+WL-00195,Group B,Pulmonology,2026-03-14,2025-11-15,Morning,Under 15 miles,Yes,,No,104,26
+WL-00196,Group C,Orthopedics,2026-02-08,2026-02-15,No preference,Under 15 miles,Yes,2026-02-15,No,138,19
+WL-00197,Group B,Gastroenterology,2026-05-26,2026-06-09,No preference,Under 15 miles,Yes,,No,31,29
+WL-00198,Group B,Endocrinology,2026-05-31,2025-11-15,Afternoon,15 to 40 miles,Yes,,No,26,38
+WL-00199,Group B,Gastroenterology,2026-06-01,2026-06-08,Morning,15 to 40 miles,Yes,2026-06-24,No,25,29
+WL-00200,Group C,Endocrinology,2026-05-02,2026-05-16,Afternoon,15 to 40 miles,No,,No,55,38
+WL-00201,Group A,Neurology,2026-06-12,2026-07-27,Morning,15 to 40 miles,Yes,2026-06-27,Yes,14,41
+WL-00202,Group C,Endocrinology,2026-06-22,2026-09-20,Morning,15 to 40 miles,No,2026-07-02,No,4,38
+WL-00203,Group D,Cardiology,2026-04-02,2026-05-17,Morning,Over 40 miles,Yes,,Yes,85,24
+WL-00204,Group A,Pulmonology,2026-05-18,2026-06-01,No preference,Under 15 miles,Yes,,No,39,26
+WL-00205,Group A,Neurology,2026-05-24,2026-06-07,Afternoon,15 to 40 miles,No,2026-06-22,No,33,41
+WL-00206,Group B,Pulmonology,2026-04-06,2026-05-21,No preference,Under 15 miles,Yes,,No,81,26
+WL-00207,Group D,Cardiology,2026-05-25,2026-07-24,Afternoon,Under 15 miles,Yes,,No,32,24
+WL-00208,Group C,Orthopedics,2026-06-10,2026-08-09,No preference,15 to 40 miles,Yes,,No,16,19
+WL-00209,Group B,Cardiology,2026-03-13,2026-04-12,Afternoon,Under 15 miles,Yes,,No,105,24
+WL-00210,Group B,Orthopedics,2026-03-29,2026-04-05,Morning,Over 40 miles,No,,No,89,19
+WL-00211,Group C,Endocrinology,2026-03-16,2026-03-30,Morning,15 to 40 miles,Yes,,No,102,38
+WL-00212,Group A,Gastroenterology,2026-03-30,2026-04-06,Afternoon,Under 15 miles,No,,No,88,29
+WL-00213,Group D,Pulmonology,2026-06-02,2026-08-01,Morning,Under 15 miles,Yes,,No,24,26
+WL-00214,Group A,Neurology,2026-04-27,2026-07-26,No preference,Under 15 miles,Yes,,No,60,41
+WL-00215,Group C,Gastroenterology,2026-05-21,2026-06-20,Morning,Over 40 miles,No,2026-06-07,No,36,29
+WL-00216,Group B,Neurology,2026-06-07,2026-06-21,Morning,Over 40 miles,Yes,2026-07-05,Yes,19,41
+WL-00217,Group A,Endocrinology,2026-05-30,2026-06-06,Morning,Under 15 miles,Yes,,No,27,38
+WL-00218,Group B,Pulmonology,2026-06-01,2026-07-16,Afternoon,Under 15 miles,No,,No,25,26
+WL-00219,Group D,Cardiology,2026-06-04,2026-07-19,Morning,15 to 40 miles,Yes,2026-06-22,Yes,22,24
+WL-00220,Group C,Endocrinology,2026-05-21,2026-07-20,No preference,Over 40 miles,Yes,,No,36,38
+WL-00221,Group A,Gastroenterology,2026-04-20,2026-06-04,Morning,15 to 40 miles,Yes,,No,67,29
+WL-00222,Group B,Cardiology,2026-04-02,2026-05-02,Afternoon,Under 15 miles,Yes,,No,85,24
+WL-00223,Group B,Pulmonology,2026-05-05,2026-08-03,No preference,Over 40 miles,Yes,,No,52,26
+WL-00224,Group A,Endocrinology,2026-04-09,2026-04-16,Afternoon,Under 15 miles,Yes,,No,78,38
+WL-00225,Group C,Orthopedics,2026-06-06,2026-06-13,Morning,Under 15 miles,No,2026-06-22,No,20,19
+WL-00226,Group D,Gastroenterology,2026-05-15,2026-07-14,Afternoon,Under 15 miles,Yes,,No,42,29
+WL-00227,Group A,Orthopedics,2026-05-25,2026-08-23,No preference,Under 15 miles,No,2026-05-26,No,32,19
+WL-00228,Group D,Pulmonology,2026-05-02,2026-05-23,Afternoon,Over 40 miles,Yes,2026-05-24,No,55,26
+WL-00229,Group B,Pulmonology,2026-03-29,2026-05-13,Morning,Under 15 miles,Yes,,No,89,26
+WL-00230,Group A,Neurology,2026-06-21,2026-06-28,No preference,Under 15 miles,Yes,2026-07-16,No,5,41
+WL-00231,Group A,Endocrinology,2026-05-30,2026-06-29,No preference,Under 15 miles,Yes,,No,27,38
+WL-00232,Group C,Orthopedics,2026-05-13,2026-07-12,Afternoon,Under 15 miles,No,,No,44,19
+WL-00233,Group A,Gastroenterology,2026-06-23,2026-09-21,Morning,Under 15 miles,Yes,2026-06-24,Yes,3,29
+WL-00234,Group B,Neurology,2026-05-14,2026-08-12,Afternoon,Under 15 miles,Yes,,No,43,41
+WL-00235,Group B,Endocrinology,2026-04-17,2026-05-08,No preference,Under 15 miles,Yes,2026-05-14,Yes,70,38
+WL-00236,Group C,Pulmonology,2026-03-23,2026-04-13,Morning,15 to 40 miles,No,2026-04-07,Yes,95,26
+WL-00237,Group A,Pulmonology,2026-06-16,2026-07-16,Morning,Under 15 miles,No,2026-06-17,No,10,26
+WL-00238,Group A,Gastroenterology,2026-03-30,2026-06-28,No preference,Over 40 miles,Yes,2026-04-11,No,88,29
+WL-00239,Group C,Orthopedics,2026-06-09,2026-07-24,Morning,15 to 40 miles,No,,No,17,19
+WL-00240,Group A,Cardiology,2026-05-20,2026-07-04,Afternoon,15 to 40 miles,No,,No,37,24
+WL-00241,Group D,Cardiology,2026-06-02,2026-07-17,Afternoon,Over 40 miles,Yes,,No,24,24
+WL-00242,Group A,Gastroenterology,2026-05-18,2026-07-02,Afternoon,Under 15 miles,Yes,,No,39,29
+WL-00243,Group C,Neurology,2026-05-10,2026-05-17,Morning,15 to 40 miles,Yes,,No,47,41
+WL-00244,Group A,Cardiology,2026-04-15,2026-04-22,No preference,Under 15 miles,No,,No,72,24
+WL-00245,Group C,Endocrinology,2026-06-22,2026-09-20,Morning,Under 15 miles,No,,No,4,38
+WL-00246,Group C,Gastroenterology,2026-03-22,2026-05-21,No preference,Over 40 miles,No,,No,96,29
+WL-00247,Group B,Cardiology,2026-06-03,2026-07-03,No preference,15 to 40 miles,Yes,,No,23,24
+WL-00248,Group B,Orthopedics,2026-06-01,2026-07-01,Afternoon,Under 15 miles,No,,No,25,19
+WL-00249,Group B,Endocrinology,2026-05-17,2026-05-31,Morning,15 to 40 miles,Yes,,No,40,38
+WL-00250,Group D,Neurology,2026-06-10,2026-08-09,Morning,Over 40 miles,No,2026-06-12,Yes,16,41
+WL-00251,Group D,Gastroenterology,2026-04-28,2026-06-12,Morning,Under 15 miles,Yes,2026-05-25,No,59,29
+WL-00252,Group D,Endocrinology,2026-04-03,2026-04-24,Morning,Under 15 miles,No,,No,84,38
+WL-00253,Group C,Cardiology,2026-06-19,2026-07-10,Afternoon,Under 15 miles,No,,No,7,24
+WL-00254,Group C,Pulmonology,2026-05-13,2026-08-11,Morning,Over 40 miles,Yes,,No,44,26
+WL-00255,Group A,Neurology,2026-05-25,2026-06-24,Morning,15 to 40 miles,Yes,,No,32,41
+WL-00256,Group C,Pulmonology,2026-04-06,2026-07-05,Afternoon,Over 40 miles,Yes,2026-04-14,Yes,81,26
+WL-00257,Group A,Orthopedics,2026-05-25,2026-06-08,No preference,15 to 40 miles,Yes,,No,32,19
+WL-00258,Group B,Orthopedics,2026-04-20,2026-06-04,No preference,Under 15 miles,No,,No,67,19
+WL-00259,Group D,Gastroenterology,2026-05-28,2026-07-12,Morning,Under 15 miles,Yes,,No,29,29
+WL-00260,Group A,Gastroenterology,2026-04-27,2026-05-04,Morning,Under 15 miles,No,,No,60,29
+WL-00261,Group A,Cardiology,2026-04-29,2026-06-28,Morning,Under 15 miles,Yes,,No,58,24
+WL-00262,Group C,Neurology,2026-03-30,2026-05-14,Morning,15 to 40 miles,Yes,2026-04-03,Yes,88,41
+WL-00263,Group C,Pulmonology,2026-01-05,2026-02-04,Afternoon,Under 15 miles,No,,No,172,26
+WL-00264,Group A,Pulmonology,2026-06-09,2026-06-16,Afternoon,Over 40 miles,No,2026-06-12,Yes,17,26
+WL-00265,Group D,Cardiology,2026-06-06,2026-09-04,Afternoon,15 to 40 miles,Yes,2026-06-25,Yes,20,24
+WL-00266,Group A,Neurology,2026-05-14,2026-08-12,Morning,15 to 40 miles,No,,No,43,41
+WL-00267,Group A,Cardiology,2026-04-27,2026-06-26,Morning,15 to 40 miles,Yes,,No,60,24
+WL-00268,Group C,Pulmonology,2026-06-11,2026-08-10,No preference,Under 15 miles,Yes,,No,15,26
+WL-00269,Group C,Cardiology,2026-04-17,2026-04-24,Afternoon,15 to 40 miles,Yes,2026-04-28,Yes,70,24
+WL-00270,Group B,Gastroenterology,2026-06-05,2026-07-05,Morning,Under 15 miles,No,,No,21,29
+WL-00271,Group B,Cardiology,2026-05-23,2026-07-22,No preference,15 to 40 miles,No,,No,34,24
+WL-00272,Group C,Neurology,2026-06-03,2026-08-02,Morning,15 to 40 miles,Yes,2026-06-24,Yes,23,41
+WL-00273,Group D,Neurology,2026-06-25,2026-07-02,Morning,15 to 40 miles,No,,No,1,41
+WL-00274,Group A,Pulmonology,2026-04-05,2026-07-04,Morning,Under 15 miles,Yes,,No,82,26
+WL-00275,Group D,Neurology,2026-03-01,2026-03-15,No preference,Under 15 miles,Yes,2026-03-07,Yes,117,41
+WL-00276,Group C,Cardiology,2026-05-10,2026-06-09,Afternoon,Over 40 miles,Yes,2026-05-27,Yes,47,24
+WL-00277,Group C,Endocrinology,2026-06-01,2026-06-22,Morning,Under 15 miles,Yes,2026-06-28,Yes,25,38
+WL-00278,Group D,Endocrinology,2026-05-03,2026-07-02,Afternoon,Over 40 miles,Yes,2026-05-08,No,54,38
+WL-00279,Group D,Cardiology,2026-05-23,2026-06-06,Afternoon,Under 15 miles,No,,No,34,24
+WL-00280,Group A,Endocrinology,2026-04-23,2026-05-07,Afternoon,Over 40 miles,Yes,2026-04-25,Yes,64,38
+WL-00281,Group B,Endocrinology,2026-04-09,2026-06-08,Morning,15 to 40 miles,Yes,,No,78,38
+WL-00282,Group B,Gastroenterology,2026-06-07,2026-06-14,No preference,Under 15 miles,Yes,,No,19,29
+WL-00283,Group A,Neurology,2026-04-29,2026-05-29,No preference,15 to 40 miles,Yes,,No,58,41
+WL-00284,Group C,Pulmonology,2026-05-17,2026-06-16,Morning,15 to 40 miles,Yes,2026-05-28,Yes,40,26
+WL-00285,Group B,Neurology,2026-05-22,2026-07-21,Afternoon,15 to 40 miles,No,2026-06-11,No,35,41
+WL-00286,Group A,Gastroenterology,2026-04-21,2026-05-12,Morning,Under 15 miles,No,,No,66,29
+WL-00287,Group A,Cardiology,2026-06-06,2026-07-21,Morning,Under 15 miles,No,2026-07-01,Yes,20,24
+WL-00288,Group B,Gastroenterology,2026-06-17,2026-09-15,Morning,Over 40 miles,Yes,,No,9,29
+WL-00289,Group A,Gastroenterology,2026-05-20,2026-06-10,No preference,Under 15 miles,No,,No,37,29
+WL-00290,Group D,Endocrinology,2026-01-24,2026-02-14,Morning,Under 15 miles,Yes,2026-02-18,No,153,38
+WL-00291,Group C,Gastroenterology,2026-03-22,2026-05-06,Morning,15 to 40 miles,No,,No,96,29
+WL-00292,Group C,Pulmonology,2026-05-02,2026-07-31,Afternoon,Under 15 miles,Yes,2026-05-15,Yes,55,26
+WL-00293,Group C,Cardiology,2026-06-13,2026-07-04,Morning,Under 15 miles,Yes,,No,13,24
+WL-00294,Group B,Cardiology,2026-05-11,2026-06-25,Afternoon,Under 15 miles,Yes,,No,46,24
+WL-00295,Group A,Gastroenterology,2026-06-10,2026-08-09,Morning,Over 40 miles,Yes,,No,16,29
+WL-00296,Group C,Endocrinology,2026-05-07,2025-11-15,Morning,Under 15 miles,Yes,,No,50,38
+WL-00297,Group B,Neurology,2026-06-11,2026-09-09,Morning,Under 15 miles,Yes,,No,15,41
+WL-00298,Group B,Cardiology,2026-06-21,2026-07-21,Morning,Under 15 miles,No,,No,5,24
+WL-00299,Group B,Neurology,2026-06-17,2026-07-08,Morning,15 to 40 miles,No,2026-07-02,No,9,41
+WL-00300,Group A,Neurology,2026-04-05,2026-05-05,Afternoon,Under 15 miles,Yes,2026-04-18,No,82,41
+WL-00301,Group C,Pulmonology,2026-04-23,2026-05-14,Afternoon,Under 15 miles,Yes,,No,64,26
+WL-00302,Group A,Orthopedics,2026-03-31,2026-04-07,No preference,Under 15 miles,No,2026-04-24,No,87,19
+WL-00303,Group A,Pulmonology,2026-05-26,2026-07-10,Morning,Under 15 miles,Yes,2026-06-16,No,31,26
+WL-00304,Group C,Pulmonology,2026-06-15,2026-07-15,No preference,Under 15 miles,Yes,,No,11,26
+WL-00305,Group C,Cardiology,2026-04-23,2026-05-14,Morning,15 to 40 miles,Yes,,No,64,24
+WL-00306,Group A,Neurology,2026-04-10,2026-07-09,Afternoon,15 to 40 miles,Yes,,No,77,41
+WL-00307,Group D,Neurology,2026-04-13,2026-07-12,No preference,15 to 40 miles,No,,No,74,41
+WL-00308,Group D,Neurology,2026-02-11,2026-03-13,Morning,Over 40 miles,No,2026-03-13,No,135,41
+WL-00309,Group A,Cardiology,2026-03-04,2026-06-02,No preference,Under 15 miles,Yes,2026-03-16,Yes,114,24
+WL-00310,Group D,Endocrinology,2026-06-11,2026-07-11,Morning,Under 15 miles,No,2026-06-15,No,15,38
+WL-00311,Group C,Cardiology,2026-04-12,2026-05-12,Morning,Over 40 miles,No,,No,75,24
+WL-00312,Group C,Orthopedics,2026-05-05,2026-05-19,Afternoon,15 to 40 miles,No,2026-05-10,Yes,52,19
+WL-00313,Group B,Cardiology,2026-06-15,2026-07-30,No preference,15 to 40 miles,No,,No,11,24
+WL-00314,Group C,Neurology,2026-05-19,2026-07-03,Morning,15 to 40 miles,Yes,,No,38,41
+WL-00315,Group A,Pulmonology,2026-02-02,2026-02-16,No preference,Under 15 miles,Yes,2026-02-06,Yes,144,26
+WL-00316,Group B,Orthopedics,2026-05-18,2026-07-17,Morning,Over 40 miles,No,,No,39,19
+WL-00317,Group B,Endocrinology,2026-06-21,2026-07-05,No preference,Over 40 miles,No,,No,5,38
+WL-00318,Group C,Endocrinology,2026-05-28,2026-06-18,Afternoon,Under 15 miles,No,,No,29,38
+WL-00319,Group B,Cardiology,2026-05-21,2026-05-28,No preference,15 to 40 miles,Yes,,No,36,24
+WL-00320,Group B,Orthopedics,2026-05-04,2026-05-25,Morning,Over 40 miles,Yes,,No,53,19
+WL-00321,Group B,Neurology,2026-02-08,2026-03-01,Morning,Over 40 miles,Yes,,No,138,41
+WL-00322,Group B,Cardiology,2026-05-30,2026-06-13,No preference,Under 15 miles,No,2026-06-04,No,27,24
+WL-00323,Group A,Pulmonology,2026-05-26,2026-07-10,No preference,Under 15 miles,Yes,,No,31,26
+WL-00324,Group A,Gastroenterology,2026-04-23,2026-05-23,Morning,Under 15 miles,No,,No,64,29
+WL-00325,Group B,Neurology,2026-06-01,2026-07-31,No preference,Over 40 miles,Yes,,No,25,41
+WL-00326,Group D,Gastroenterology,2026-05-22,2026-06-05,Afternoon,15 to 40 miles,Yes,2026-06-09,No,35,29
+WL-00327,Group B,Neurology,2026-06-14,2026-06-28,No preference,15 to 40 miles,Yes,,No,12,41
+WL-00328,Group B,Endocrinology,2026-04-25,2026-05-02,Afternoon,Under 15 miles,No,,No,62,38
+WL-00329,Group A,Neurology,2026-04-25,2026-07-24,No preference,Under 15 miles,No,,No,62,41
+WL-00330,Group B,Pulmonology,2026-05-28,2026-06-11,No preference,15 to 40 miles,Yes,,No,29,26
+WL-00331,Group B,Neurology,2026-04-25,2026-07-24,Morning,Under 15 miles,Yes,2026-05-05,Yes,62,41
+WL-00332,Group A,Gastroenterology,2026-06-23,2026-07-14,No preference,Under 15 miles,Yes,2026-07-06,Yes,3,29
+WL-00333,Group C,Gastroenterology,2026-05-10,2026-06-09,Morning,Under 15 miles,No,,No,47,29
+WL-00334,Group C,Gastroenterology,2026-06-03,2026-06-10,No preference,Under 15 miles,No,,No,23,29
+WL-00335,Group D,Endocrinology,2026-05-15,2026-08-13,Afternoon,Over 40 miles,No,,No,42,38
+WL-00336,Group A,Endocrinology,2026-04-13,2026-04-27,Afternoon,Under 15 miles,Yes,,No,74,38
+WL-00337,Group A,Orthopedics,2026-05-19,2026-05-26,Morning,Under 15 miles,Yes,2026-05-26,No,38,19
+WL-00338,Group A,Pulmonology,2026-04-19,2025-11-15,No preference,Over 40 miles,Yes,2026-04-27,No,68,26
+WL-00339,Group D,Gastroenterology,2026-06-09,2026-09-07,Morning,Under 15 miles,Yes,,No,17,29
+WL-00340,Group A,Neurology,2026-05-01,2026-05-08,No preference,Under 15 miles,Yes,,No,56,41
+WL-00341,Group A,Orthopedics,2026-06-11,2026-07-26,Afternoon,15 to 40 miles,No,,No,15,19
+WL-00342,Group B,Cardiology,2026-06-17,2026-07-01,Afternoon,Under 15 miles,Yes,,No,9,24
+WL-00343,Group B,Cardiology,2026-06-05,2026-07-20,No preference,15 to 40 miles,No,2026-06-21,Yes,21,24
+WL-00344,Group B,Endocrinology,2026-05-09,2026-05-30,Afternoon,Under 15 miles,No,2026-05-27,No,48,38
+WL-00345,Group D,Gastroenterology,2026-04-24,2026-05-24,Morning,Under 15 miles,Yes,,No,63,29
+WL-00346,Group D,Cardiology,2026-05-19,2026-05-26,Afternoon,Under 15 miles,No,,No,38,24
+WL-00347,Group D,Pulmonology,2026-04-22,2026-04-29,Afternoon,15 to 40 miles,Yes,,No,65,26
+WL-00348,Group D,Neurology,2026-03-27,2026-04-17,No preference,Over 40 miles,Yes,,No,91,41
+WL-00349,Group B,Endocrinology,2026-06-02,2026-07-17,Morning,Over 40 miles,No,,No,24,38
+WL-00350,Group B,Endocrinology,2026-06-22,2026-09-20,Afternoon,Over 40 miles,Yes,,No,4,38
+WL-00351,Group B,Endocrinology,2026-05-11,2026-08-09,Afternoon,Under 15 miles,Yes,2026-05-24,Yes,46,38
+WL-00352,Group B,Orthopedics,2026-06-05,2026-07-05,Afternoon,Under 15 miles,No,2026-06-23,No,21,19
+WL-00353,Group D,Gastroenterology,2026-06-16,2026-06-30,No preference,Under 15 miles,Yes,,No,10,29
+WL-00354,Group C,Gastroenterology,2026-05-07,2026-07-06,Morning,15 to 40 miles,No,,No,50,29
+WL-00355,Group A,Gastroenterology,2026-05-10,2026-07-09,Morning,Under 15 miles,No,,No,47,29
+WL-00356,Group A,Neurology,2026-06-09,2026-07-09,Morning,Under 15 miles,Yes,,No,17,41
+WL-00357,Group C,Orthopedics,2026-06-12,2026-07-03,Afternoon,15 to 40 miles,Yes,,No,14,19
+WL-00358,Group D,Endocrinology,2026-03-27,2026-06-25,Morning,Under 15 miles,Yes,,No,91,38
+WL-00359,Group B,Gastroenterology,2026-05-12,2025-11-15,Afternoon,Under 15 miles,No,,No,45,29
+WL-00360,Group D,Pulmonology,2026-05-17,2026-07-01,Morning,Under 15 miles,No,,No,40,26
+WL-00361,Group A,Cardiology,2026-05-06,2026-05-27,No preference,Under 15 miles,Yes,2026-05-25,No,51,24
+WL-00362,Group A,Cardiology,2026-03-19,2026-06-17,Afternoon,Under 15 miles,No,,No,99,24
+WL-00363,Group A,Orthopedics,2026-04-19,2026-06-18,Afternoon,15 to 40 miles,Yes,2026-05-15,Yes,68,19
+WL-00364,Group A,Neurology,2026-06-09,2026-06-30,No preference,Over 40 miles,Yes,2026-06-12,No,17,41
+WL-00365,Group A,Cardiology,2026-06-13,2026-07-13,No preference,Under 15 miles,Yes,2026-06-19,No,13,24
+WL-00366,Group B,Gastroenterology,2026-04-09,2026-07-08,Afternoon,Under 15 miles,No,,No,78,29
+WL-00367,Group C,Endocrinology,2026-05-18,2026-05-25,Afternoon,Over 40 miles,Yes,2026-05-29,Yes,39,38
+WL-00368,Group B,Gastroenterology,2026-05-07,2026-05-28,Morning,Under 15 miles,Yes,2026-05-14,No,50,29
+WL-00369,Group C,Neurology,2026-06-11,2026-08-10,Afternoon,Under 15 miles,Yes,2026-06-14,No,15,41
+WL-00370,Group D,Orthopedics,2026-04-04,2026-05-19,Morning,Under 15 miles,No,,No,83,19
+WL-00371,Group C,Cardiology,2026-05-12,2026-06-02,Afternoon,15 to 40 miles,No,,No,45,24
+WL-00372,Group B,Neurology,2026-06-18,2026-08-02,Afternoon,15 to 40 miles,Yes,,No,8,41
+WL-00373,Group B,Gastroenterology,2026-06-05,2026-09-03,Morning,Under 15 miles,No,,No,21,29
+WL-00374,Group B,Endocrinology,2026-05-10,2026-06-09,Afternoon,15 to 40 miles,No,2026-05-15,No,47,38
+WL-00375,Group D,Gastroenterology,2026-06-01,2026-07-16,Morning,15 to 40 miles,No,,No,25,29
+WL-00376,Group A,Gastroenterology,2026-06-20,2026-07-20,Morning,Over 40 miles,Yes,,No,6,29
+WL-00377,Group C,Pulmonology,2026-05-13,2026-06-27,Afternoon,Under 15 miles,No,,No,44,26
+WL-00378,Group A,Pulmonology,2026-05-25,2026-07-24,Afternoon,15 to 40 miles,Yes,,No,32,26
+WL-00379,Group C,Orthopedics,2026-05-25,2026-06-08,Morning,Over 40 miles,No,,No,32,19
+WL-00380,Group A,Gastroenterology,2026-05-02,2026-07-01,No preference,Under 15 miles,Yes,2026-05-05,No,55,29
+WL-00381,Group C,Endocrinology,2026-06-03,2026-08-02,Morning,Under 15 miles,Yes,,No,23,38
+WL-00382,Group B,Endocrinology,2026-03-13,2026-03-27,Morning,Under 15 miles,Yes,,No,105,38
+WL-00383,Group C,Neurology,2026-05-22,2026-06-05,Morning,Under 15 miles,Yes,,No,35,41
+WL-00384,Group C,Endocrinology,2026-05-23,2026-06-06,Morning,Over 40 miles,No,,No,34,38
+WL-00385,Group B,Endocrinology,2026-05-26,2026-06-16,Afternoon,Under 15 miles,Yes,,No,31,38
+WL-00386,Group C,Neurology,2026-06-04,2026-07-19,Afternoon,15 to 40 miles,Yes,2026-06-26,Yes,22,41
+WL-00387,Group A,Orthopedics,2026-05-12,2026-05-26,Morning,Over 40 miles,No,2026-05-24,No,45,19
+WL-00388,Group D,Orthopedics,2026-06-10,2026-07-10,Afternoon,15 to 40 miles,No,2026-07-01,Yes,16,19
+WL-00389,Group B,Endocrinology,2026-06-10,2026-08-09,Afternoon,Under 15 miles,No,,No,16,38
+WL-00390,Group B,Cardiology,2026-04-07,2026-07-06,Morning,Under 15 miles,No,,No,80,24
+WL-00391,Group A,Pulmonology,2026-04-13,2026-04-20,Morning,Over 40 miles,Yes,,No,74,26
+WL-00392,Group A,Cardiology,2026-04-11,2025-11-15,Morning,15 to 40 miles,Yes,,No,76,24
+WL-00393,Group B,Pulmonology,2026-05-14,2026-06-04,Afternoon,Over 40 miles,Yes,,No,43,26
+WL-00394,Group D,Endocrinology,2026-05-07,2026-05-14,Morning,15 to 40 miles,No,,No,50,38
+WL-00395,Group B,Gastroenterology,2026-05-25,2026-06-24,Morning,Under 15 miles,Yes,,No,32,29
+WL-00396,Group D,Gastroenterology,2026-06-14,2026-09-12,Morning,15 to 40 miles,No,,No,12,29
+WL-00397,Group D,Cardiology,2026-04-25,2026-06-09,Morning,Under 15 miles,No,,No,62,24
+WL-00398,Group D,Pulmonology,2026-06-10,2026-07-25,Afternoon,Over 40 miles,Yes,,No,16,26
+WL-00399,Group A,Pulmonology,2026-04-12,2026-04-19,Morning,Under 15 miles,Yes,2026-05-02,Yes,75,26
+WL-00400,Group D,Pulmonology,2026-04-01,2026-05-01,Morning,15 to 40 miles,Yes,,No,86,26
+WL-00401,Group D,Neurology,2026-05-17,2026-06-16,Afternoon,Over 40 miles,Yes,,No,40,41
+WL-00402,Group A,Cardiology,2026-06-14,2026-09-12,Morning,Over 40 miles,Yes,2026-06-23,Yes,12,24
+WL-00403,Group B,Neurology,2026-04-15,2026-05-15,No preference,Under 15 miles,Yes,,No,72,41
+WL-00404,Group D,Orthopedics,2026-05-19,2026-06-09,Morning,Under 15 miles,Yes,,No,38,19
+WL-00405,Group B,Endocrinology,2026-06-03,2026-06-17,Morning,15 to 40 miles,Yes,,No,23,38
+WL-00406,Group A,Orthopedics,2026-06-06,2026-08-05,No preference,Over 40 miles,Yes,,No,20,19
+WL-00407,Group D,Neurology,2026-06-23,2026-08-07,Afternoon,Under 15 miles,Yes,,No,3,41
+WL-00408,Group A,Endocrinology,2026-06-11,2026-09-09,No preference,15 to 40 miles,No,,No,15,38
+WL-00409,Group D,Orthopedics,2026-05-18,2026-07-02,Morning,Over 40 miles,No,,No,39,19
+WL-00410,Group D,Neurology,2026-05-12,2026-05-19,Morning,Over 40 miles,Yes,,No,45,41
+WL-00411,Group C,Endocrinology,2026-06-21,2026-07-05,Afternoon,15 to 40 miles,Yes,,No,5,38
+WL-00412,Group A,Pulmonology,2026-06-06,2026-08-05,Morning,15 to 40 miles,Yes,,No,20,26
+WL-00413,Group B,Endocrinology,2026-06-13,2026-06-20,No preference,Under 15 miles,Yes,,No,13,38
+WL-00414,Group C,Neurology,2026-02-16,2026-05-17,Morning,Under 15 miles,Yes,,No,130,41
+WL-00415,Group D,Endocrinology,2026-06-13,2026-06-27,Afternoon,Under 15 miles,Yes,2026-07-02,No,13,38
+WL-00416,Group A,Cardiology,2026-05-28,2026-06-11,No preference,Under 15 miles,Yes,,No,29,24
+WL-00417,Group B,Gastroenterology,2026-05-22,2026-07-21,Afternoon,Under 15 miles,Yes,2026-06-02,No,35,29
+WL-00418,Group C,Endocrinology,2026-06-06,2026-06-20,Morning,Under 15 miles,Yes,,No,20,38
+WL-00419,Group D,Neurology,2026-04-17,2026-05-08,Morning,Under 15 miles,Yes,2026-04-29,No,70,41
+WL-00420,Group A,Endocrinology,2026-05-24,2026-07-08,Afternoon,Under 15 miles,No,2026-06-02,No,33,38
+WL-00421,Group D,Gastroenterology,2026-03-31,2026-06-29,Morning,Under 15 miles,Yes,2026-04-23,Yes,87,29
+WL-00422,Group C,Gastroenterology,2026-05-16,2026-07-15,Morning,Over 40 miles,No,,No,41,29
+WL-00423,Group A,Gastroenterology,2026-06-21,2026-08-20,Morning,Over 40 miles,Yes,2026-07-09,Yes,5,29
+WL-00424,Group A,Endocrinology,2026-05-03,2026-06-02,No preference,15 to 40 miles,No,,No,54,38
+WL-00425,Group B,Pulmonology,2026-05-19,2026-07-03,Morning,15 to 40 miles,No,,No,38,26
+WL-00426,Group A,Orthopedics,2026-06-05,2026-06-19,No preference,15 to 40 miles,Yes,,No,21,19
+WL-00427,Group A,Endocrinology,2026-04-22,2026-04-29,Afternoon,15 to 40 miles,No,2026-05-12,Yes,65,38
+WL-00428,Group B,Pulmonology,2026-06-10,2026-06-24,Afternoon,Under 15 miles,No,,No,16,26
+WL-00429,Group C,Orthopedics,2026-06-08,2026-07-08,Morning,Under 15 miles,Yes,,No,18,19
+WL-00430,Group D,Gastroenterology,2026-05-15,2026-06-05,Morning,15 to 40 miles,No,2026-05-21,Yes,42,29
+WL-00431,Group C,Neurology,2026-05-14,2026-06-13,Morning,Over 40 miles,No,,Yes,43,41
+WL-00432,Group B,Pulmonology,2026-03-25,2026-04-01,Morning,15 to 40 miles,No,2026-04-22,Yes,93,26
+WL-00433,Group A,Pulmonology,2026-06-03,2026-07-03,No preference,15 to 40 miles,No,2026-06-20,No,23,26
+WL-00434,Group C,Pulmonology,2026-04-04,2026-04-18,No preference,15 to 40 miles,No,,No,83,26
+WL-00435,Group A,Orthopedics,2026-05-21,2026-06-11,No preference,15 to 40 miles,Yes,,No,36,19
+WL-00436,Group C,Gastroenterology,2026-05-30,2026-07-14,Morning,Under 15 miles,Yes,,No,27,29
+WL-00437,Group D,Gastroenterology,2026-05-04,2026-06-03,Morning,Under 15 miles,No,,No,53,29
+WL-00438,Group C,Pulmonology,2026-06-05,2026-06-12,Afternoon,Under 15 miles,No,,No,21,26
+WL-00439,Group A,Gastroenterology,2026-06-20,2026-07-20,Morning,15 to 40 miles,No,,No,6,29
+WL-00440,Group C,Gastroenterology,2026-04-30,2026-05-07,Afternoon,15 to 40 miles,Yes,2026-05-24,No,57,29
+WL-00441,Group A,Endocrinology,2026-06-17,2026-07-08,Morning,Under 15 miles,No,2026-07-05,Yes,9,38
+WL-00442,Group C,Cardiology,2026-05-07,2026-05-21,Afternoon,15 to 40 miles,Yes,,No,50,24
+WL-00443,Group A,Orthopedics,2026-06-19,2026-06-26,Morning,15 to 40 miles,No,2026-07-05,Yes,7,19
+WL-00444,Group B,Neurology,2026-06-19,2026-06-26,No preference,15 to 40 miles,No,,No,7,41
+WL-00445,Group C,Gastroenterology,2026-06-08,2026-06-29,Afternoon,15 to 40 miles,No,,No,18,29
+WL-00446,Group B,Pulmonology,2026-05-26,2026-07-25,No preference,Over 40 miles,Yes,,No,31,26
+WL-00447,Group C,Endocrinology,2026-06-08,2026-09-06,Afternoon,Under 15 miles,Yes,,No,18,38
+WL-00448,Group C,Pulmonology,2026-06-01,2026-06-08,No preference,15 to 40 miles,Yes,,No,25,26
+WL-00449,Group C,Pulmonology,2026-06-13,2026-09-11,Afternoon,15 to 40 miles,No,,Yes,13,26
+WL-00450,Group B,Neurology,2026-06-19,2026-07-10,Afternoon,Under 15 miles,Yes,2026-07-13,No,7,41
+WL-00451,Group C,Endocrinology,2026-05-02,2026-07-31,Morning,15 to 40 miles,No,2026-05-11,Yes,55,38
+WL-00452,Group A,Gastroenterology,2026-05-19,2026-06-02,Afternoon,Under 15 miles,Yes,2026-06-14,Yes,38,29
+WL-00453,Group A,Endocrinology,2026-05-27,2026-07-26,Morning,Over 40 miles,Yes,,No,30,38
+WL-00454,Group A,Neurology,2026-06-11,2026-06-25,Morning,Under 15 miles,No,,No,15,41
+WL-00455,Group D,Neurology,2026-05-11,2026-06-01,Morning,15 to 40 miles,Yes,2026-05-20,Yes,46,41
+WL-00456,Group A,Orthopedics,2026-06-04,2026-06-25,Afternoon,15 to 40 miles,No,2026-06-23,No,22,19
+WL-00457,Group B,Endocrinology,2026-06-10,2026-08-09,Morning,Under 15 miles,Yes,2026-06-18,Yes,16,38
+WL-00458,Group A,Gastroenterology,2026-06-01,2026-07-16,Afternoon,15 to 40 miles,Yes,,No,25,29
+WL-00459,Group D,Orthopedics,2026-05-31,2026-06-07,Morning,Under 15 miles,Yes,2026-06-21,No,26,19
+WL-00460,Group C,Cardiology,2026-04-03,2026-04-17,Afternoon,Over 40 miles,No,2026-04-21,No,84,24
+WL-00461,Group C,Pulmonology,2026-03-10,2026-03-17,Afternoon,Over 40 miles,No,,No,108,26
+WL-00462,Group A,Cardiology,2026-05-27,2026-06-26,Morning,15 to 40 miles,Yes,,No,30,24
+WL-00463,Group D,Neurology,2026-05-28,2026-07-12,Morning,Under 15 miles,No,2026-06-07,Yes,29,41
+WL-00464,Group C,Orthopedics,2026-04-27,2026-07-26,Afternoon,15 to 40 miles,No,,No,60,19
+WL-00465,Group B,Endocrinology,2026-06-07,2026-06-28,Afternoon,Under 15 miles,Yes,,No,19,38
+WL-00466,Group A,Orthopedics,2026-05-16,2026-07-15,Afternoon,Under 15 miles,No,,No,41,19
+WL-00467,Group C,Pulmonology,2026-06-07,2026-07-07,No preference,Under 15 miles,Yes,,Yes,19,26
+WL-00468,Group A,Cardiology,2026-05-20,2026-07-04,Morning,Under 15 miles,Yes,,No,37,24
+WL-00469,Group C,Orthopedics,2026-06-11,2026-09-09,Morning,15 to 40 miles,No,,No,15,19
+WL-00470,Group A,Gastroenterology,2026-05-18,2026-07-17,Morning,Under 15 miles,No,,No,39,29
+WL-00471,Group C,Cardiology,2026-06-08,2026-07-23,Morning,Under 15 miles,Yes,,No,18,24
+WL-00472,Group D,Gastroenterology,2026-05-14,2026-06-28,Morning,Under 15 miles,Yes,2026-06-06,No,43,29
+WL-00473,Group B,Neurology,2026-04-18,2026-04-25,Afternoon,Over 40 miles,Yes,2026-04-20,No,69,41
+WL-00474,Group B,Pulmonology,2026-05-21,2026-07-20,Afternoon,Under 15 miles,Yes,2026-06-09,Yes,36,26
+WL-00475,Group A,Gastroenterology,2026-06-12,2026-08-11,Afternoon,15 to 40 miles,No,,No,14,29
+WL-00476,Group B,Pulmonology,2026-01-18,2026-02-01,Afternoon,Over 40 miles,Yes,,No,159,26
+WL-00477,Group A,Cardiology,2026-06-01,2026-08-30,Afternoon,15 to 40 miles,Yes,2026-06-22,No,25,24
+WL-00478,Group B,Endocrinology,2026-06-03,2026-06-17,Afternoon,Over 40 miles,No,,No,23,38
+WL-00479,Group D,Gastroenterology,2026-05-14,2026-08-12,Afternoon,Under 15 miles,Yes,,No,43,29
+WL-00480,Group D,Endocrinology,2026-05-10,2026-05-24,Afternoon,Under 15 miles,No,,No,47,38
+WL-00481,Group D,Orthopedics,2026-05-21,2026-07-05,Afternoon,Under 15 miles,Yes,,No,36,19
+WL-00482,Group C,Pulmonology,2026-06-11,2026-08-10,Afternoon,15 to 40 miles,Yes,,No,15,26
+WL-00483,Group B,Pulmonology,2026-06-03,2026-06-17,Morning,15 to 40 miles,No,,No,23,26
+WL-00484,Group C,Gastroenterology,2026-05-17,2026-07-01,Afternoon,Under 15 miles,No,,No,40,29
+WL-00485,Group B,Cardiology,2026-06-17,2026-06-24,Afternoon,15 to 40 miles,Yes,,No,9,24
+WL-00486,Group D,Neurology,2026-06-12,2026-07-27,No preference,Under 15 miles,No,2026-06-24,Yes,14,41
+WL-00487,Group A,Pulmonology,2026-05-12,2026-06-26,Afternoon,Under 15 miles,No,,No,45,26
+WL-00488,Group D,Cardiology,2026-06-14,2026-07-14,Afternoon,15 to 40 miles,Yes,2026-07-06,Yes,12,24
+WL-00489,Group C,Cardiology,2026-06-08,2026-07-23,No preference,Under 15 miles,Yes,,No,18,24
+WL-00490,Group D,Endocrinology,2026-05-09,2026-05-16,Afternoon,Under 15 miles,Yes,,No,48,38
+WL-00491,Group B,Cardiology,2026-06-09,2026-07-24,Morning,Under 15 miles,Yes,,No,17,24
+WL-00492,Group B,Gastroenterology,2026-05-28,2026-06-27,Afternoon,Under 15 miles,No,2026-06-11,Yes,29,29
+WL-00493,Group A,Pulmonology,2026-04-15,2026-06-14,Morning,15 to 40 miles,Yes,2026-04-28,No,72,26
+WL-00494,Group B,Pulmonology,2026-05-08,2026-05-29,Morning,Over 40 miles,No,,No,49,26
+WL-00495,Group B,Gastroenterology,2026-05-15,2026-05-29,Morning,Under 15 miles,No,,No,42,29
+WL-00496,Group C,Gastroenterology,2026-06-16,2026-08-15,Morning,Under 15 miles,Yes,2026-06-26,No,10,29
+WL-00497,Group D,Neurology,2026-03-11,2026-04-01,Afternoon,Over 40 miles,Yes,2026-03-14,No,107,41
+WL-00498,Group C,Endocrinology,2026-06-14,2026-09-12,Afternoon,Under 15 miles,Yes,2026-06-15,No,12,38
+WL-00499,Group A,Gastroenterology,2026-04-26,2026-06-25,Morning,Under 15 miles,Yes,2026-04-29,No,61,29
+WL-00500,Group B,Pulmonology,2026-06-01,2026-08-30,Afternoon,Over 40 miles,No,,No,25,26
+WL-00501,Group A,Pulmonology,2026-03-22,2026-04-05,No preference,15 to 40 miles,Yes,,No,96,26
+WL-00502,Group A,Neurology,2026-05-28,2026-06-27,Morning,Under 15 miles,No,,No,29,41
+WL-00503,Group D,Endocrinology,2026-06-17,2026-07-01,Afternoon,Under 15 miles,Yes,,No,9,38
+WL-00504,Group C,Cardiology,2026-05-19,2026-08-17,Morning,Under 15 miles,No,2026-06-13,No,38,24
+WL-00505,Group C,Pulmonology,2026-04-29,2026-05-06,No preference,Under 15 miles,No,,No,58,26
+WL-00506,Group A,Cardiology,2026-06-09,2026-07-24,Morning,Under 15 miles,Yes,,No,17,24
+WL-00507,Group C,Orthopedics,2026-04-25,2026-07-24,Morning,Under 15 miles,Yes,,No,62,19
+WL-00508,Group A,Cardiology,2026-05-10,2026-06-24,Afternoon,15 to 40 miles,Yes,,No,47,24
+WL-00509,Group D,Cardiology,2026-04-28,2026-05-28,No preference,Under 15 miles,Yes,,No,59,24
+WL-00510,Group D,Pulmonology,2026-04-27,2026-05-04,Afternoon,Under 15 miles,Yes,2026-05-16,No,60,26
+WL-00511,Group B,Neurology,2026-06-06,2026-07-21,Afternoon,Over 40 miles,Yes,,No,20,41
+WL-00512,Group B,Orthopedics,2026-05-29,2026-06-19,Morning,15 to 40 miles,Yes,,No,28,19
+WL-00513,Group A,Neurology,2026-06-16,2026-06-23,No preference,15 to 40 miles,No,,No,10,41
+WL-00514,Group A,Cardiology,2026-06-10,2026-07-01,Afternoon,Under 15 miles,Yes,,No,16,24
+WL-00515,Group D,Orthopedics,2026-05-12,2026-06-26,Afternoon,Under 15 miles,Yes,,No,45,19
+WL-00516,Group A,Gastroenterology,2026-06-09,2026-06-16,Morning,15 to 40 miles,Yes,,No,17,29
+WL-00517,Group B,Cardiology,2026-05-18,2026-07-02,Afternoon,Under 15 miles,Yes,,No,39,24
+WL-00518,Group B,Gastroenterology,2026-06-03,2026-07-03,Morning,15 to 40 miles,No,2026-06-30,Yes,23,29
+WL-00519,Group A,Endocrinology,2026-05-07,2026-06-06,No preference,Over 40 miles,Yes,,No,50,38
+WL-00520,Group D,Gastroenterology,2026-04-06,2026-05-21,No preference,15 to 40 miles,No,2026-04-27,No,81,29
+WL-00521,Group A,Orthopedics,2026-04-17,2026-06-01,No preference,Under 15 miles,No,,No,70,19
+WL-00522,Group D,Gastroenterology,2026-06-01,2026-07-31,Morning,Under 15 miles,Yes,,No,25,29
+WL-00523,Group D,Orthopedics,2026-04-25,2026-05-02,Afternoon,15 to 40 miles,Yes,2026-05-20,Yes,62,19
+WL-00524,Group A,Endocrinology,2026-05-26,2026-06-25,Afternoon,Over 40 miles,Yes,,No,31,38
+WL-00525,Group D,Endocrinology,2026-06-17,2026-08-01,Afternoon,15 to 40 miles,Yes,2026-06-26,No,9,38
+WL-00526,Group B,Orthopedics,2026-05-22,2026-08-20,No preference,15 to 40 miles,No,2026-06-16,Yes,35,19
+WL-00527,Group D,Cardiology,2026-05-28,2026-06-18,Morning,15 to 40 miles,Yes,2026-06-25,No,29,24
+WL-00528,Group D,Gastroenterology,2026-04-01,2026-05-01,Afternoon,Under 15 miles,Yes,,No,86,29
+WL-00529,Group D,Neurology,2026-06-07,2026-06-14,No preference,Under 15 miles,No,,No,19,41
+WL-00530,Group D,Orthopedics,2026-06-12,2026-08-11,Morning,15 to 40 miles,Yes,,No,14,19
+WL-00531,Group C,Cardiology,2026-05-15,2026-06-29,Afternoon,15 to 40 miles,No,,No,42,24
+WL-00532,Group D,Cardiology,2026-05-11,2026-08-09,Morning,Under 15 miles,Yes,2026-05-13,No,46,24
+WL-00533,Group A,Neurology,2026-05-21,2026-07-20,No preference,Under 15 miles,No,,No,36,41
+WL-00534,Group D,Cardiology,2026-05-12,2026-06-26,Morning,Under 15 miles,Yes,,No,45,24
+WL-00535,Group C,Gastroenterology,2026-06-12,2026-08-11,Morning,Under 15 miles,Yes,,No,14,29
+WL-00536,Group A,Pulmonology,2026-06-21,2026-09-19,Afternoon,Under 15 miles,Yes,,No,5,26
+WL-00537,Group D,Pulmonology,2026-05-01,2026-05-31,No preference,Under 15 miles,Yes,,No,56,26
+WL-00538,Group A,Endocrinology,2026-04-09,2026-05-09,Morning,Under 15 miles,Yes,2026-04-30,Yes,78,38
+WL-00539,Group D,Gastroenterology,2026-05-19,2026-07-18,Morning,Over 40 miles,No,2026-05-24,Yes,38,29
+WL-00540,Group B,Pulmonology,2026-01-11,2026-03-12,Afternoon,Over 40 miles,No,2026-01-31,Yes,166,26
+WL-00541,Group A,Gastroenterology,2026-05-03,2026-06-17,No preference,15 to 40 miles,Yes,,No,54,29
+WL-00542,Group D,Neurology,2026-04-30,2026-07-29,Afternoon,Under 15 miles,No,,No,57,41
+WL-00543,Group A,Cardiology,2026-05-15,2026-06-29,Morning,Under 15 miles,No,2026-05-17,Yes,42,24
+WL-00544,Group B,Cardiology,2026-05-18,2026-05-25,Afternoon,Under 15 miles,Yes,,No,39,24
+WL-00545,Group C,Neurology,2026-06-20,2026-07-04,Afternoon,Over 40 miles,Yes,,No,6,41
+WL-00546,Group D,Endocrinology,2026-05-10,2026-05-24,Morning,Under 15 miles,No,,No,47,38
+WL-00547,Group A,Pulmonology,2026-06-11,2026-07-11,Afternoon,Under 15 miles,Yes,,No,15,26
+WL-00548,Group D,Cardiology,2026-05-05,2026-05-26,Morning,Under 15 miles,Yes,2026-05-24,Yes,52,24
+WL-00549,Group D,Orthopedics,2026-04-26,2026-06-25,Afternoon,Under 15 miles,Yes,,No,61,19
+WL-00550,Group B,Gastroenterology,2026-05-28,2026-07-12,Afternoon,15 to 40 miles,Yes,,No,29,29
+WL-00551,Group D,Endocrinology,2026-05-28,2026-07-27,Morning,Under 15 miles,Yes,,No,29,38
+WL-00552,Group D,Neurology,2026-05-19,2026-07-18,Morning,Under 15 miles,Yes,2026-06-10,No,38,41
+WL-00553,Group A,Orthopedics,2026-05-30,2026-07-29,Afternoon,Over 40 miles,Yes,,No,27,19
+WL-00554,Group B,Neurology,2026-06-09,2026-06-16,No preference,Under 15 miles,No,2026-06-25,Yes,17,41
+WL-00555,Group C,Orthopedics,2026-06-02,2026-07-02,Morning,Under 15 miles,Yes,,No,24,19
+WL-00556,Group A,Endocrinology,2026-04-23,2026-05-23,Morning,15 to 40 miles,No,2026-05-21,No,64,38
+WL-00557,Group B,Neurology,2026-05-13,2026-06-12,Morning,15 to 40 miles,No,2026-05-28,Yes,44,41
+WL-00558,Group D,Orthopedics,2026-03-26,2026-06-24,Afternoon,Over 40 miles,Yes,,No,92,19
+WL-00559,Group B,Cardiology,2026-04-06,2026-04-27,Afternoon,Over 40 miles,No,,No,81,24
+WL-00560,Group B,Gastroenterology,2026-06-20,2026-07-11,Afternoon,Over 40 miles,Yes,,No,6,29
+WL-00561,Group A,Endocrinology,2026-06-02,2026-06-16,Afternoon,15 to 40 miles,Yes,,No,24,38
+WL-00562,Group D,Neurology,2026-03-25,2026-04-15,Afternoon,Over 40 miles,Yes,2026-03-27,No,93,41
+WL-00563,Group A,Cardiology,2026-05-10,2026-07-09,Morning,15 to 40 miles,No,,No,47,24
+WL-00564,Group D,Gastroenterology,2026-06-10,2026-07-25,Morning,Under 15 miles,Yes,2026-06-22,Yes,16,29
+WL-00565,Group A,Pulmonology,2026-05-18,2026-06-01,Afternoon,15 to 40 miles,Yes,,No,39,26
+WL-00566,Group A,Gastroenterology,2026-06-24,2026-08-08,Morning,Under 15 miles,Yes,2026-07-16,No,2,29
+WL-00567,Group A,Neurology,2026-05-24,2026-07-23,Afternoon,Over 40 miles,Yes,,No,33,41
+WL-00568,Group C,Orthopedics,2026-04-17,2026-05-01,Afternoon,Under 15 miles,No,,No,70,19
+WL-00569,Group A,Endocrinology,2026-03-22,2026-04-05,Morning,15 to 40 miles,Yes,,No,96,38
+WL-00570,Group B,Orthopedics,2026-06-08,2026-09-06,Morning,15 to 40 miles,No,2026-06-24,Yes,18,19
+WL-00571,Group D,Gastroenterology,2026-02-22,2026-03-24,No preference,Under 15 miles,No,2026-03-24,Yes,124,29
+WL-00572,Group A,Endocrinology,2026-05-25,2026-07-09,Morning,Under 15 miles,Yes,,No,32,38
+WL-00573,Group D,Neurology,2026-03-26,2026-04-09,No preference,Under 15 miles,No,,No,92,41
+WL-00574,Group C,Gastroenterology,2026-03-22,2026-04-05,Morning,15 to 40 miles,Yes,,No,96,29
+WL-00575,Group A,Neurology,2026-05-14,2026-06-28,Afternoon,Over 40 miles,Yes,,No,43,41
+WL-00576,Group B,Pulmonology,2026-05-18,2026-06-08,Morning,Under 15 miles,No,,No,39,26
+WL-00577,Group D,Cardiology,2026-02-19,2026-04-05,No preference,15 to 40 miles,Yes,,No,127,24
+WL-00578,Group A,Gastroenterology,2026-05-14,2026-05-21,No preference,Under 15 miles,No,,No,43,29
+WL-00579,Group C,Gastroenterology,2026-04-12,2026-05-03,Morning,15 to 40 miles,Yes,,No,75,29
+WL-00580,Group A,Neurology,2026-05-13,2026-08-11,No preference,Under 15 miles,Yes,,No,44,41
+WL-00581,Group B,Neurology,2026-05-06,2026-05-20,Afternoon,Under 15 miles,Yes,2026-06-02,Yes,51,41
+WL-00582,Group C,Neurology,2026-06-01,2026-07-01,Morning,15 to 40 miles,No,,No,25,41
+WL-00583,Group D,Orthopedics,2026-06-11,2026-08-10,No preference,15 to 40 miles,No,,No,15,19
+WL-00584,Group C,Cardiology,2026-06-09,2026-06-16,Afternoon,Under 15 miles,Yes,,No,17,24
+WL-00585,Group D,Orthopedics,2026-05-25,2026-06-15,Morning,15 to 40 miles,Yes,,Yes,32,19
+WL-00586,Group A,Pulmonology,2026-06-18,2026-06-25,No preference,15 to 40 miles,Yes,,No,8,26
+WL-00587,Group D,Orthopedics,2026-05-09,2025-11-15,Morning,Under 15 miles,No,,No,48,19
+WL-00588,Group C,Gastroenterology,2026-05-20,2026-08-18,Afternoon,15 to 40 miles,No,,No,37,29
+WL-00589,Group D,Neurology,2026-05-26,2026-08-24,Afternoon,15 to 40 miles,No,,No,31,41
+WL-00590,Group A,Cardiology,2026-06-14,2026-07-29,Afternoon,15 to 40 miles,Yes,,No,12,24
+WL-00591,Group D,Endocrinology,2026-02-24,2026-03-17,Morning,15 to 40 miles,No,,No,122,38
+WL-00592,Group D,Cardiology,2026-05-11,2026-06-25,No preference,Under 15 miles,Yes,,No,46,24
+WL-00593,Group B,Endocrinology,2026-04-08,2026-05-23,Morning,Over 40 miles,Yes,,No,79,38
+WL-00594,Group C,Pulmonology,2026-04-12,2026-07-11,Morning,Over 40 miles,Yes,,No,75,26
+WL-00595,Group B,Orthopedics,2026-05-05,2026-06-04,Afternoon,Under 15 miles,Yes,,No,52,19
+WL-00596,Group B,Cardiology,2026-04-29,2026-05-29,Afternoon,Over 40 miles,No,2026-05-12,Yes,58,24
+WL-00597,Group A,Gastroenterology,2026-05-14,2026-05-28,Morning,Under 15 miles,No,2026-06-03,No,43,29
+WL-00598,Group C,Cardiology,2026-05-02,2026-06-01,No preference,Under 15 miles,Yes,,No,55,24
+WL-00599,Group C,Orthopedics,2026-05-28,2026-07-27,Morning,Over 40 miles,Yes,,No,29,19
+WL-00600,Group B,Pulmonology,2026-06-19,2026-07-03,Morning,15 to 40 miles,Yes,,No,7,26
+WL-00601,Group C,Neurology,2026-06-17,2026-07-17,Afternoon,15 to 40 miles,Yes,,No,9,41
+WL-00602,Group B,Gastroenterology,2026-05-16,2026-05-30,Afternoon,Under 15 miles,No,2026-05-30,Yes,41,29
+WL-00603,Group A,Orthopedics,2026-05-10,2026-06-24,Morning,Under 15 miles,Yes,2026-05-25,Yes,47,19
+WL-00604,Group D,Gastroenterology,2026-06-14,2026-07-29,No preference,Under 15 miles,No,,No,12,29
+WL-00605,Group C,Endocrinology,2026-06-10,2026-09-08,No preference,Under 15 miles,Yes,2026-06-27,Yes,16,38
+WL-00606,Group B,Endocrinology,2026-03-28,2026-04-27,Afternoon,Under 15 miles,No,,No,90,38
+WL-00607,Group C,Pulmonology,2026-05-29,2026-07-28,Afternoon,Under 15 miles,No,,No,28,26
+WL-00608,Group A,Neurology,2026-06-14,2026-06-21,Afternoon,Under 15 miles,Yes,2026-07-01,Yes,12,41
+WL-00609,Group A,Neurology,2026-05-25,2026-07-24,Afternoon,Under 15 miles,No,,No,32,41
+WL-00610,Group C,Pulmonology,2026-03-26,2026-04-09,Afternoon,15 to 40 miles,Yes,,No,92,26
+WL-00611,Group A,Neurology,2026-04-29,2026-07-28,Morning,15 to 40 miles,No,,No,58,41
+WL-00612,Group B,Neurology,2026-06-11,2026-07-26,Morning,Under 15 miles,Yes,2026-06-15,No,15,41
+WL-00613,Group D,Orthopedics,2026-06-01,2026-06-22,Morning,Under 15 miles,Yes,2026-06-14,Yes,25,19
+WL-00614,Group A,Cardiology,2026-05-18,2026-06-08,No preference,Over 40 miles,No,,No,39,24
+WL-00615,Group C,Pulmonology,2026-05-20,2026-06-10,Morning,Under 15 miles,Yes,,No,37,26
+WL-00616,Group A,Pulmonology,2026-05-06,2026-05-13,Morning,15 to 40 miles,Yes,,No,51,26
+WL-00617,Group D,Pulmonology,2026-06-05,2026-07-05,Morning,Over 40 miles,No,,No,21,26
+WL-00618,Group A,Pulmonology,2026-05-18,2026-08-16,Morning,15 to 40 miles,No,,No,39,26
+WL-00619,Group B,Gastroenterology,2026-05-08,2026-07-07,No preference,15 to 40 miles,Yes,,No,49,29
+WL-00620,Group A,Gastroenterology,2026-01-16,2026-04-16,Afternoon,Over 40 miles,No,2026-02-07,No,161,29
+WL-00621,Group D,Orthopedics,2026-04-17,2026-07-16,Morning,Under 15 miles,Yes,,No,70,19
+WL-00622,Group A,Gastroenterology,2026-06-12,2026-07-27,Afternoon,Under 15 miles,Yes,,No,14,29
+WL-00623,Group A,Orthopedics,2026-05-26,2026-06-02,Afternoon,Under 15 miles,No,,No,31,19
+WL-00624,Group B,Neurology,2026-04-25,2026-05-25,Afternoon,Over 40 miles,No,,No,62,41
+WL-00625,Group D,Neurology,2026-06-16,2026-08-15,No preference,Under 15 miles,Yes,,No,10,41
+WL-00626,Group B,Endocrinology,2026-06-09,2026-06-23,Morning,Over 40 miles,Yes,,No,17,38
+WL-00627,Group A,Neurology,2026-06-08,2026-09-06,No preference,Under 15 miles,Yes,2026-06-14,Yes,18,41
+WL-00628,Group D,Gastroenterology,2026-06-04,2026-06-25,Afternoon,Over 40 miles,No,,No,22,29
+WL-00629,Group C,Gastroenterology,2026-05-17,2026-08-15,Afternoon,Under 15 miles,Yes,2026-06-04,No,40,29
+WL-00630,Group B,Orthopedics,2026-03-02,2026-05-31,Morning,Under 15 miles,No,2026-03-20,No,116,19
+WL-00631,Group C,Endocrinology,2026-05-07,2026-06-06,Morning,Under 15 miles,No,2026-05-30,Yes,50,38
+WL-00632,Group C,Pulmonology,2026-05-01,2026-05-08,Morning,Under 15 miles,No,,No,56,26
+WL-00633,Group A,Pulmonology,2026-06-04,2026-07-04,Afternoon,15 to 40 miles,Yes,,No,22,26
+WL-00634,Group A,Cardiology,2026-06-09,2026-06-16,No preference,Over 40 miles,Yes,,No,17,24
+WL-00635,Group C,Endocrinology,2026-06-01,2026-06-08,Morning,Under 15 miles,Yes,2026-06-09,No,25,38
+WL-00636,Group B,Endocrinology,2026-06-24,2026-07-24,Afternoon,15 to 40 miles,No,,No,2,38
+WL-00637,Group D,Gastroenterology,2026-06-11,2026-07-02,Afternoon,15 to 40 miles,Yes,,No,15,29
+WL-00638,Group D,Cardiology,2026-06-09,2026-06-16,Morning,15 to 40 miles,Yes,,No,17,24
+WL-00639,Group B,Gastroenterology,2026-04-15,2026-07-14,Morning,Under 15 miles,Yes,,No,72,29
+WL-00640,Group C,Gastroenterology,2026-05-09,2026-06-08,No preference,Over 40 miles,Yes,,No,48,29
+WL-00641,Group C,Endocrinology,2026-04-30,2026-06-14,Morning,15 to 40 miles,No,,No,57,38
+WL-00642,Group B,Cardiology,2026-05-15,2026-05-22,Morning,Under 15 miles,Yes,2026-06-12,No,42,24
+WL-00643,Group A,,2026-05-12,2026-05-26,Morning,Under 15 miles,Yes,2026-06-04,No,45,29
+WL-00644,Group C,Orthopedics,2026-05-30,2026-07-14,Morning,Over 40 miles,Yes,,No,27,19
+WL-00645,Group D,Orthopedics,2026-05-02,2026-07-31,Afternoon,15 to 40 miles,Yes,,No,55,19
+WL-00646,Group A,Cardiology,2026-06-11,2026-07-26,Morning,15 to 40 miles,Yes,,No,15,24
+WL-00647,Group D,Orthopedics,2026-06-01,2026-07-16,Afternoon,Over 40 miles,No,2026-06-24,No,25,19
+WL-00648,Group C,Endocrinology,2026-05-03,2026-05-17,Morning,15 to 40 miles,No,,No,54,38
+WL-00649,Group A,Endocrinology,2026-06-11,2026-09-09,Morning,Under 15 miles,Yes,,No,15,38
+WL-00650,Group D,Neurology,2026-05-22,2026-05-29,No preference,Under 15 miles,Yes,,No,35,41
+WL-00651,Group C,Cardiology,2026-06-04,2026-08-03,Afternoon,Under 15 miles,No,2026-06-19,Yes,22,24
+WL-00652,Group A,Cardiology,2026-06-22,2026-09-20,Morning,Under 15 miles,No,,No,4,24
+WL-00653,Group B,Gastroenterology,2026-04-03,2026-06-02,Afternoon,Under 15 miles,No,,No,84,29
+WL-00654,Group C,Pulmonology,2026-06-22,2026-08-21,Morning,15 to 40 miles,No,,No,4,26
+WL-00655,Group B,Neurology,2026-04-20,2026-05-20,Morning,Under 15 miles,Yes,,No,67,41
+WL-00656,Group D,Pulmonology,2026-05-12,2026-05-26,Morning,Under 15 miles,Yes,,No,45,26
+WL-00657,Group B,Orthopedics,2026-05-14,2026-07-13,Afternoon,Under 15 miles,No,,No,43,19
+WL-00658,Group D,Neurology,2026-05-29,2026-06-28,No preference,Over 40 miles,Yes,,No,28,41
+WL-00659,Group A,Gastroenterology,2026-05-14,2026-07-13,Afternoon,15 to 40 miles,Yes,,Yes,43,29
+WL-00660,Group B,Endocrinology,2026-05-07,2026-05-28,No preference,15 to 40 miles,Yes,,No,50,38
+WL-00661,Group B,Orthopedics,2026-04-29,2026-06-28,Morning,Under 15 miles,No,,No,58,19
+WL-00662,Group D,Neurology,2026-02-22,2026-03-15,Afternoon,Under 15 miles,No,2026-03-11,Yes,124,41
+WL-00663,Group B,Orthopedics,2026-04-29,2026-05-13,Morning,Under 15 miles,Yes,2026-05-04,Yes,58,19
+WL-00664,Group D,Pulmonology,2026-01-17,2026-01-31,Morning,15 to 40 miles,No,,No,160,26
+WL-00665,Group A,Endocrinology,2026-05-31,2026-06-30,Afternoon,Under 15 miles,Yes,,No,26,38
+WL-00666,Group D,Endocrinology,2026-05-17,2026-07-01,Afternoon,Under 15 miles,Yes,,No,40,38
+WL-00667,Group D,Endocrinology,2026-03-30,2026-05-14,No preference,Under 15 miles,Yes,,No,88,38
+WL-00668,Group D,Cardiology,2026-06-02,2026-07-17,Afternoon,15 to 40 miles,Yes,,No,24,24
+WL-00669,Group B,Gastroenterology,2026-06-06,2026-09-04,Morning,Under 15 miles,No,2026-06-21,No,20,29
+WL-00670,Group D,Gastroenterology,2026-05-22,2026-06-21,No preference,15 to 40 miles,Yes,2026-06-09,Yes,35,29
+WL-00671,Group D,Cardiology,2026-05-25,2026-06-24,Morning,Under 15 miles,No,,No,32,24
+WL-00672,Group A,Neurology,2026-05-26,2026-07-25,No preference,Under 15 miles,No,2026-06-16,No,31,41
+WL-00673,Group D,Orthopedics,2026-05-03,2026-07-02,Afternoon,Over 40 miles,No,,No,54,19
+WL-00674,Group A,Gastroenterology,2026-05-11,2026-06-10,Afternoon,Under 15 miles,No,,No,46,29
+WL-00675,Group A,Gastroenterology,2026-05-27,2026-06-03,Morning,Under 15 miles,No,,No,30,29
+WL-00676,Group B,Cardiology,2026-06-10,2026-07-10,Afternoon,Under 15 miles,No,,No,16,24
+WL-00677,Group C,Cardiology,2026-03-26,2026-04-16,No preference,Under 15 miles,Yes,,No,92,24
+WL-00678,Group A,Gastroenterology,2026-04-21,2026-04-28,Morning,Under 15 miles,No,,No,66,29
+WL-00679,Group D,Orthopedics,2026-06-06,2026-09-04,Afternoon,Over 40 miles,No,,No,20,19
+WL-00680,Group D,Orthopedics,2026-05-29,2026-06-05,Morning,Under 15 miles,Yes,,No,28,19
+WL-00681,Group D,Gastroenterology,2026-06-07,2026-06-14,Morning,Under 15 miles,Yes,,No,19,29
+WL-00682,Group D,Endocrinology,2026-05-15,2026-08-13,Morning,Under 15 miles,Yes,2026-06-09,No,42,38
+WL-00683,Group B,Endocrinology,2026-05-29,2026-08-27,Morning,Over 40 miles,Yes,,No,28,38
+WL-00684,Group A,Endocrinology,2026-04-27,2026-05-18,Afternoon,15 to 40 miles,No,,No,60,38
+WL-00685,Group D,Gastroenterology,2026-03-28,2026-04-11,Morning,Under 15 miles,Yes,2026-04-10,No,90,29
+WL-00686,Group D,Pulmonology,2026-06-02,2026-06-16,Afternoon,Under 15 miles,Yes,2026-06-22,Yes,24,26
+WL-00687,Group D,Gastroenterology,2026-05-05,2026-08-03,Afternoon,Under 15 miles,Yes,,No,52,29
+WL-00688,Group C,Gastroenterology,2026-05-10,2026-05-17,Afternoon,Over 40 miles,Yes,,No,47,29
+WL-00689,Group A,Cardiology,2026-05-30,2026-06-13,Morning,15 to 40 miles,No,,No,27,24
+WL-00690,Group D,Neurology,2026-04-25,2026-05-25,Morning,Under 15 miles,No,2026-05-08,Yes,62,41
+WL-00691,Group D,Gastroenterology,2026-05-26,2026-06-09,Afternoon,Under 15 miles,No,,No,31,29
+WL-00692,Group D,Gastroenterology,2026-06-17,2026-09-15,Morning,Under 15 miles,No,,No,9,29
+WL-00693,Group A,Neurology,2026-05-18,2026-05-25,Afternoon,15 to 40 miles,Yes,2026-05-21,Yes,39,41
+WL-00694,Group A,Neurology,2026-05-29,2026-06-05,No preference,Over 40 miles,Yes,,No,28,41
+WL-00695,Group B,Neurology,2026-04-09,2026-04-23,Morning,Under 15 miles,Yes,2026-05-07,No,78,41
+WL-00696,Group A,Neurology,2026-04-28,2026-06-27,No preference,Under 15 miles,No,,No,59,41
+WL-00697,Group B,Neurology,2026-05-01,2026-06-15,No preference,15 to 40 miles,Yes,,No,56,41
+WL-00698,Group A,Cardiology,2026-06-11,2026-07-11,Morning,Under 15 miles,No,,No,15,24
+WL-00699,Group C,Endocrinology,2026-05-01,2026-05-15,No preference,Over 40 miles,Yes,,No,56,38
+WL-00700,Group A,Cardiology,2026-06-20,2026-07-20,Morning,Over 40 miles,Yes,,No,6,24
+WL-00701,Group C,Cardiology,2026-04-14,2026-05-29,Afternoon,Over 40 miles,No,,No,73,24
+WL-00702,Group D,Cardiology,2026-05-15,2026-06-05,Morning,Under 15 miles,No,2026-05-21,Yes,42,24
+WL-00703,Group A,Pulmonology,2026-04-25,2026-06-09,Afternoon,Under 15 miles,Yes,,No,62,26
+WL-00704,Group B,Pulmonology,2026-05-25,2026-07-09,Afternoon,Under 15 miles,No,,No,32,26
+WL-00705,Group A,Endocrinology,2026-05-26,2026-08-24,Morning,Under 15 miles,Yes,2026-05-30,No,31,38
+WL-00706,Group C,Gastroenterology,2026-06-09,2026-09-07,Afternoon,15 to 40 miles,Yes,2026-06-30,Yes,17,29
+WL-00707,Group D,Endocrinology,2026-06-13,2026-06-20,No preference,Over 40 miles,No,2026-07-13,No,13,38
+WL-00708,Group D,Orthopedics,2026-04-16,2026-05-07,Afternoon,Over 40 miles,No,,No,71,19
+WL-00709,Group B,Pulmonology,2026-05-01,2026-06-15,Morning,15 to 40 miles,Yes,,No,56,26
+WL-00710,Group A,Pulmonology,2026-05-14,2026-07-13,Morning,Under 15 miles,Yes,,No,43,26
+WL-00711,Group B,Cardiology,2026-06-13,2026-06-20,Morning,Under 15 miles,Yes,,No,13,24
+WL-00712,Group B,Orthopedics,2026-02-26,2026-03-19,Afternoon,15 to 40 miles,No,,No,120,19
+WL-00713,Group C,Orthopedics,2026-05-29,2026-07-28,Morning,Under 15 miles,Yes,,No,28,19
+WL-00714,Group D,Cardiology,2026-06-17,2026-07-17,Morning,Under 15 miles,Yes,,No,9,24
+WL-00715,Group A,Gastroenterology,2026-04-18,2026-07-17,Morning,15 to 40 miles,Yes,,No,69,29
+WL-00716,Group C,Gastroenterology,2026-03-12,2026-04-11,Morning,Under 15 miles,No,,No,106,29
+WL-00717,Group C,Orthopedics,2026-06-01,2026-06-08,Afternoon,Over 40 miles,Yes,2026-06-26,No,25,19
+WL-00718,Group B,Orthopedics,2026-05-17,2026-06-07,No preference,Under 15 miles,Yes,,No,40,19
+WL-00719,Group C,Orthopedics,2026-03-27,2026-04-26,Morning,Under 15 miles,Yes,,No,91,19
+WL-00720,Group C,Pulmonology,2026-05-09,2026-07-08,No preference,15 to 40 miles,Yes,2026-05-29,Yes,48,26
+WL-00721,Group A,Orthopedics,2026-05-11,2026-05-18,Morning,Over 40 miles,Yes,2026-05-27,Yes,46,19
+WL-00722,Group D,Gastroenterology,2026-05-18,2026-06-01,Morning,15 to 40 miles,Yes,,No,39,29
+WL-00723,Group A,Gastroenterology,2026-06-21,2026-07-21,Morning,15 to 40 miles,Yes,,No,5,29
+WL-00724,Group C,Gastroenterology,2026-06-15,2026-09-13,Afternoon,15 to 40 miles,Yes,,No,11,29
+WL-00725,Group A,Orthopedics,2026-05-21,2026-06-20,No preference,Under 15 miles,Yes,,No,36,19
+WL-00726,Group B,Cardiology,2026-05-08,2026-08-06,Afternoon,Under 15 miles,Yes,,No,49,24
+WL-00727,Group D,Cardiology,2026-03-06,2026-05-05,Morning,Under 15 miles,No,2026-03-21,No,112,24
+WL-00728,Group A,Endocrinology,2026-04-18,2026-04-25,No preference,Under 15 miles,Yes,,No,69,38
+WL-00729,Group C,Pulmonology,2026-05-21,2026-07-20,Afternoon,Under 15 miles,Yes,,No,36,26
+WL-00730,Group D,Neurology,2026-05-15,2026-06-05,Afternoon,Under 15 miles,Yes,2026-06-07,Yes,42,41
+WL-00731,Group C,Orthopedics,2026-05-08,2026-05-15,Morning,Under 15 miles,Yes,,No,49,19
+WL-00732,Group A,Gastroenterology,2026-06-08,2026-06-15,Morning,Over 40 miles,Yes,,No,18,29
+WL-00733,Group C,Neurology,2026-06-10,2026-07-01,No preference,15 to 40 miles,No,,No,16,41
+WL-00734,Group D,Orthopedics,2026-05-10,2026-08-08,Morning,15 to 40 miles,Yes,,No,47,19
+WL-00735,Group D,Gastroenterology,2026-04-17,2026-04-24,Afternoon,15 to 40 miles,No,,No,70,29
+WL-00736,Group B,Neurology,2026-06-05,2026-06-12,Morning,15 to 40 miles,Yes,,No,21,41
+WL-00737,Group D,Orthopedics,2026-06-13,2026-07-28,Morning,Under 15 miles,No,2026-07-04,No,13,19
+WL-00738,Group A,Pulmonology,2026-05-14,2026-05-28,Afternoon,Over 40 miles,Yes,,No,43,26
+WL-00739,Group B,Cardiology,2026-06-20,2026-07-04,No preference,15 to 40 miles,Yes,,No,6,24
+WL-00740,Group D,Gastroenterology,2026-05-17,2026-07-01,No preference,15 to 40 miles,Yes,,No,40,29
+WL-00741,Group B,Gastroenterology,2026-03-19,2026-04-09,No preference,15 to 40 miles,Yes,2026-04-07,No,99,29
+WL-00742,Group A,Endocrinology,2026-04-26,2026-05-10,Morning,Under 15 miles,Yes,,No,61,38
+WL-00743,Group B,Neurology,2026-06-19,2026-07-03,Afternoon,Under 15 miles,Yes,,No,7,41
+WL-00744,Group B,Pulmonology,2026-04-25,2026-05-02,Morning,15 to 40 miles,Yes,,No,62,26
+WL-00745,Group B,Orthopedics,2026-04-03,2026-04-10,No preference,Under 15 miles,Yes,2026-04-23,Yes,84,19
+WL-00746,Group A,Neurology,2026-05-28,2026-06-04,Morning,15 to 40 miles,Yes,2026-06-11,Yes,29,41
+WL-00747,Group D,Cardiology,2026-05-31,2026-07-30,No preference,Under 15 miles,Yes,,No,26,24
+WL-00748,Group C,Pulmonology,2026-04-29,2026-05-29,Morning,15 to 40 miles,Yes,2026-05-03,Yes,58,26
+WL-00749,Group A,Pulmonology,2026-06-04,2026-07-19,Morning,15 to 40 miles,No,,No,22,26
+WL-00750,Group D,Endocrinology,2026-05-27,2026-07-26,No preference,15 to 40 miles,Yes,,No,30,38
+WL-00751,Group A,Endocrinology,2026-05-17,2026-05-24,Afternoon,Under 15 miles,Yes,2026-06-10,Yes,40,38
+WL-00752,Group D,Pulmonology,2026-05-03,2026-08-01,Morning,Under 15 miles,Yes,,No,54,26
+WL-00753,Group A,Endocrinology,2026-04-24,2026-07-23,Morning,Under 15 miles,Yes,2026-05-23,No,63,38
+WL-00754,Group B,Gastroenterology,2026-05-15,2026-07-14,No preference,15 to 40 miles,Yes,,No,42,29
+WL-00755,Group A,Neurology,2026-04-11,2026-04-25,Afternoon,15 to 40 miles,Yes,,No,76,41
+WL-00756,Group C,Gastroenterology,2026-05-31,2026-06-30,Afternoon,Under 15 miles,No,,No,26,29
+WL-00757,Group B,Endocrinology,2026-05-24,2026-06-23,No preference,Under 15 miles,No,,No,33,38
+WL-00758,Group A,Gastroenterology,2026-04-07,2026-06-06,Afternoon,15 to 40 miles,Yes,2026-04-10,Yes,80,29
+WL-00759,Group A,Gastroenterology,2026-06-22,2026-09-20,No preference,Under 15 miles,Yes,,No,4,29
+WL-00760,Group D,Gastroenterology,2026-06-13,2026-08-12,Afternoon,Under 15 miles,No,,Yes,13,29
+WL-00761,Group A,Neurology,2026-06-12,2026-07-12,Morning,15 to 40 miles,No,,No,14,41
+WL-00762,Group B,Orthopedics,2026-05-12,2026-07-11,Afternoon,Over 40 miles,Yes,,No,45,19
+WL-00763,Group B,Endocrinology,2026-04-26,2026-06-25,No preference,Under 15 miles,Yes,,No,61,38
+WL-00764,Group D,Endocrinology,2026-05-18,2026-06-01,Morning,Over 40 miles,Yes,,No,39,38
+WL-00765,Group D,Neurology,2026-04-29,2026-05-20,No preference,Under 15 miles,No,,No,58,41
+WL-00766,Group B,Gastroenterology,2026-04-21,2026-07-20,Morning,Under 15 miles,No,2026-05-04,No,66,29
+WL-00767,Group C,Endocrinology,2026-05-23,2026-07-07,Afternoon,Under 15 miles,Yes,,No,34,38
+WL-00768,Group C,Orthopedics,2026-05-27,2026-06-26,Morning,Under 15 miles,Yes,,Yes,30,19
+WL-00769,Group A,Cardiology,2026-06-06,2026-06-27,Morning,15 to 40 miles,Yes,,No,20,24
+WL-00770,Group B,Pulmonology,2026-06-21,2026-07-05,Morning,15 to 40 miles,Yes,2026-07-01,No,5,26
+WL-00771,Group C,Pulmonology,2026-05-19,2026-07-18,Morning,Over 40 miles,No,2026-05-20,Yes,38,26
+WL-00772,Group D,Orthopedics,2026-05-15,2026-08-13,Afternoon,Under 15 miles,Yes,,No,42,19
+WL-00773,Group D,Neurology,2026-05-01,2026-05-22,No preference,15 to 40 miles,Yes,2026-05-17,No,56,41
+WL-00774,Group A,Pulmonology,2026-06-08,2026-07-23,Afternoon,15 to 40 miles,Yes,,No,18,26
+WL-00775,Group C,Cardiology,2026-05-07,2026-07-06,Afternoon,Under 15 miles,No,,No,50,24
+WL-00776,Group A,Orthopedics,2026-06-18,2026-07-09,No preference,Under 15 miles,No,2026-07-12,No,8,19
+WL-00777,Group B,Pulmonology,2026-06-08,2026-07-08,Morning,Under 15 miles,No,2026-07-07,No,18,26
+WL-00778,Group B,Gastroenterology,2026-03-23,2026-03-30,Morning,15 to 40 miles,No,,No,95,29
+WL-00779,Group C,Endocrinology,2026-05-23,2026-06-13,Morning,Under 15 miles,No,,No,34,38
+WL-00780,Group A,Cardiology,2026-05-07,2026-05-14,Afternoon,Over 40 miles,Yes,,No,50,24
+WL-00781,Group B,Gastroenterology,2026-05-08,2026-06-07,Afternoon,Over 40 miles,No,,No,49,29
+WL-00782,Group D,Endocrinology,2026-06-12,2026-07-27,Morning,Under 15 miles,Yes,2026-07-10,Yes,14,38
+WL-00783,Group C,Cardiology,2026-06-20,2026-07-04,Morning,Under 15 miles,No,,No,6,24
+WL-00784,Group B,Cardiology,2026-04-09,2026-04-30,No preference,Under 15 miles,Yes,,No,78,24
+WL-00785,Group A,Orthopedics,2026-04-28,2026-05-19,No preference,Over 40 miles,No,,No,59,19
+WL-00786,Group D,Endocrinology,2026-05-28,2026-07-27,Afternoon,15 to 40 miles,Yes,,No,29,38
+WL-00787,Group D,Orthopedics,2026-04-08,2026-05-23,Afternoon,15 to 40 miles,Yes,,No,79,19
+WL-00788,Group B,Orthopedics,2026-04-06,2026-06-05,No preference,15 to 40 miles,Yes,,No,81,19
+WL-00789,Group B,Endocrinology,2026-02-21,2026-02-28,Morning,Under 15 miles,No,,No,125,38
+WL-00790,Group C,Gastroenterology,2026-06-09,2026-07-24,Afternoon,Under 15 miles,Yes,2026-06-11,Yes,17,29
+WL-00791,Group A,Pulmonology,2026-05-05,2026-06-19,No preference,Under 15 miles,Yes,,No,52,26
+WL-00792,Group D,Cardiology,2026-06-06,2026-07-06,Afternoon,15 to 40 miles,Yes,2026-06-14,No,20,24
+WL-00793,Group A,Neurology,2026-06-18,2026-09-16,No preference,Over 40 miles,Yes,,No,8,41
+WL-00794,Group D,Orthopedics,2026-04-28,2026-06-27,No preference,Under 15 miles,No,,No,59,19
+WL-00795,Group B,Endocrinology,2026-06-16,2026-07-31,Afternoon,15 to 40 miles,No,2026-06-22,Yes,10,38
+WL-00796,Group C,Cardiology,2026-05-12,2026-06-11,Morning,Under 15 miles,Yes,,No,45,24
+WL-00797,Group D,Cardiology,2026-05-27,2026-07-26,Morning,Under 15 miles,No,,No,30,24
+WL-00798,Group A,Orthopedics,2026-05-31,2026-06-30,Morning,15 to 40 miles,Yes,,No,26,19
+WL-00799,Group A,Orthopedics,2026-02-20,2026-04-21,No preference,Under 15 miles,No,2026-03-05,Yes,126,19
+WL-00800,Group A,Gastroenterology,2026-05-22,2026-06-21,Morning,Under 15 miles,Yes,,No,35,29
+WL-00801,Group C,Orthopedics,2026-05-31,2026-07-15,No preference,Under 15 miles,Yes,2026-06-20,No,26,19
+WL-00802,Group C,Gastroenterology,2026-06-15,2026-07-15,Afternoon,15 to 40 miles,Yes,,No,11,29
+WL-00803,Group D,Gastroenterology,2026-04-14,2026-04-21,Morning,Under 15 miles,Yes,,No,73,29
+WL-00804,Group D,Cardiology,2026-04-22,2026-05-13,Afternoon,Over 40 miles,Yes,2026-05-01,Yes,65,24
+WL-00805,Group B,Endocrinology,2026-06-20,2026-07-20,Morning,15 to 40 miles,Yes,,No,6,38
+WL-00806,Group B,Pulmonology,2026-05-05,2026-05-26,Afternoon,Under 15 miles,No,,No,52,26
+WL-00807,Group D,Orthopedics,2026-05-30,2026-07-29,Afternoon,15 to 40 miles,No,,Yes,27,19
+WL-00808,Group A,Gastroenterology,2026-05-22,2026-07-21,Morning,15 to 40 miles,Yes,,No,35,29
+WL-00809,Group D,Orthopedics,2026-06-02,2026-08-01,Morning,15 to 40 miles,No,2026-06-28,No,24,19
+WL-00810,Group B,Cardiology,2026-05-23,2026-07-07,Morning,15 to 40 miles,No,,No,34,24
+WL-00811,Group A,Endocrinology,2026-06-15,2026-07-15,Afternoon,Under 15 miles,Yes,,No,11,38
+WL-00812,Group A,Pulmonology,2026-06-01,2026-07-31,Morning,Under 15 miles,Yes,,No,25,26
+WL-00813,Group C,Neurology,2026-05-19,2026-06-02,Morning,15 to 40 miles,Yes,,Yes,38,41
+WL-00814,Group C,Endocrinology,2026-06-07,2026-06-21,No preference,Under 15 miles,Yes,,No,19,38
+WL-00815,Group C,Neurology,2026-05-04,2026-07-03,Morning,Under 15 miles,No,,No,53,41
+WL-00816,Group B,Neurology,2026-06-02,2026-06-23,Morning,Under 15 miles,No,,No,24,41
+WL-00817,Group B,Endocrinology,2026-04-24,2026-06-23,No preference,Under 15 miles,No,,No,63,38
+WL-00818,Group B,Endocrinology,2026-04-27,2026-05-18,No preference,Under 15 miles,Yes,,No,60,38
+WL-00819,Group A,Gastroenterology,2026-06-10,2026-07-01,Morning,Under 15 miles,No,2026-06-27,Yes,16,29
+WL-00820,Group C,Pulmonology,2026-03-16,2026-03-23,No preference,Over 40 miles,Yes,,No,102,26
+WL-00821,Group C,Gastroenterology,2026-05-08,2026-06-22,No preference,Under 15 miles,Yes,,No,49,29
+WL-00822,Group C,Orthopedics,2026-04-26,2026-05-03,Afternoon,Under 15 miles,No,2026-05-19,Yes,61,19
+WL-00823,Group A,Pulmonology,2026-04-15,2026-07-14,Morning,15 to 40 miles,Yes,,No,72,26
+WL-00824,Group A,Orthopedics,2026-06-15,2026-06-22,No preference,Under 15 miles,Yes,2026-06-19,Yes,11,19
+WL-00825,Group C,Pulmonology,2026-05-24,2026-07-08,Morning,Under 15 miles,Yes,,No,33,26
+WL-00826,Group D,Endocrinology,2026-04-09,2026-04-30,Afternoon,15 to 40 miles,No,2026-04-22,Yes,78,38
+WL-00827,Group C,Gastroenterology,2026-03-16,2026-04-06,Morning,15 to 40 miles,Yes,2026-04-14,No,102,29
+WL-00828,Group A,Neurology,2026-05-02,2026-06-16,Morning,Under 15 miles,Yes,2026-05-29,Yes,55,41
+WL-00829,Group D,Endocrinology,2026-02-18,2026-04-04,Morning,Under 15 miles,No,,No,128,38
+WL-00830,Group B,Cardiology,2026-06-07,2026-06-14,No preference,Under 15 miles,No,,No,19,24
+WL-00831,Group D,Pulmonology,2026-05-04,2026-07-03,Afternoon,Under 15 miles,No,2026-05-10,No,53,26
+WL-00832,Group D,Neurology,2026-05-12,2026-08-10,No preference,Under 15 miles,Yes,,No,45,41
+WL-00833,Group C,Neurology,2026-05-23,2026-08-21,Afternoon,Under 15 miles,Yes,,No,34,41
+WL-00834,Group D,Neurology,2026-03-28,2026-04-04,No preference,Under 15 miles,No,2026-03-30,No,90,41
+WL-00835,Group D,Orthopedics,2026-05-09,2026-06-23,No preference,15 to 40 miles,No,2026-06-07,No,48,19
+WL-00836,Group C,Pulmonology,2026-06-09,2026-07-09,Morning,Under 15 miles,Yes,,No,17,26
+WL-00837,Group B,Orthopedics,2026-05-22,2026-05-29,Afternoon,Under 15 miles,Yes,,No,35,19
+WL-00838,Group D,Orthopedics,2026-04-19,2026-06-18,Afternoon,Over 40 miles,Yes,,No,68,19
+WL-00839,Group D,Orthopedics,2026-06-15,2026-06-22,Morning,Under 15 miles,Yes,,No,11,19
+WL-00840,Group C,Gastroenterology,2026-05-30,2026-06-13,Afternoon,Under 15 miles,No,,No,27,29
+WL-00841,Group A,Gastroenterology,2026-06-22,2026-07-22,Afternoon,15 to 40 miles,Yes,,No,4,29
+WL-00842,Group D,Endocrinology,2026-06-17,2026-08-16,Afternoon,Under 15 miles,Yes,,No,9,38
+WL-00843,Group D,Gastroenterology,2026-05-16,2026-07-15,No preference,Under 15 miles,Yes,2026-05-26,Yes,41,29
+WL-00844,Group B,Gastroenterology,2026-05-31,2026-06-30,Afternoon,Over 40 miles,Yes,2026-06-14,No,26,29
+WL-00845,Group A,Endocrinology,2026-05-20,2026-07-19,Afternoon,15 to 40 miles,Yes,2026-06-04,Yes,37,38
+WL-00846,Group B,Cardiology,2026-04-05,2026-04-12,Morning,Over 40 miles,No,,No,82,24
+WL-00847,Group B,Endocrinology,2026-06-11,2026-06-25,Afternoon,15 to 40 miles,Yes,,No,15,38
+WL-00848,Group D,Orthopedics,2026-05-09,2026-06-23,Morning,Under 15 miles,No,,No,48,19
+WL-00849,Group A,Cardiology,2026-05-09,2026-05-23,Morning,Under 15 miles,Yes,,No,48,24
+WL-00850,Group D,Pulmonology,2026-05-07,2026-06-21,Morning,Under 15 miles,No,2026-05-25,Yes,50,26
+WL-00851,Group C,Pulmonology,2026-02-20,2026-02-27,Afternoon,Over 40 miles,No,2026-03-02,Yes,126,26
+WL-00852,Group B,Neurology,2026-04-12,2026-05-27,Morning,Under 15 miles,No,,No,75,41
+WL-00853,Group D,Endocrinology,2026-04-01,2025-11-15,Morning,15 to 40 miles,Yes,,No,86,38
+WL-00854,Group A,Cardiology,2026-06-13,2026-08-12,No preference,Over 40 miles,No,,No,13,24
+WL-00855,Group A,Pulmonology,2026-06-22,2026-07-06,Morning,15 to 40 miles,Yes,,No,4,26
+WL-00856,Group D,Pulmonology,2026-04-14,2026-04-21,Morning,15 to 40 miles,Yes,2026-04-18,No,73,26
+WL-00857,Group A,Gastroenterology,2026-05-19,2026-05-26,Afternoon,Under 15 miles,Yes,,No,38,29
+WL-00858,Group C,Gastroenterology,2026-05-28,2026-06-18,Morning,Under 15 miles,Yes,,No,29,29
+WL-00859,Group B,Cardiology,2026-03-21,2026-03-28,Morning,Under 15 miles,Yes,2026-04-13,Yes,97,24
+WL-00860,Group A,Neurology,2026-05-02,2026-05-09,Morning,Under 15 miles,No,,No,55,41
+WL-00861,Group A,Neurology,2026-06-06,2026-07-06,Morning,Under 15 miles,Yes,,No,20,41
+WL-00862,Group D,Orthopedics,2026-05-12,2026-05-26,Morning,15 to 40 miles,No,,No,45,19
+WL-00863,Group A,Orthopedics,2026-05-30,2026-06-20,Afternoon,15 to 40 miles,Yes,2026-06-02,Yes,27,19
+WL-00864,Group A,Neurology,2026-05-30,2026-06-13,No preference,Under 15 miles,No,2026-06-04,No,27,41
+WL-00865,Group D,Gastroenterology,2026-06-01,2026-07-31,Morning,Under 15 miles,Yes,,No,25,29
+WL-00866,Group A,Cardiology,2026-05-10,2026-05-24,Afternoon,Under 15 miles,Yes,,No,47,24
+WL-00867,Group A,Endocrinology,2026-03-31,2026-05-15,Morning,Under 15 miles,Yes,2026-04-07,Yes,87,38
+WL-00868,Group A,Neurology,2026-05-14,2026-06-13,Morning,15 to 40 miles,No,,No,43,41
+WL-00869,Group A,Gastroenterology,2026-05-06,2026-06-20,Morning,Under 15 miles,No,,No,51,29
+WL-00870,Group D,Orthopedics,2026-06-10,2026-07-25,Afternoon,Under 15 miles,Yes,2026-07-06,Yes,16,19
+WL-00871,Group A,Cardiology,2026-04-10,2026-05-01,No preference,15 to 40 miles,Yes,,No,77,24
+WL-00872,Group C,Gastroenterology,2026-04-15,2026-04-22,Morning,Under 15 miles,Yes,,No,72,29
+WL-00873,Group D,Orthopedics,2026-05-07,2026-07-06,Morning,Over 40 miles,No,,Yes,50,19
+WL-00874,Group C,Cardiology,2026-05-21,2026-06-20,Afternoon,15 to 40 miles,No,2026-06-01,Yes,36,24
+WL-00875,Group C,Gastroenterology,2026-06-09,2026-08-08,Morning,Under 15 miles,Yes,,No,17,29
+WL-00876,Group B,Gastroenterology,2026-05-13,2026-06-12,Afternoon,15 to 40 miles,No,2026-05-31,No,44,29
+WL-00877,Group B,Gastroenterology,2026-05-01,2026-05-31,Morning,15 to 40 miles,No,,No,56,29
+WL-00878,Group A,Gastroenterology,2026-05-22,2026-07-06,Afternoon,Over 40 miles,Yes,2026-06-07,No,35,29
+WL-00879,Group D,Neurology,2026-06-18,2026-08-17,No preference,Over 40 miles,Yes,2026-06-27,Yes,8,41
+WL-00880,Group C,Endocrinology,2026-05-24,2026-07-23,Morning,Under 15 miles,No,2026-06-07,Yes,33,38
+WL-00881,Group D,,2026-04-14,2026-05-14,Afternoon,Under 15 miles,Yes,2026-05-08,Yes,73,26
+WL-00882,Group B,Cardiology,2026-05-18,2026-06-01,Afternoon,Under 15 miles,Yes,,No,39,24
+WL-00883,Group D,Cardiology,2026-04-25,2026-07-24,Morning,Over 40 miles,No,,No,62,24
+WL-00884,Group B,Cardiology,2026-06-07,2026-07-07,Morning,15 to 40 miles,Yes,,No,19,24
+WL-00885,Group C,,2026-06-16,2026-07-16,No preference,Under 15 miles,Yes,,No,10,24
+WL-00886,Group B,Endocrinology,2026-06-06,2026-08-05,No preference,Under 15 miles,Yes,,No,20,38
+WL-00887,Group C,Neurology,2026-06-03,2026-09-01,Morning,Under 15 miles,Yes,,No,23,41
+WL-00888,Group C,Pulmonology,2026-04-20,2026-05-20,No preference,Over 40 miles,Yes,,No,67,26
+WL-00889,Group A,Endocrinology,2026-06-12,2026-07-12,Morning,Under 15 miles,No,,No,14,38
+WL-00890,Group D,Endocrinology,2026-05-18,2026-07-17,Morning,Over 40 miles,Yes,2026-05-19,Yes,39,38
+WL-00891,Group D,Pulmonology,2026-05-19,2026-08-17,No preference,15 to 40 miles,Yes,2026-06-17,No,38,26
+WL-00892,Group A,,2026-03-26,2026-04-16,No preference,Under 15 miles,Yes,,No,92,41
+WL-00893,Group B,Pulmonology,2026-05-09,2026-08-07,No preference,15 to 40 miles,No,,No,48,26
+WL-00894,Group C,Cardiology,2026-02-11,2026-02-18,Afternoon,Under 15 miles,Yes,,No,135,24
+WL-00895,Group B,Cardiology,2026-04-28,2026-06-27,No preference,Under 15 miles,Yes,2026-05-04,No,59,24
+WL-00896,Group C,Orthopedics,2026-05-27,2026-08-25,Afternoon,Under 15 miles,Yes,2026-06-10,Yes,30,19
+WL-00897,Group B,Endocrinology,2026-05-07,2026-05-14,Afternoon,15 to 40 miles,Yes,,No,50,38
+WL-00898,Group B,Orthopedics,2026-01-12,2026-02-11,No preference,15 to 40 miles,Yes,,No,165,19
+WL-00899,Group D,Orthopedics,2026-06-15,2026-08-14,Afternoon,Under 15 miles,Yes,,No,11,19
+WL-00900,Group D,Cardiology,2026-05-27,2026-08-25,Morning,Under 15 miles,Yes,2026-06-05,No,30,24
+WL-00901,Group B,Orthopedics,2026-06-03,2026-07-18,Afternoon,Under 15 miles,Yes,2026-06-26,No,23,19
+WL-00902,Group D,Gastroenterology,2026-04-16,2026-05-31,Morning,15 to 40 miles,Yes,,No,71,29
+WL-00903,Group A,Pulmonology,2026-03-24,2026-06-22,Morning,Under 15 miles,Yes,,No,94,26
+WL-00904,Group C,Endocrinology,2026-05-26,2026-06-09,Afternoon,15 to 40 miles,Yes,,No,31,38
+WL-00905,Group D,Neurology,2026-06-19,2026-09-17,No preference,Under 15 miles,Yes,,No,7,41
+WL-00906,Group C,Neurology,2026-01-29,2026-02-12,Morning,15 to 40 miles,Yes,2026-02-03,Yes,148,41
+WL-00907,Group B,Pulmonology,2026-02-22,2026-03-24,No preference,Over 40 miles,Yes,,No,124,26
+WL-00908,Group B,Pulmonology,2026-05-11,2026-05-25,Morning,15 to 40 miles,No,2026-06-05,No,46,26
+WL-00909,Group C,Endocrinology,2026-04-03,2026-04-17,Afternoon,15 to 40 miles,Yes,2026-05-03,Yes,84,38
+WL-00910,Group A,Pulmonology,2026-05-27,2026-06-17,Morning,Under 15 miles,No,2026-06-12,Yes,30,26
+WL-00911,Group C,,2026-05-15,2026-06-14,Afternoon,15 to 40 miles,Yes,,No,42,38
+WL-00912,Group B,Neurology,2026-05-21,2026-07-20,No preference,Over 40 miles,Yes,,No,36,41
+WL-00913,Group D,Orthopedics,2026-05-09,2026-05-23,Morning,Under 15 miles,Yes,,Yes,48,19
+WL-00914,Group B,Endocrinology,2026-04-14,2026-07-13,Morning,Under 15 miles,Yes,,No,73,38
+WL-00915,Group C,Neurology,2026-06-16,2026-07-16,Afternoon,Under 15 miles,Yes,2026-07-15,Yes,10,41
+WL-00916,Group C,Neurology,2026-06-21,2026-06-28,No preference,Over 40 miles,No,,No,5,41
+WL-00917,Group C,Gastroenterology,2026-04-30,2026-05-14,No preference,Under 15 miles,Yes,,No,57,29
+WL-00918,Group D,Orthopedics,2026-04-05,2026-04-12,Afternoon,Under 15 miles,Yes,,No,82,19
+WL-00919,Group C,Gastroenterology,2026-03-17,2026-06-15,Afternoon,Over 40 miles,No,2026-03-25,Yes,101,29
+WL-00920,Group D,Orthopedics,2026-05-16,2026-07-15,Afternoon,Under 15 miles,Yes,,No,41,19
+WL-00921,Group A,Cardiology,2026-06-05,2026-07-05,Morning,Under 15 miles,No,,No,21,24
+WL-00922,Group C,Cardiology,2026-06-01,2026-08-30,Morning,Over 40 miles,Yes,2026-06-28,Yes,25,24
+WL-00923,Group B,Gastroenterology,2026-04-18,2026-04-25,No preference,Over 40 miles,No,,No,69,29
+WL-00924,Group B,Gastroenterology,2026-05-08,2026-06-22,Morning,Under 15 miles,Yes,,No,49,29
+WL-00925,Group A,Cardiology,2026-03-31,2026-04-07,Morning,Under 15 miles,Yes,2026-04-24,Yes,87,24
+WL-00926,Group B,Endocrinology,2026-03-25,2026-05-09,Afternoon,15 to 40 miles,Yes,2026-04-10,No,93,38
+WL-00927,Group B,Pulmonology,2026-05-16,2026-06-06,Morning,Under 15 miles,No,2026-05-25,Yes,41,26
+WL-00928,Group D,Gastroenterology,2026-05-23,2026-06-06,Morning,15 to 40 miles,Yes,,No,34,29
+WL-00929,Group B,Cardiology,2026-02-25,2026-05-26,Morning,Under 15 miles,No,,No,121,24
+WL-00930,Group B,Cardiology,2026-06-03,2026-07-18,Afternoon,15 to 40 miles,Yes,,No,23,24
+WL-00931,Group B,Gastroenterology,2026-06-07,2026-06-14,Morning,15 to 40 miles,Yes,,No,19,29
+WL-00932,Group D,Neurology,2026-06-07,2026-09-05,No preference,15 to 40 miles,Yes,2026-06-19,Yes,19,41
+WL-00933,Group C,Orthopedics,2026-05-16,2026-06-15,Morning,Under 15 miles,Yes,,No,41,19
+WL-00934,Group C,Cardiology,2026-05-30,2026-08-28,Morning,Under 15 miles,Yes,,No,27,24
+WL-00935,Group A,Cardiology,2026-05-20,2026-07-19,Afternoon,Under 15 miles,Yes,,No,37,24
+WL-00936,Group C,Cardiology,2026-06-19,2026-07-03,No preference,Under 15 miles,No,,No,7,24
+WL-00937,Group B,Gastroenterology,2026-03-29,2026-04-05,Morning,Over 40 miles,Yes,,No,89,29
+WL-00938,Group A,Orthopedics,2026-05-30,2025-11-15,No preference,Under 15 miles,Yes,2026-06-27,No,27,19
+WL-00939,Group A,Gastroenterology,2026-05-13,2026-08-11,Morning,Under 15 miles,No,2026-06-04,No,44,29
+WL-00940,Group B,Orthopedics,2026-04-12,2026-05-03,Morning,15 to 40 miles,Yes,,No,75,19
+WL-00941,Group D,Endocrinology,2026-06-11,2026-07-11,No preference,Under 15 miles,No,2026-06-19,Yes,15,38
+WL-00942,Group D,Endocrinology,2026-05-08,2026-06-07,Morning,Over 40 miles,Yes,,No,49,38
+WL-00943,Group C,Pulmonology,2026-02-11,2026-05-12,Afternoon,15 to 40 miles,No,,No,135,26
+WL-00944,Group C,Orthopedics,2026-04-26,2026-05-03,Morning,15 to 40 miles,No,2026-05-06,No,61,19
+WL-00945,Group A,Neurology,2026-06-05,2026-06-12,Morning,Over 40 miles,Yes,,No,21,41
+WL-00946,Group B,Gastroenterology,2026-05-02,2026-05-23,Morning,15 to 40 miles,Yes,,No,55,29
+WL-00947,Group A,Endocrinology,2026-06-14,2026-08-13,No preference,Over 40 miles,Yes,,No,12,38
+WL-00948,Group A,Gastroenterology,2026-06-02,2026-07-17,No preference,Under 15 miles,Yes,,No,24,29
+WL-00949,Group D,Orthopedics,2026-04-02,2026-04-16,Afternoon,Under 15 miles,Yes,2026-04-24,No,85,19
+WL-00950,Group C,Gastroenterology,2026-06-12,2026-07-27,Afternoon,Over 40 miles,Yes,2026-06-14,Yes,14,29
+WL-00951,Group C,Pulmonology,2026-03-28,2026-05-12,Morning,Under 15 miles,Yes,,No,90,26
+WL-00952,Group A,Orthopedics,2026-05-17,2026-05-31,Morning,Under 15 miles,Yes,,No,40,19
+WL-00953,Group A,Gastroenterology,2026-03-06,2026-05-05,Afternoon,Under 15 miles,No,2026-03-08,Yes,112,29
+WL-00954,Group D,Orthopedics,2026-06-08,2026-09-06,Afternoon,Under 15 miles,Yes,,No,18,19
+WL-00955,Group D,Gastroenterology,2026-05-30,2026-07-14,Afternoon,Under 15 miles,Yes,,No,27,29
+WL-00956,Group B,Pulmonology,2026-05-14,2026-06-04,No preference,15 to 40 miles,Yes,,No,43,26
+WL-00957,Group D,Endocrinology,2026-03-15,2026-04-14,No preference,Under 15 miles,Yes,,No,103,38
+WL-00958,Group D,Pulmonology,2026-05-27,2026-07-11,Afternoon,Over 40 miles,Yes,,No,30,26
+WL-00959,Group C,Endocrinology,2026-04-18,2026-06-17,Afternoon,15 to 40 miles,Yes,2026-04-28,No,69,38
+WL-00960,Group C,Pulmonology,2026-05-23,2026-08-21,No preference,Over 40 miles,Yes,,No,34,26
+WL-00961,Group B,Pulmonology,2026-06-13,2026-06-27,Morning,Under 15 miles,No,,No,13,26
+WL-00962,Group B,Endocrinology,2026-06-09,2026-06-23,Afternoon,Over 40 miles,No,,No,17,38
+WL-00963,Group D,Cardiology,2026-01-09,2026-02-08,Afternoon,Under 15 miles,No,,No,168,24
+WL-00964,Group A,Cardiology,2026-04-24,2026-06-08,Morning,Under 15 miles,Yes,,No,63,24
+WL-00965,Group A,Pulmonology,2026-06-13,2026-07-13,Afternoon,15 to 40 miles,Yes,,No,13,26
+WL-00966,Group C,Neurology,2026-06-01,2026-07-31,Afternoon,15 to 40 miles,Yes,,No,25,41
+WL-00967,Group D,Gastroenterology,2026-04-10,2026-06-09,Afternoon,Over 40 miles,Yes,,No,77,29
+WL-00968,Group D,Pulmonology,2026-06-04,2026-06-18,Afternoon,Under 15 miles,No,,No,22,26
+WL-00969,Group A,Cardiology,2026-03-26,2026-05-25,No preference,15 to 40 miles,No,,No,92,24
+WL-00970,Group D,Gastroenterology,2026-05-11,2026-05-18,No preference,15 to 40 miles,Yes,,No,46,29
+WL-00971,Group B,Orthopedics,2026-05-06,2026-05-27,Afternoon,15 to 40 miles,Yes,,No,51,19
+WL-00972,Group D,Endocrinology,2026-05-13,2026-05-20,Morning,Under 15 miles,Yes,,No,44,38
+WL-00973,Group D,Pulmonology,2026-03-22,2026-05-21,No preference,15 to 40 miles,Yes,,No,96,26
+WL-00974,Group A,Endocrinology,2026-04-27,2026-06-11,No preference,Under 15 miles,Yes,2026-05-04,No,60,38
+WL-00975,Group D,Pulmonology,2026-04-25,2026-05-16,Afternoon,15 to 40 miles,No,,Yes,62,26
+WL-00976,Group A,Pulmonology,2026-06-06,2026-07-06,Morning,15 to 40 miles,Yes,2026-06-29,No,20,26
+WL-00977,Group B,Pulmonology,2026-06-14,2026-07-14,Morning,Under 15 miles,No,2026-06-24,Yes,12,26
+WL-00978,Group D,Pulmonology,2026-06-10,2026-09-08,Morning,15 to 40 miles,Yes,,No,16,26
+WL-00979,Group C,Neurology,2026-06-13,2026-06-27,Afternoon,Under 15 miles,No,,No,13,41
+WL-00980,Group C,Pulmonology,2026-02-07,2026-03-24,No preference,Under 15 miles,Yes,,No,139,26
+WL-00981,Group A,Cardiology,2026-05-15,2026-05-22,Afternoon,Under 15 miles,Yes,,No,42,24
+WL-00982,Group B,Endocrinology,2026-05-16,2026-05-30,Morning,Over 40 miles,Yes,2026-05-22,No,41,38
+WL-00983,Group D,Cardiology,2026-05-15,2026-05-22,No preference,Under 15 miles,Yes,,No,42,24
+WL-00984,Group C,Gastroenterology,2026-04-21,2026-04-28,Morning,Under 15 miles,Yes,,No,66,29
+WL-00985,Group A,Gastroenterology,2026-03-27,2026-04-10,Afternoon,Under 15 miles,Yes,,No,91,29
+WL-00986,Group A,Gastroenterology,2026-06-04,2026-06-18,Morning,Under 15 miles,Yes,,No,22,29
+WL-00987,Group C,Gastroenterology,2026-05-30,2026-07-14,Afternoon,15 to 40 miles,Yes,2026-06-27,Yes,27,29
+WL-00988,Group B,Neurology,2026-06-06,2026-06-27,No preference,Under 15 miles,Yes,,No,20,41
+WL-00989,Group C,Pulmonology,2026-04-20,2026-05-04,Afternoon,Under 15 miles,Yes,,No,67,26
+WL-00990,Group A,Endocrinology,2026-05-12,2026-06-02,Morning,15 to 40 miles,Yes,,No,45,38
+WL-00991,Group A,Orthopedics,2026-05-01,2026-07-30,No preference,Under 15 miles,Yes,,No,56,19
+WL-00992,Group D,Endocrinology,2026-05-16,2026-06-06,No preference,Under 15 miles,Yes,,No,41,38
+WL-00993,Group D,Endocrinology,2026-06-15,2026-07-15,Afternoon,Under 15 miles,No,,No,11,38
+WL-00994,Group A,Cardiology,2026-05-08,2026-05-22,Afternoon,Over 40 miles,Yes,,No,49,24
+WL-00995,Group D,Pulmonology,2026-05-14,2026-08-12,Afternoon,Under 15 miles,No,2026-05-16,Yes,43,26
+WL-00996,Group B,Orthopedics,2026-04-15,2026-07-14,No preference,Under 15 miles,Yes,,No,72,19
+WL-00997,Group B,Gastroenterology,2026-06-01,2026-08-30,Afternoon,Under 15 miles,Yes,,No,25,29
+WL-00998,Group C,Neurology,2026-06-23,2026-07-07,Morning,Under 15 miles,Yes,,No,3,41
+WL-00999,Group A,Pulmonology,2026-06-12,2026-08-11,Morning,Under 15 miles,Yes,2026-06-26,No,14,26
+WL-01000,Group A,Neurology,2026-04-30,2026-07-29,Morning,Over 40 miles,No,,No,57,41
+WL-01001,Group B,Pulmonology,2026-06-15,2026-06-22,No preference,Under 15 miles,Yes,,No,11,26
+WL-01002,Group D,Orthopedics,2026-05-21,2025-11-15,Afternoon,Over 40 miles,No,2026-05-30,No,36,19
+WL-01003,Group D,Orthopedics,2026-04-06,2026-05-21,Afternoon,Under 15 miles,No,,No,81,19
+WL-01004,Group C,Cardiology,2026-04-17,2026-06-01,Morning,Under 15 miles,No,2026-05-16,No,70,24
+WL-01005,Group C,Cardiology,2026-05-06,2026-05-13,Morning,15 to 40 miles,Yes,2026-05-26,Yes,51,24
+WL-01006,Group C,Gastroenterology,2026-05-26,2026-06-25,No preference,15 to 40 miles,No,,No,31,29
+WL-01007,Group D,Endocrinology,2026-04-25,2026-05-09,No preference,Under 15 miles,No,2026-05-17,No,62,38
+WL-01008,Group C,Endocrinology,2026-05-14,2026-08-12,Morning,Under 15 miles,Yes,,No,43,38
+WL-01009,Group A,Endocrinology,2026-01-11,2026-03-12,Afternoon,15 to 40 miles,Yes,,No,166,38
+WL-01010,Group C,Neurology,2026-05-31,2026-08-29,No preference,Over 40 miles,Yes,,No,26,41
+WL-01011,Group D,Gastroenterology,2026-06-10,2026-07-25,Afternoon,Under 15 miles,Yes,2026-06-28,No,16,29
+WL-01012,Group D,Neurology,2026-06-07,2026-06-21,Morning,Under 15 miles,Yes,2026-06-28,Yes,19,41
+WL-01013,Group A,Gastroenterology,2026-05-18,2026-05-25,Morning,Under 15 miles,No,,No,39,29
+WL-01014,Group C,Cardiology,2026-04-24,2026-05-24,No preference,Under 15 miles,Yes,,No,63,24
+WL-01015,Group D,Orthopedics,2026-06-06,2026-06-13,Morning,Under 15 miles,Yes,,No,20,19
+WL-01016,Group A,Pulmonology,2026-05-20,2026-05-27,Afternoon,Under 15 miles,No,2026-06-14,Yes,37,26
+WL-01017,Group C,Pulmonology,2026-06-08,2026-08-07,Afternoon,Under 15 miles,Yes,,No,18,26
+WL-01018,Group B,Neurology,2026-06-05,2026-08-04,No preference,Under 15 miles,Yes,,No,21,41
+WL-01019,Group B,Endocrinology,2026-05-19,2026-05-26,Morning,Under 15 miles,Yes,,No,38,38
+WL-01020,Group A,,2026-05-11,2026-06-25,Morning,Under 15 miles,No,,No,46,24
+WL-01021,Group C,Orthopedics,2026-06-23,2026-08-22,Morning,Under 15 miles,Yes,,No,3,19
+WL-01022,Group D,Neurology,2026-05-22,2026-08-20,Morning,Over 40 miles,Yes,2026-06-05,No,35,41
+WL-01023,Group D,Endocrinology,2026-06-01,2026-07-31,No preference,Under 15 miles,Yes,2026-06-05,No,25,38
+WL-01024,Group B,Orthopedics,2026-05-29,2026-08-27,Morning,Under 15 miles,No,2026-06-25,Yes,28,19
+WL-01025,Group C,Neurology,2026-06-16,2026-08-15,Afternoon,Under 15 miles,Yes,,No,10,41
+WL-01026,Group D,Gastroenterology,2026-06-15,2026-07-15,Afternoon,Under 15 miles,No,,No,11,29
+WL-01027,Group C,Orthopedics,2026-04-21,2025-11-15,Morning,Under 15 miles,Yes,,No,66,19
+WL-01028,Group D,Orthopedics,2026-04-26,2026-05-26,Afternoon,Over 40 miles,Yes,,No,61,19
+WL-01029,Group C,Gastroenterology,2026-05-19,2025-11-15,No preference,Under 15 miles,No,,No,38,29
+WL-01030,Group B,Endocrinology,2026-06-11,2026-06-25,Afternoon,15 to 40 miles,No,,No,15,38
+WL-01031,Group A,Pulmonology,2026-05-04,2026-06-18,Afternoon,Under 15 miles,Yes,,No,53,26
+WL-01032,Group A,Orthopedics,2026-05-03,2026-05-24,Morning,Under 15 miles,Yes,,No,54,19
+WL-01033,Group C,Endocrinology,2026-04-02,2026-05-02,No preference,15 to 40 miles,No,,No,85,38
+WL-01034,Group B,Orthopedics,2026-05-24,2026-06-07,Morning,Under 15 miles,No,2026-06-02,No,33,19
+WL-01035,Group B,Orthopedics,2026-05-07,2026-05-28,Morning,Over 40 miles,Yes,2026-05-09,Yes,50,19
+WL-01036,Group D,Orthopedics,2026-03-07,2026-06-05,Morning,Under 15 miles,Yes,,No,111,19
+WL-01037,Group D,Gastroenterology,2026-06-22,2026-07-06,Afternoon,Under 15 miles,Yes,2026-06-26,No,4,29
+WL-01038,Group C,Pulmonology,2026-05-23,2026-06-06,Afternoon,Over 40 miles,No,2026-06-16,Yes,34,26
+WL-01039,Group C,Gastroenterology,2026-06-05,2026-06-12,Afternoon,Under 15 miles,Yes,2026-07-04,Yes,21,29
+WL-01040,Group D,Endocrinology,2026-05-02,2026-05-16,Morning,Under 15 miles,Yes,2026-05-12,No,55,38
+WL-01041,Group D,Pulmonology,2026-05-05,2026-06-04,Afternoon,Under 15 miles,Yes,2026-05-19,No,52,26
+WL-01042,Group B,Gastroenterology,2026-06-21,2026-07-12,Afternoon,Under 15 miles,No,,No,5,29
+WL-01043,Group C,Neurology,2026-05-23,2026-07-07,Morning,15 to 40 miles,Yes,,No,34,41
+WL-01044,Group B,Endocrinology,2026-05-11,2025-11-15,Afternoon,Under 15 miles,Yes,,No,46,38
+WL-01045,Group B,Cardiology,2026-04-28,2026-07-27,No preference,Under 15 miles,Yes,2026-05-22,No,59,24
+WL-01046,Group A,Gastroenterology,2026-06-12,2026-07-03,No preference,Under 15 miles,Yes,2026-06-30,Yes,14,29
+WL-01047,Group C,Endocrinology,2026-05-19,2026-06-02,Morning,Under 15 miles,No,,No,38,38
+WL-01048,Group A,Endocrinology,2026-05-11,2026-05-18,Afternoon,Under 15 miles,Yes,,No,46,38
+WL-01049,Group C,Pulmonology,2026-05-03,2026-05-17,Afternoon,Over 40 miles,No,2026-06-02,No,54,26
+WL-01050,Group B,Pulmonology,2026-05-22,2026-08-20,No preference,Under 15 miles,Yes,,No,35,26
+WL-01051,Group C,Endocrinology,2026-06-18,2026-08-17,Afternoon,15 to 40 miles,Yes,,No,8,38
+WL-01052,Group B,Pulmonology,2026-04-24,2026-06-23,Morning,Under 15 miles,Yes,,No,63,26
+WL-01053,Group A,Endocrinology,2026-05-27,2026-06-17,Morning,15 to 40 miles,Yes,2026-06-08,Yes,30,38
+WL-01054,Group D,Orthopedics,2026-03-11,2026-03-25,Morning,Under 15 miles,Yes,,No,107,19
+WL-01055,Group C,Endocrinology,2026-05-30,2026-06-13,Morning,15 to 40 miles,No,2026-06-19,Yes,27,38
+WL-01056,Group B,,2026-06-06,2026-09-04,Morning,Under 15 miles,Yes,,No,20,38
+WL-01057,Group A,Cardiology,2026-06-16,2026-06-23,Afternoon,Under 15 miles,No,2026-06-19,No,10,24
+WL-01058,Group B,Gastroenterology,2026-05-28,2026-07-12,Morning,Under 15 miles,No,,No,29,29
+WL-01059,Group D,Gastroenterology,2026-05-24,2026-08-22,Morning,Under 15 miles,No,,No,33,29
+WL-01060,Group B,Orthopedics,2026-04-10,2026-05-01,Morning,Under 15 miles,Yes,2026-04-22,Yes,77,19
+WL-01061,Group D,Pulmonology,2026-02-23,2025-11-15,Afternoon,15 to 40 miles,Yes,2026-02-27,No,123,26
+WL-01062,Group C,Orthopedics,2026-06-19,2026-09-17,Afternoon,Over 40 miles,Yes,,No,7,19
+WL-01063,Group D,Cardiology,2026-06-01,2026-06-08,No preference,Under 15 miles,Yes,,No,25,24
+WL-01064,Group A,Pulmonology,2026-06-06,2026-08-05,No preference,Under 15 miles,Yes,2026-06-18,No,20,26
+WL-01065,Group C,Pulmonology,2026-05-14,2026-06-04,No preference,Under 15 miles,Yes,2026-06-05,Yes,43,26
+WL-01066,Group C,Orthopedics,2026-05-27,2026-06-03,Morning,Over 40 miles,Yes,,No,30,19
+WL-01067,Group A,Pulmonology,2026-02-17,2026-05-18,Morning,Over 40 miles,Yes,2026-03-18,No,129,26
+WL-01068,Group C,Endocrinology,2026-04-01,2026-06-30,No preference,Under 15 miles,Yes,,No,86,38
+WL-01069,Group A,Pulmonology,2026-05-03,2026-05-17,Morning,15 to 40 miles,No,2026-05-15,No,54,26
+WL-01070,Group C,Pulmonology,2026-05-17,2026-05-31,Afternoon,Under 15 miles,No,2026-05-23,No,40,26
+WL-01071,Group A,Orthopedics,2026-05-24,2026-08-22,No preference,Under 15 miles,No,2026-06-07,No,33,19
+WL-01072,Group C,Orthopedics,2026-06-14,2026-09-12,Afternoon,Over 40 miles,Yes,2026-06-27,Yes,12,19
+WL-01073,Group C,Gastroenterology,2026-05-08,2026-05-22,No preference,15 to 40 miles,Yes,2026-05-27,No,49,29
+WL-01074,Group B,Pulmonology,2026-05-28,2026-06-18,Morning,Over 40 miles,Yes,,No,29,26
+WL-01075,Group D,Orthopedics,2026-06-21,2026-06-28,Morning,Under 15 miles,Yes,2026-07-06,No,5,19
+WL-01076,Group C,Neurology,2026-05-05,2026-05-12,Afternoon,15 to 40 miles,No,,No,52,41
+WL-01077,Group A,Pulmonology,2026-05-27,2026-06-26,No preference,Under 15 miles,No,,No,30,26
+WL-01078,Group A,Endocrinology,2026-04-21,2026-05-05,Morning,15 to 40 miles,No,,No,66,38
+WL-01079,Group A,Endocrinology,2026-06-17,2026-07-17,Morning,Over 40 miles,Yes,,No,9,38
+WL-01080,Group C,Neurology,2026-05-31,2026-06-30,Afternoon,Under 15 miles,Yes,2026-06-20,Yes,26,41
+WL-01081,Group B,Pulmonology,2026-04-16,2026-07-15,Morning,15 to 40 miles,Yes,,No,71,26
+WL-01082,Group C,Orthopedics,2026-06-08,2026-07-08,Morning,Under 15 miles,No,,No,18,19
+WL-01083,Group A,Gastroenterology,2026-06-07,2026-07-22,Morning,15 to 40 miles,Yes,,No,19,29
+WL-01084,Group A,Orthopedics,2026-06-16,2026-06-30,Morning,15 to 40 miles,No,,No,10,19
+WL-01085,Group D,Gastroenterology,2026-05-14,2026-05-28,No preference,Under 15 miles,Yes,,No,43,29
+WL-01086,Group A,Gastroenterology,2026-02-16,2026-04-17,No preference,Under 15 miles,Yes,,No,130,29
+WL-01087,Group D,Endocrinology,2026-05-23,2026-06-13,Afternoon,Under 15 miles,Yes,,No,34,38
+WL-01088,Group A,Cardiology,2026-05-27,2026-06-17,Morning,Under 15 miles,Yes,,No,30,24
+WL-01089,Group A,Gastroenterology,2026-02-05,2026-02-26,Afternoon,Under 15 miles,Yes,,No,141,29
+WL-01090,Group B,Gastroenterology,2026-04-05,2026-04-12,Morning,15 to 40 miles,No,2026-04-17,Yes,82,29
+WL-01091,Group C,Cardiology,2026-06-04,2026-06-18,Morning,Over 40 miles,Yes,2026-06-08,No,22,24
+WL-01092,Group D,Pulmonology,2026-06-18,2026-08-17,Morning,Under 15 miles,Yes,,No,8,26
+WL-01093,Group B,Endocrinology,2026-04-20,2026-05-11,Morning,15 to 40 miles,Yes,,No,67,38
+WL-01094,Group B,Orthopedics,2026-05-22,2026-06-21,Morning,Under 15 miles,Yes,,No,35,19
+WL-01095,Group D,Orthopedics,2026-03-29,2026-06-27,Morning,Under 15 miles,Yes,,No,89,19
+WL-01096,Group D,Gastroenterology,2026-04-05,2026-04-12,Afternoon,Over 40 miles,Yes,,No,82,29
+WL-01097,Group D,Orthopedics,2026-06-04,2026-07-04,No preference,Under 15 miles,Yes,2026-06-30,Yes,22,19
+WL-01098,Group C,Endocrinology,2026-06-08,2026-06-15,No preference,Under 15 miles,Yes,2026-06-11,No,18,38
+WL-01099,Group B,Cardiology,2026-05-16,2026-06-06,Afternoon,Under 15 miles,No,,No,41,24
+WL-01100,Group B,Neurology,2026-06-15,2025-11-15,Morning,Under 15 miles,Yes,2026-07-08,No,11,41
+WL-01101,Group B,Pulmonology,2026-05-20,2026-08-18,Afternoon,15 to 40 miles,No,,No,37,26
+WL-01102,Group B,Gastroenterology,2026-05-18,2026-06-08,Morning,Under 15 miles,Yes,2026-05-21,No,39,29
+WL-01103,Group A,Pulmonology,2026-06-24,2026-07-15,Morning,Under 15 miles,Yes,,No,2,26
+WL-01104,Group B,Gastroenterology,2026-06-06,2026-07-06,Afternoon,Under 15 miles,No,,No,20,29
+WL-01105,Group B,Endocrinology,2026-04-16,2026-04-23,Afternoon,Under 15 miles,Yes,,No,71,38
+WL-01106,Group D,Endocrinology,2026-06-21,2026-08-05,Afternoon,15 to 40 miles,Yes,,No,5,38
+WL-01107,Group D,Gastroenterology,2026-06-14,2026-09-12,No preference,15 to 40 miles,Yes,,No,12,29
+WL-01108,Group D,Neurology,2026-06-09,2026-07-09,Afternoon,Under 15 miles,No,2026-06-13,Yes,17,41
+WL-01109,Group B,Cardiology,2026-05-11,2026-05-18,Morning,Over 40 miles,Yes,,No,46,24
+WL-01110,Group C,Neurology,2026-04-18,2026-05-02,No preference,15 to 40 miles,Yes,2026-05-04,No,69,41
+WL-01111,Group B,Neurology,2026-06-01,2026-06-22,No preference,Under 15 miles,No,,No,25,41
+WL-01112,Group B,Pulmonology,2026-04-10,2026-05-25,No preference,Under 15 miles,No,,No,77,26
+WL-01113,Group A,Neurology,2026-05-10,2026-05-31,Morning,15 to 40 miles,Yes,,No,47,41
+WL-01114,Group B,Endocrinology,2026-05-13,2026-05-20,Afternoon,15 to 40 miles,Yes,,No,44,38
+WL-01115,Group D,Orthopedics,2026-05-02,2026-05-16,No preference,15 to 40 miles,No,2026-05-05,Yes,55,19
+WL-01116,Group B,Pulmonology,2026-06-11,2026-07-11,Morning,Under 15 miles,Yes,2026-06-18,Yes,15,26
+WL-01117,Group C,Gastroenterology,2026-05-13,2026-05-27,Afternoon,Under 15 miles,Yes,2026-06-07,Yes,44,29
+WL-01118,Group D,Orthopedics,2026-05-01,2026-05-15,Morning,Under 15 miles,Yes,,No,56,19
+WL-01119,Group A,Neurology,2026-06-05,2026-07-05,No preference,15 to 40 miles,Yes,2026-06-08,Yes,21,41
+WL-01120,Group D,Endocrinology,2026-06-23,2026-07-07,Afternoon,Over 40 miles,No,2026-06-27,Yes,3,38
+WL-01121,Group D,Neurology,2026-04-26,2026-06-25,Morning,Under 15 miles,No,,No,61,41
+WL-01122,Group B,Gastroenterology,2026-03-11,2026-03-25,No preference,15 to 40 miles,No,,No,107,29
+WL-01123,Group C,Endocrinology,2026-04-12,2026-05-27,Morning,Under 15 miles,Yes,2026-05-11,Yes,75,38
+WL-01124,Group C,Cardiology,2026-05-09,2026-06-23,Afternoon,Under 15 miles,Yes,,No,48,24
+WL-01125,Group C,Neurology,2026-06-03,2026-06-17,Afternoon,15 to 40 miles,No,,No,23,41
+WL-01126,Group C,Neurology,2026-06-10,2026-08-09,Morning,15 to 40 miles,Yes,,No,16,41
+WL-01127,Group D,Orthopedics,2026-06-17,2026-09-15,Morning,Under 15 miles,No,,No,9,19
+WL-01128,Group C,Gastroenterology,2026-05-05,2026-08-03,Morning,Over 40 miles,Yes,2026-05-28,Yes,52,29
+WL-01129,Group D,Orthopedics,2026-05-19,2026-05-26,Afternoon,Under 15 miles,No,,No,38,19
+WL-01130,Group D,Neurology,2026-05-31,2026-06-21,Afternoon,Under 15 miles,No,,No,26,41
+WL-01131,Group B,Gastroenterology,2026-05-16,2026-05-30,Afternoon,Over 40 miles,Yes,2026-06-01,Yes,41,29
+WL-01132,Group C,Neurology,2026-06-16,2026-06-23,Morning,Under 15 miles,Yes,2026-07-03,No,10,41
+WL-01133,Group A,Endocrinology,2026-05-06,2026-05-27,Afternoon,Under 15 miles,Yes,,No,51,38
+WL-01134,Group C,Neurology,2026-03-14,2026-03-28,Afternoon,15 to 40 miles,Yes,2026-03-23,Yes,104,41
+WL-01135,Group A,Pulmonology,2026-05-13,2026-06-27,Afternoon,Under 15 miles,Yes,,No,44,26
+WL-01136,Group A,Pulmonology,2026-05-02,2026-06-01,Morning,Under 15 miles,No,2026-05-07,No,55,26
+WL-01137,Group B,Gastroenterology,2026-06-07,2026-08-06,Morning,Under 15 miles,No,2026-06-30,Yes,19,29
+WL-01138,Group C,Orthopedics,2026-05-10,2026-06-09,Morning,15 to 40 miles,No,2026-05-24,No,47,19
+WL-01139,Group B,Pulmonology,2026-05-20,2026-07-19,No preference,Over 40 miles,Yes,,No,37,26
+WL-01140,Group D,Gastroenterology,2026-05-17,2026-05-24,Afternoon,Over 40 miles,No,,No,40,29
+WL-01141,Group A,Cardiology,2026-05-07,2026-05-21,No preference,Under 15 miles,No,,No,50,24
+WL-01142,Group C,Orthopedics,2026-04-17,2026-05-08,Morning,15 to 40 miles,No,,No,70,19
+WL-01143,Group D,Gastroenterology,2026-06-13,2026-08-12,Afternoon,Over 40 miles,No,,No,13,29
+WL-01144,Group D,Cardiology,2026-06-20,2026-07-04,Morning,Under 15 miles,Yes,,No,6,24
+WL-01145,Group A,Pulmonology,2026-05-17,2026-05-24,Afternoon,Under 15 miles,No,2026-05-21,No,40,26
+WL-01146,Group B,,2026-05-11,2026-06-10,Morning,Under 15 miles,Yes,2026-05-24,No,46,41
+WL-01147,Group C,Neurology,2026-05-27,2026-08-25,No preference,Over 40 miles,Yes,,No,30,41
+WL-01148,Group B,Neurology,2026-05-21,2026-07-05,Afternoon,Under 15 miles,No,2026-06-14,Yes,36,41
+WL-01149,Group B,Pulmonology,2026-04-21,2026-05-12,Morning,15 to 40 miles,No,2026-04-24,Yes,66,26
+WL-01150,Group A,Gastroenterology,2026-05-10,2026-08-08,Afternoon,15 to 40 miles,Yes,,No,47,29
+WL-01151,Group D,Pulmonology,2026-06-06,2026-06-20,Morning,Over 40 miles,Yes,,No,20,26
+WL-01152,Group C,Gastroenterology,2026-03-06,2026-04-05,Morning,Over 40 miles,Yes,2026-03-30,No,112,29
+WL-01153,Group D,Neurology,2026-06-02,2026-07-17,Afternoon,Under 15 miles,Yes,,No,24,41
+WL-01154,Group A,Neurology,2026-05-01,2026-06-15,No preference,15 to 40 miles,No,,No,56,41
+WL-01155,Group C,Cardiology,2026-06-08,2026-09-06,Afternoon,15 to 40 miles,Yes,,No,18,24
+WL-01156,Group B,Orthopedics,2026-04-11,2026-06-10,Afternoon,Under 15 miles,No,,No,76,19
+WL-01157,Group A,Orthopedics,2026-01-30,2026-02-13,Morning,Under 15 miles,Yes,2026-02-05,No,147,19
+WL-01158,Group B,Orthopedics,2026-05-04,2026-05-18,Afternoon,Under 15 miles,No,2026-05-31,Yes,53,19
+WL-01159,Group B,Pulmonology,2026-04-29,2026-05-13,Morning,Under 15 miles,No,,No,58,26
+WL-01160,Group B,Cardiology,2026-06-09,2026-07-24,Morning,Over 40 miles,No,,No,17,24
+WL-01161,Group C,Cardiology,2026-05-31,2026-07-30,No preference,15 to 40 miles,Yes,2026-06-22,No,26,24
+WL-01162,Group D,Neurology,2026-05-26,2026-06-16,Afternoon,Under 15 miles,Yes,,No,31,41
+WL-01163,Group B,Cardiology,2026-06-21,2026-09-19,No preference,15 to 40 miles,Yes,,No,5,24
+WL-01164,Group B,Gastroenterology,2026-03-03,2026-03-10,Morning,Under 15 miles,Yes,,No,115,29
+WL-01165,Group C,Cardiology,2026-06-15,2026-06-22,Afternoon,Under 15 miles,Yes,,No,11,24
+WL-01166,Group D,Cardiology,2026-06-10,2026-08-09,Morning,Under 15 miles,Yes,,No,16,24
+WL-01167,Group D,Gastroenterology,2026-04-21,2026-05-05,Morning,15 to 40 miles,Yes,2026-05-01,No,66,29
+WL-01168,Group C,Neurology,2026-06-03,2026-07-03,Morning,Over 40 miles,No,2026-06-10,Yes,23,41
+WL-01169,Group A,Pulmonology,2026-04-22,2026-05-06,Morning,Under 15 miles,Yes,2026-05-04,Yes,65,26
+WL-01170,Group A,Orthopedics,2026-05-30,2026-06-06,Afternoon,Under 15 miles,Yes,2026-06-09,Yes,27,19
+WL-01171,Group D,Neurology,2026-03-13,2026-04-03,No preference,Under 15 miles,Yes,,No,105,41
+WL-01172,Group C,Pulmonology,2026-06-01,2026-07-31,Afternoon,15 to 40 miles,Yes,2026-06-08,Yes,25,26
+WL-01173,Group A,Cardiology,2026-06-04,2026-07-04,Afternoon,Under 15 miles,Yes,,No,22,24
+WL-01174,Group B,Orthopedics,2026-06-01,2026-06-22,Morning,Under 15 miles,Yes,,No,25,19
+WL-01175,Group B,Endocrinology,2026-06-17,2026-06-24,Afternoon,15 to 40 miles,Yes,,No,9,38
+WL-01176,Group A,Neurology,2026-03-31,2026-04-21,No preference,Under 15 miles,Yes,,No,87,41
+WL-01177,Group B,Orthopedics,2026-06-03,2026-07-18,Morning,Under 15 miles,No,2026-07-03,Yes,23,19
+WL-01178,Group B,Gastroenterology,2026-05-06,2026-06-05,Morning,15 to 40 miles,Yes,2026-05-31,Yes,51,29
+WL-01179,Group A,Pulmonology,2026-05-22,2026-06-12,Morning,Under 15 miles,No,2026-06-20,Yes,35,26
+WL-01180,Group B,Neurology,2026-05-04,2026-05-11,No preference,Under 15 miles,Yes,,No,53,41
+WL-01181,Group C,Pulmonology,2026-06-08,2026-07-23,Morning,15 to 40 miles,Yes,,No,18,26
+WL-01182,Group C,Neurology,2026-04-20,2026-07-19,Morning,Under 15 miles,Yes,,No,67,41
+WL-01183,Group C,Cardiology,2026-05-24,2026-08-22,Morning,Under 15 miles,Yes,,No,33,24
+WL-01184,Group B,Orthopedics,2026-05-22,2026-06-21,Morning,Over 40 miles,Yes,2026-06-21,Yes,35,19
+WL-01185,Group A,Gastroenterology,2026-06-16,2026-07-07,No preference,Over 40 miles,No,,No,10,29
+WL-01186,Group B,Cardiology,2026-06-07,2025-11-15,Afternoon,Under 15 miles,Yes,2026-06-14,Yes,19,24
+WL-01187,Group C,Cardiology,2026-05-25,2026-06-24,Afternoon,Under 15 miles,Yes,,No,32,24
+WL-01188,Group B,Gastroenterology,2026-05-09,2026-06-08,Morning,Over 40 miles,No,2026-06-04,No,48,29
+WL-01189,Group A,,2026-05-24,2026-06-23,Morning,Over 40 miles,Yes,2026-06-15,Yes,33,41
+WL-01190,Group B,Pulmonology,2026-05-15,2026-06-29,Morning,Over 40 miles,No,,No,42,26
+WL-01191,Group A,Pulmonology,2026-05-20,2026-06-19,Morning,Under 15 miles,Yes,,No,37,26
+WL-01192,Group D,Pulmonology,2026-04-24,2026-05-08,Morning,15 to 40 miles,Yes,,No,63,26
+WL-01193,Group A,Gastroenterology,2026-05-19,2026-06-09,No preference,Under 15 miles,No,,No,38,29
+WL-01194,Group A,Endocrinology,2026-04-19,2026-05-03,Afternoon,Over 40 miles,No,,No,68,38
+WL-01195,Group C,Endocrinology,2026-04-21,2026-06-05,Morning,Under 15 miles,No,,No,66,38
+WL-01196,Group B,Gastroenterology,2026-05-05,2026-07-04,No preference,15 to 40 miles,Yes,2026-05-21,No,52,29
+WL-01197,Group C,Cardiology,2026-04-22,2026-07-21,Morning,Over 40 miles,No,,No,65,24
+WL-01198,Group D,Gastroenterology,2026-06-01,2026-06-08,Afternoon,15 to 40 miles,Yes,,No,25,29
+WL-01199,Group B,Pulmonology,2026-05-15,2026-06-05,Afternoon,15 to 40 miles,No,,No,42,26
+WL-01200,Group B,Gastroenterology,2026-06-07,2026-06-21,Morning,15 to 40 miles,Yes,,No,19,29
+WL-01201,Group A,Pulmonology,2026-05-09,2026-05-30,Afternoon,Under 15 miles,Yes,,No,48,26
+WL-01202,Group B,Gastroenterology,2026-05-20,2026-06-03,Morning,Under 15 miles,Yes,,No,37,29
+WL-01203,Group A,Pulmonology,2026-02-25,2026-04-11,Morning,Under 15 miles,No,,No,121,26
+WL-01204,Group C,Neurology,2026-05-08,2026-05-29,Morning,Under 15 miles,Yes,,No,49,41
+WL-01205,Group C,Orthopedics,2026-05-20,2026-06-10,No preference,15 to 40 miles,No,,No,37,19
+WL-01206,Group C,Endocrinology,2026-05-19,2026-06-02,No preference,Over 40 miles,No,,No,38,38
+WL-01207,Group D,Orthopedics,2026-05-23,2026-06-06,Morning,15 to 40 miles,No,2026-05-28,Yes,34,19
+WL-01208,Group C,Orthopedics,2026-05-31,2026-06-21,No preference,Under 15 miles,Yes,2026-06-29,No,26,19
+WL-01209,Group B,Orthopedics,2026-06-20,2026-06-27,Morning,Under 15 miles,Yes,2026-07-19,Yes,6,19
+WL-01210,Group A,Cardiology,2026-04-13,2026-07-12,No preference,15 to 40 miles,No,2026-04-24,No,74,24
+WL-01211,Group A,Pulmonology,2026-06-10,2026-08-09,No preference,Under 15 miles,Yes,,No,16,26
+WL-01212,Group C,Pulmonology,2026-05-06,2026-06-20,No preference,15 to 40 miles,No,,No,51,26
+WL-01213,Group D,Gastroenterology,2026-06-14,2026-07-05,No preference,Over 40 miles,Yes,,No,12,29
+WL-01214,Group C,,2026-06-08,2026-06-29,Morning,Under 15 miles,No,,No,18,19
+WL-01215,Group D,Orthopedics,2026-05-30,2026-07-14,Morning,15 to 40 miles,Yes,,No,27,19
+WL-01216,Group A,Cardiology,2026-05-18,2026-07-02,Morning,15 to 40 miles,Yes,,No,39,24
+WL-01217,Group B,Endocrinology,2026-03-15,2026-04-29,Afternoon,Under 15 miles,Yes,,No,103,38
+WL-01218,Group A,Cardiology,2026-05-16,2026-08-14,Afternoon,15 to 40 miles,No,,No,41,24
+WL-01219,Group A,Gastroenterology,2026-06-10,2026-06-17,Morning,15 to 40 miles,No,2026-06-26,Yes,16,29
+WL-01220,Group B,Neurology,2026-05-02,2026-05-09,No preference,Over 40 miles,Yes,,No,55,41
+WL-01221,Group D,Pulmonology,2026-05-08,2026-06-22,Afternoon,15 to 40 miles,Yes,,Yes,49,26
+WL-01222,Group B,Pulmonology,2026-06-08,2026-06-15,No preference,Under 15 miles,Yes,,No,18,26
+WL-01223,Group C,Cardiology,2026-05-18,2026-08-16,Morning,15 to 40 miles,Yes,,No,39,24
+WL-01224,Group A,Orthopedics,2026-06-01,2026-06-08,No preference,Under 15 miles,Yes,,No,25,19
+WL-01225,Group A,Endocrinology,2026-05-31,2026-06-14,Afternoon,Under 15 miles,Yes,,No,26,38
+WL-01226,Group C,Orthopedics,2026-04-12,2026-05-12,Afternoon,Over 40 miles,Yes,2026-05-07,No,75,19
+WL-01227,Group C,Neurology,2026-06-20,2026-06-27,Morning,Under 15 miles,No,2026-07-16,No,6,41
+WL-01228,Group C,Gastroenterology,2026-06-07,2026-06-28,No preference,Under 15 miles,No,2026-07-02,No,19,29
+WL-01229,Group A,Cardiology,2026-05-16,2026-07-15,Morning,15 to 40 miles,Yes,,No,41,24
+WL-01230,Group B,Pulmonology,2026-05-26,2026-06-09,Afternoon,Under 15 miles,No,,No,31,26
+WL-01231,Group A,Pulmonology,2026-05-16,2026-06-06,Morning,Under 15 miles,No,2026-05-30,Yes,41,26
+WL-01232,Group A,Neurology,2026-06-09,2026-07-24,Morning,Under 15 miles,No,2026-06-18,Yes,17,41
+WL-01233,Group D,Gastroenterology,2026-05-15,2026-06-29,No preference,Over 40 miles,No,2026-06-01,Yes,42,29
+WL-01234,Group A,Gastroenterology,2026-05-16,2025-11-15,Afternoon,Over 40 miles,Yes,,No,41,29
+WL-01235,Group B,Orthopedics,2026-06-22,2026-06-29,Morning,Under 15 miles,Yes,,No,4,19
+WL-01236,Group B,Neurology,2026-06-10,2026-07-10,Morning,Under 15 miles,Yes,,No,16,41
+WL-01237,Group C,Gastroenterology,2026-03-18,2026-04-17,Morning,15 to 40 miles,No,,No,100,29
+WL-01238,Group C,Gastroenterology,2026-06-14,2026-07-14,Morning,15 to 40 miles,Yes,,No,12,29
+WL-01239,Group A,Pulmonology,2026-06-17,2026-07-08,No preference,Under 15 miles,Yes,,No,9,26
+WL-01240,Group C,Gastroenterology,2026-05-01,2026-06-30,No preference,Under 15 miles,No,2026-05-09,Yes,56,29
+WL-01241,Group D,Neurology,2026-05-07,2026-05-21,Morning,15 to 40 miles,Yes,,No,50,41
+WL-01242,Group D,Gastroenterology,2026-05-18,2026-05-25,Morning,Under 15 miles,Yes,,No,39,29
+WL-01243,Group A,Gastroenterology,2026-04-07,2026-04-14,No preference,15 to 40 miles,No,,No,80,29
+WL-01244,Group B,Orthopedics,2026-06-10,2026-07-01,No preference,15 to 40 miles,Yes,,No,16,19
+WL-01245,Group C,Pulmonology,2026-05-01,2026-05-08,Morning,15 to 40 miles,No,2026-05-27,No,56,26
+WL-01246,Group B,Pulmonology,2026-05-27,2026-06-26,Afternoon,15 to 40 miles,No,,No,30,26
+WL-01247,Group D,Gastroenterology,2026-05-09,2026-06-23,Morning,Under 15 miles,No,,No,48,29
+WL-01248,Group A,Gastroenterology,2026-05-26,2026-06-02,Afternoon,Under 15 miles,No,2026-06-06,Yes,31,29
+WL-01249,Group D,Neurology,2026-06-14,2026-06-28,No preference,Under 15 miles,Yes,,No,12,41
+WL-01250,Group A,Cardiology,2026-04-09,2026-04-23,Morning,Under 15 miles,Yes,,No,78,24
+WL-01251,Group D,Cardiology,2026-05-17,2026-06-07,Afternoon,Under 15 miles,Yes,2026-06-11,Yes,40,24
+WL-01252,Group B,Gastroenterology,2026-06-04,2026-06-25,Afternoon,Under 15 miles,Yes,,No,22,29
+WL-01253,Group D,Orthopedics,2026-06-07,2026-06-14,Afternoon,Under 15 miles,Yes,,No,19,19
+WL-01254,Group D,Cardiology,2026-05-30,2026-07-14,Afternoon,15 to 40 miles,No,,No,27,24
+WL-01255,Group A,Endocrinology,2026-03-13,2026-03-20,Morning,Under 15 miles,Yes,,No,105,38
+WL-01256,Group A,Orthopedics,2026-06-11,2026-06-25,Morning,Under 15 miles,Yes,2026-07-05,Yes,15,19
+WL-01257,Group C,Orthopedics,2026-05-24,2026-06-14,Afternoon,Under 15 miles,No,2026-06-15,No,33,19
+WL-01258,Group A,Cardiology,2026-05-19,2026-05-26,No preference,15 to 40 miles,No,,No,38,24
+WL-01259,Group B,Orthopedics,2026-06-09,2026-06-23,No preference,15 to 40 miles,No,2026-06-17,Yes,17,19
+WL-01260,Group A,Gastroenterology,2026-05-26,2026-08-24,No preference,15 to 40 miles,Yes,,No,31,29
+WL-01261,Group C,Pulmonology,2026-04-08,2026-06-07,Afternoon,Over 40 miles,Yes,2026-04-30,No,79,26
+WL-01262,Group B,Neurology,2026-05-30,2026-08-28,No preference,15 to 40 miles,No,,No,27,41
+WL-01263,Group C,Cardiology,2026-05-01,2026-05-15,Afternoon,Under 15 miles,Yes,,No,56,24
+WL-01264,Group D,Pulmonology,2026-04-15,2026-07-14,Afternoon,15 to 40 miles,Yes,,No,72,26
+WL-01265,Group B,Orthopedics,2026-05-07,2026-05-14,Afternoon,Under 15 miles,No,2026-05-12,Yes,50,19
+WL-01266,Group D,Endocrinology,2026-05-23,2026-05-30,Morning,Under 15 miles,Yes,2026-05-28,Yes,34,38
+WL-01267,Group A,Pulmonology,2026-05-21,2026-06-20,Afternoon,Under 15 miles,No,,No,36,26
+WL-01268,Group B,Cardiology,2026-05-04,2026-08-02,Morning,15 to 40 miles,Yes,,No,53,24
+WL-01269,Group C,Orthopedics,2026-05-16,2026-06-30,No preference,Under 15 miles,Yes,2026-06-14,Yes,41,19
+WL-01270,Group C,Endocrinology,2026-06-01,2026-07-01,Morning,Over 40 miles,No,2026-06-18,Yes,25,38
+WL-01271,Group C,Cardiology,2026-05-26,2026-06-25,Afternoon,15 to 40 miles,Yes,2026-06-09,No,31,24
+WL-01272,Group C,Neurology,2026-05-20,2026-07-04,Morning,Under 15 miles,Yes,,No,37,41
+WL-01273,Group B,Orthopedics,2026-06-14,2026-06-21,No preference,15 to 40 miles,Yes,,No,12,19
+WL-01274,Group A,Neurology,2026-06-06,2026-06-20,Morning,Under 15 miles,No,,No,20,41
+WL-01275,Group B,Endocrinology,2026-03-02,2026-04-16,Morning,15 to 40 miles,Yes,,No,116,38
+WL-01276,Group C,Pulmonology,2026-03-06,2026-05-05,Morning,15 to 40 miles,Yes,,No,112,26
+WL-01277,Group C,Gastroenterology,2026-04-23,2026-07-22,Morning,Under 15 miles,Yes,,No,64,29
+WL-01278,Group C,Endocrinology,2026-06-05,2026-09-03,Afternoon,15 to 40 miles,No,2026-06-22,Yes,21,38
+WL-01279,Group C,Neurology,2026-06-16,2026-06-23,Morning,15 to 40 miles,Yes,,No,10,41
+WL-01280,Group C,Gastroenterology,2026-05-17,2026-05-24,Morning,Under 15 miles,Yes,2026-05-19,Yes,40,29
+WL-01281,Group B,Orthopedics,2026-05-01,2026-05-22,No preference,15 to 40 miles,No,,No,56,19
+WL-01282,Group D,Neurology,2026-02-09,2026-04-10,No preference,15 to 40 miles,Yes,2026-02-11,Yes,137,41
+WL-01283,Group B,Endocrinology,2026-05-29,2026-06-28,No preference,Under 15 miles,Yes,,No,28,38
+WL-01284,Group B,Cardiology,2026-06-16,2026-07-31,Afternoon,Under 15 miles,Yes,,No,10,24
+WL-01285,Group C,Pulmonology,2026-05-19,2026-07-03,No preference,Over 40 miles,Yes,,No,38,26
+WL-01286,Group C,Orthopedics,2026-05-06,2026-06-05,Afternoon,Under 15 miles,No,,No,51,19
+WL-01287,Group C,Cardiology,2026-06-10,2026-06-24,Afternoon,15 to 40 miles,No,,Yes,16,24
+WL-01288,Group B,Cardiology,2026-06-11,2026-07-26,Morning,Under 15 miles,Yes,,No,15,24
+WL-01289,Group B,Endocrinology,2026-06-24,2026-07-15,Morning,Over 40 miles,No,2026-06-25,No,2,38
+WL-01290,Group C,Orthopedics,2026-05-25,2026-06-01,Afternoon,15 to 40 miles,Yes,,No,32,19
+WL-01291,Group A,Orthopedics,2026-04-07,2026-07-06,No preference,Over 40 miles,No,2026-05-01,Yes,80,19
+WL-01292,Group A,Pulmonology,2026-05-31,2026-06-07,Afternoon,15 to 40 miles,Yes,,No,26,26
+WL-01293,Group B,Endocrinology,2026-05-22,2026-07-06,Morning,Under 15 miles,Yes,,No,35,38
+WL-01294,Group D,Gastroenterology,2026-06-11,2026-09-09,Morning,Under 15 miles,No,,No,15,29
+WL-01295,Group A,Cardiology,2026-06-08,2026-06-15,Morning,15 to 40 miles,Yes,2026-06-22,No,18,24
+WL-01296,Group D,Gastroenterology,2026-06-12,2026-09-10,Morning,Under 15 miles,No,,No,14,29
+WL-01297,Group A,Orthopedics,2026-06-11,2026-07-11,Afternoon,Under 15 miles,Yes,,No,15,19
+WL-01298,Group D,Pulmonology,2026-05-10,2026-07-09,Afternoon,Under 15 miles,No,,No,47,26
+WL-01299,Group B,Neurology,2026-03-03,2026-04-17,Afternoon,Under 15 miles,Yes,,No,115,41
+WL-01300,Group C,Orthopedics,2026-06-13,2026-07-28,Afternoon,Under 15 miles,No,,No,13,19
+WL-01301,Group B,Neurology,2026-05-23,2026-07-22,Afternoon,Over 40 miles,Yes,,No,34,41
+WL-01302,Group A,Neurology,2026-06-04,2026-06-11,Afternoon,15 to 40 miles,No,,No,22,41
+WL-01303,Group C,Cardiology,2026-06-11,2026-07-11,Morning,Over 40 miles,Yes,,No,15,24
+WL-01304,Group D,Cardiology,2026-05-31,2026-06-14,No preference,Under 15 miles,No,2026-06-16,No,26,24
+WL-01305,Group B,Orthopedics,2026-06-03,2026-06-10,No preference,Under 15 miles,No,,No,23,19
+WL-01306,Group B,Orthopedics,2026-05-28,2026-07-12,No preference,Under 15 miles,No,2026-06-25,Yes,29,19
+WL-01307,Group D,Endocrinology,2026-04-25,2026-05-16,Afternoon,Under 15 miles,Yes,,No,62,38
+WL-01308,Group C,Gastroenterology,2026-06-04,2026-07-19,Morning,Under 15 miles,Yes,,No,22,29
+WL-01309,Group B,Endocrinology,2026-05-16,2026-06-15,No preference,Under 15 miles,No,,No,41,38
+WL-01310,Group B,Cardiology,2026-05-08,2026-06-22,Afternoon,Under 15 miles,Yes,,No,49,24
+WL-01311,Group D,Gastroenterology,2026-05-16,2026-07-15,Afternoon,Under 15 miles,Yes,,No,41,29
+WL-01312,Group B,Gastroenterology,2026-04-23,2026-05-07,Afternoon,Under 15 miles,Yes,,No,64,29
+WL-01313,Group D,Cardiology,2026-04-08,2026-05-08,No preference,Under 15 miles,Yes,2026-04-18,Yes,79,24
+WL-01314,Group B,Orthopedics,2026-05-12,2026-06-02,Morning,Under 15 miles,Yes,,No,45,19
+WL-01315,Group A,Orthopedics,2026-03-18,2026-06-16,Afternoon,15 to 40 miles,No,2026-04-07,Yes,100,19
+WL-01316,Group A,Cardiology,2026-05-24,2026-07-23,Afternoon,Under 15 miles,Yes,2026-06-20,Yes,33,24
+WL-01317,Group B,Orthopedics,2026-05-29,2026-06-28,Morning,Over 40 miles,Yes,2026-06-01,No,28,19
+WL-01318,Group A,Pulmonology,2026-05-21,2026-07-20,Afternoon,15 to 40 miles,No,,No,36,26
+WL-01319,Group C,Cardiology,2026-06-07,2026-07-22,Afternoon,15 to 40 miles,Yes,2026-06-10,Yes,19,24
+WL-01320,Group C,Orthopedics,2026-05-18,2026-08-16,Morning,15 to 40 miles,No,2026-05-30,No,39,19
+WL-01321,Group B,Gastroenterology,2026-05-24,2026-05-31,No preference,15 to 40 miles,Yes,,No,33,29
+WL-01322,Group A,Pulmonology,2026-05-18,2026-06-01,No preference,Under 15 miles,No,2026-06-14,Yes,39,26
+WL-01323,Group A,Orthopedics,2026-05-03,2026-06-02,Afternoon,Over 40 miles,No,,No,54,19
+WL-01324,Group A,Neurology,2026-04-12,2026-05-03,Morning,Over 40 miles,Yes,2026-04-23,Yes,75,41
+WL-01325,Group A,Endocrinology,2026-05-15,2026-05-29,Morning,Under 15 miles,Yes,,No,42,38
+WL-01326,Group C,Cardiology,2026-03-21,2026-03-28,No preference,Under 15 miles,Yes,2026-03-25,No,97,24
+WL-01327,Group D,Gastroenterology,2026-06-17,2026-07-01,Morning,15 to 40 miles,Yes,2026-06-28,Yes,9,29
+WL-01328,Group C,Cardiology,2026-05-28,2026-06-11,Morning,Over 40 miles,Yes,,No,29,24
+WL-01329,Group B,Cardiology,2026-06-14,2026-07-29,Afternoon,Under 15 miles,Yes,,No,12,24
+WL-01330,Group A,Endocrinology,2026-05-30,2026-07-14,Morning,15 to 40 miles,Yes,,No,27,38
+WL-01331,Group A,Endocrinology,2026-05-19,2026-08-17,Morning,Under 15 miles,Yes,,No,38,38
+WL-01332,Group C,Endocrinology,2026-04-14,2026-05-29,Afternoon,Under 15 miles,Yes,,No,73,38
+WL-01333,Group A,Orthopedics,2026-03-22,2026-06-20,Afternoon,Over 40 miles,No,2026-04-09,Yes,96,19
+WL-01334,Group C,Orthopedics,2026-05-20,2026-06-10,No preference,15 to 40 miles,Yes,,No,37,19
+WL-01335,Group C,Gastroenterology,2026-04-24,2026-07-23,Afternoon,Under 15 miles,Yes,,No,63,29
+WL-01336,Group A,Pulmonology,2026-05-16,2026-06-15,Afternoon,Under 15 miles,Yes,,No,41,26
+WL-01337,Group B,Cardiology,2026-05-28,2026-06-04,Morning,15 to 40 miles,Yes,,No,29,24
+WL-01338,Group D,Endocrinology,2026-06-04,2026-08-03,No preference,Under 15 miles,Yes,,No,22,38
+WL-01339,Group A,Pulmonology,2026-04-12,2026-06-11,Afternoon,Under 15 miles,Yes,2026-05-11,No,75,26
+WL-01340,Group A,Pulmonology,2026-05-17,2026-08-15,Morning,Under 15 miles,Yes,,No,40,26
+WL-01341,Group B,Pulmonology,2026-05-22,2026-06-05,Afternoon,Under 15 miles,Yes,,No,35,26
+WL-01342,Group D,Endocrinology,2026-04-09,2026-05-09,Morning,Under 15 miles,No,,No,78,38
+WL-01343,Group C,Endocrinology,2026-05-31,2026-06-14,Morning,Under 15 miles,No,2026-06-16,Yes,26,38
+WL-01344,Group B,Endocrinology,2026-03-25,2026-04-15,Morning,Under 15 miles,No,,No,93,38
+WL-01345,Group B,Pulmonology,2026-06-04,2026-06-25,Morning,Over 40 miles,No,,No,22,26
+WL-01346,Group A,Pulmonology,2026-06-14,2026-07-29,Morning,Under 15 miles,No,,No,12,26
+WL-01347,Group C,Cardiology,2026-04-20,2026-06-04,Afternoon,Under 15 miles,No,,No,67,24
+WL-01348,Group B,Neurology,2026-06-21,2026-07-12,Morning,15 to 40 miles,No,,No,5,41
+WL-01349,Group C,Gastroenterology,2026-06-06,2026-07-21,Morning,Under 15 miles,Yes,,No,20,29
+WL-01350,Group B,Gastroenterology,2026-05-14,2026-06-13,Morning,15 to 40 miles,Yes,2026-05-18,Yes,43,29
+WL-01351,Group D,Pulmonology,2026-05-18,2026-08-16,Morning,15 to 40 miles,Yes,,No,39,26
+WL-01352,Group D,Orthopedics,2026-05-25,2026-07-24,Morning,Over 40 miles,No,,No,32,19
+WL-01353,Group C,Gastroenterology,2026-05-09,2026-07-08,Afternoon,Under 15 miles,Yes,2026-05-19,No,48,29
+WL-01354,Group C,Endocrinology,2026-04-09,2026-06-08,Afternoon,Under 15 miles,Yes,,No,78,38
+WL-01355,Group B,Cardiology,2026-04-27,2026-05-11,Afternoon,Under 15 miles,No,,No,60,24
+WL-01356,Group A,Cardiology,2026-03-26,2026-06-24,Morning,15 to 40 miles,No,,No,92,24
+WL-01357,Group A,Gastroenterology,2026-05-11,2026-05-18,Afternoon,Under 15 miles,No,,No,46,29
+WL-01358,Group B,Gastroenterology,2026-06-10,2026-07-01,Morning,Under 15 miles,Yes,,No,16,29
+WL-01359,Group B,Neurology,2026-05-16,2026-06-15,Morning,15 to 40 miles,Yes,2026-06-05,Yes,41,41
+WL-01360,Group C,Neurology,2026-06-04,2026-08-03,Afternoon,15 to 40 miles,No,,No,22,41
+WL-01361,Group C,Gastroenterology,2026-06-24,2026-07-15,Afternoon,Over 40 miles,Yes,,No,2,29
+WL-01362,Group B,Pulmonology,2026-05-31,2026-06-14,Morning,Under 15 miles,Yes,,No,26,26
+WL-01363,Group C,Neurology,2026-05-28,2026-06-04,Afternoon,Under 15 miles,No,,No,29,41
+WL-01364,Group B,Endocrinology,2026-06-20,2026-07-04,Afternoon,Over 40 miles,Yes,2026-07-02,Yes,6,38
+WL-01365,Group C,Orthopedics,2026-05-14,2026-05-21,Morning,Under 15 miles,Yes,,No,43,19
+WL-01366,Group A,Orthopedics,2026-06-12,2026-06-19,No preference,Under 15 miles,No,,No,14,19
+WL-01367,Group C,Pulmonology,2026-04-28,2026-05-05,Afternoon,Under 15 miles,Yes,,No,59,26
+WL-01368,Group C,Pulmonology,2026-04-12,2026-05-27,Morning,Under 15 miles,No,,No,75,26
+WL-01369,Group A,Neurology,2026-05-06,2026-05-20,No preference,Under 15 miles,No,,No,51,41
+WL-01370,Group D,Neurology,2026-05-25,2026-08-23,Morning,15 to 40 miles,No,,No,32,41
+WL-01371,Group C,Neurology,2026-04-14,2026-06-13,No preference,Under 15 miles,Yes,,No,73,41
+WL-01372,Group C,Endocrinology,2026-05-20,2026-08-18,No preference,Under 15 miles,Yes,,No,37,38
+WL-01373,Group A,Neurology,2026-05-26,2026-07-25,Afternoon,Over 40 miles,Yes,2026-06-01,No,31,41
+WL-01374,Group B,Orthopedics,2026-06-04,2026-09-02,Afternoon,Over 40 miles,No,,No,22,19
+WL-01375,Group B,Endocrinology,2026-04-22,2026-06-21,Morning,Under 15 miles,Yes,,No,65,38
+WL-01376,Group C,Pulmonology,2026-05-05,2026-05-19,Afternoon,Under 15 miles,No,2026-06-02,No,52,26
+WL-01377,Group C,Orthopedics,2026-05-25,2026-06-24,Morning,15 to 40 miles,No,2026-06-08,No,32,19
+WL-01378,Group B,Endocrinology,2026-06-10,2026-09-08,Afternoon,15 to 40 miles,Yes,,No,16,38
+WL-01379,Group C,Pulmonology,2026-06-05,2026-06-19,Morning,Under 15 miles,Yes,,No,21,26
+WL-01380,Group D,Gastroenterology,2026-06-12,2026-07-12,Morning,15 to 40 miles,No,,No,14,29
+WL-01381,Group B,Neurology,2026-05-10,2026-07-09,Morning,Over 40 miles,No,,No,47,41
+WL-01382,Group B,Cardiology,2026-05-29,2026-07-28,Afternoon,15 to 40 miles,Yes,2026-06-18,Yes,28,24
+WL-01383,Group A,Endocrinology,2026-03-23,2026-04-22,Morning,Under 15 miles,No,2026-04-13,Yes,95,38
+WL-01384,Group B,Gastroenterology,2026-05-21,2026-06-20,Afternoon,15 to 40 miles,Yes,,No,36,29
+WL-01385,Group B,Endocrinology,2026-06-21,2026-06-28,Afternoon,Under 15 miles,Yes,2026-07-09,No,5,38
+WL-01386,Group D,Neurology,2026-03-21,2026-04-11,Morning,Over 40 miles,Yes,,No,97,41
+WL-01387,Group A,Pulmonology,2026-05-24,2026-06-07,Afternoon,Under 15 miles,No,,No,33,26
+WL-01388,Group D,Endocrinology,2026-04-02,2026-04-23,Morning,Over 40 miles,No,,No,85,38
+WL-01389,Group B,Gastroenterology,2026-06-18,2026-09-16,Morning,Under 15 miles,Yes,,No,8,29
+WL-01390,Group D,Gastroenterology,2026-05-10,2026-06-24,Morning,Under 15 miles,No,,No,47,29
+WL-01391,Group B,Cardiology,2026-05-16,2026-05-30,Morning,Under 15 miles,Yes,2026-05-27,Yes,41,24
+WL-01392,Group D,Pulmonology,2026-06-04,2026-06-11,Morning,Under 15 miles,Yes,,No,22,26
+WL-01393,Group A,Orthopedics,2026-06-18,2026-07-09,Morning,Under 15 miles,Yes,,No,8,19
+WL-01394,Group C,Endocrinology,2026-05-31,2026-06-07,Afternoon,Under 15 miles,Yes,2026-06-23,Yes,26,38
+WL-01395,Group A,Orthopedics,2026-06-18,2026-08-02,Morning,Under 15 miles,Yes,,No,8,19
+WL-01396,Group D,Pulmonology,2026-05-11,2026-06-25,Afternoon,15 to 40 miles,No,2026-06-09,Yes,46,26
+WL-01397,Group A,Gastroenterology,2026-06-20,2026-08-04,No preference,Over 40 miles,Yes,,No,6,29
+WL-01398,Group A,Neurology,2026-04-30,2026-05-07,No preference,15 to 40 miles,No,,No,57,41
+WL-01399,Group D,Gastroenterology,2026-06-07,2026-09-05,No preference,Under 15 miles,No,,No,19,29
+WL-01400,Group D,Gastroenterology,2026-06-17,2026-08-16,Afternoon,15 to 40 miles,Yes,,No,9,29
+WL-01401,Group D,Endocrinology,2026-04-15,2026-05-06,Morning,15 to 40 miles,Yes,,No,72,38
+WL-01402,Group D,Orthopedics,2026-05-28,2026-06-27,No preference,Under 15 miles,Yes,,No,29,19
+WL-01403,Group D,Orthopedics,2026-05-22,2025-11-15,Afternoon,Under 15 miles,Yes,,No,35,19
+WL-01404,Group D,Cardiology,2026-06-19,2026-08-03,Morning,Under 15 miles,No,,No,7,24
+WL-01405,Group C,Neurology,2026-04-19,2026-06-18,Afternoon,Under 15 miles,Yes,,No,68,41
+WL-01406,Group B,Gastroenterology,2026-05-06,2026-05-27,Morning,Under 15 miles,No,2026-05-28,No,51,29
+WL-01407,Group B,Gastroenterology,2026-04-26,2026-05-10,Morning,Under 15 miles,No,,No,61,29
+WL-01408,Group D,Orthopedics,2026-06-04,2026-06-11,Morning,Under 15 miles,Yes,,No,22,19
+WL-01409,Group D,Gastroenterology,2026-05-14,2026-06-13,Afternoon,Under 15 miles,Yes,,No,43,29
+WL-01410,Group D,Endocrinology,2026-05-24,2026-07-08,Morning,Under 15 miles,No,2026-06-16,No,33,38
+WL-01411,Group B,Neurology,2026-01-21,2026-04-21,Morning,15 to 40 miles,Yes,,No,156,41
+WL-01412,Group B,Orthopedics,2026-04-04,2026-04-18,No preference,Under 15 miles,Yes,,No,83,19
+WL-01413,Group A,Neurology,2026-01-22,2026-02-05,Morning,Under 15 miles,No,2026-01-24,No,155,41
+WL-01414,Group B,,2026-05-19,2026-07-18,Morning,Under 15 miles,No,2026-06-01,Yes,38,38
+WL-01415,Group C,Cardiology,2026-04-29,2026-05-20,No preference,Under 15 miles,Yes,,No,58,24
+WL-01416,Group C,Orthopedics,2026-05-12,2026-08-10,Afternoon,15 to 40 miles,Yes,2026-06-03,Yes,45,19
+WL-01417,Group C,Endocrinology,2026-04-03,2026-04-24,Morning,15 to 40 miles,Yes,2026-04-07,No,84,38
+WL-01418,Group C,Endocrinology,2026-06-07,2026-06-14,No preference,Under 15 miles,Yes,,No,19,38
+WL-01419,Group B,Cardiology,2026-05-28,2026-08-26,Morning,Under 15 miles,Yes,,No,29,24
+WL-01420,Group C,Endocrinology,2026-05-30,2026-06-20,No preference,Under 15 miles,Yes,2026-06-20,Yes,27,38
+WL-01421,Group D,Endocrinology,2026-06-20,2026-07-04,Morning,Under 15 miles,No,,No,6,38
+WL-01422,Group D,Pulmonology,2026-05-12,2026-05-19,Afternoon,Under 15 miles,No,,No,45,26
+WL-01423,Group B,Cardiology,2026-05-19,2026-06-02,Afternoon,Over 40 miles,Yes,2026-06-11,No,38,24
+WL-01424,Group B,Neurology,2026-05-06,2026-07-05,Morning,15 to 40 miles,No,,No,51,41
+WL-01425,Group C,Pulmonology,2026-06-06,2026-06-20,Afternoon,Over 40 miles,Yes,,No,20,26
+WL-01426,Group A,Neurology,2026-04-08,2026-05-23,Morning,15 to 40 miles,No,,No,79,41
+WL-01427,Group D,Cardiology,2026-05-04,2026-05-18,Morning,15 to 40 miles,Yes,,No,53,24
+WL-01428,Group C,Neurology,2026-06-11,2026-07-26,Afternoon,Under 15 miles,No,2026-06-14,Yes,15,41
+WL-01429,Group B,Gastroenterology,2026-03-30,2026-05-29,Afternoon,Under 15 miles,Yes,2026-04-16,Yes,88,29
+WL-01430,Group C,Orthopedics,2026-06-09,2026-07-09,Morning,Under 15 miles,No,,No,17,19
+WL-01431,Group C,Neurology,2026-04-13,2026-07-12,Morning,15 to 40 miles,Yes,,No,74,41
+WL-01432,Group C,Cardiology,2026-04-24,2026-07-23,No preference,Under 15 miles,No,,No,63,24
+WL-01433,Group D,Neurology,2026-05-24,2026-06-07,No preference,Under 15 miles,Yes,2026-06-21,No,33,41
+WL-01434,Group C,Pulmonology,2026-06-15,2026-06-22,Afternoon,Under 15 miles,Yes,,No,11,26
+WL-01435,Group C,Pulmonology,2026-06-02,2026-06-16,Afternoon,15 to 40 miles,Yes,2026-06-21,Yes,24,26
+WL-01436,Group D,Gastroenterology,2026-06-01,2026-06-08,Afternoon,Under 15 miles,No,2026-06-14,Yes,25,29
+WL-01437,Group A,Endocrinology,2026-05-29,2026-06-19,Afternoon,Under 15 miles,No,,No,28,38
+WL-01438,Group B,Neurology,2026-05-30,2026-07-29,Morning,Over 40 miles,No,,No,27,41
+WL-01439,Group D,Neurology,2026-03-15,2026-03-22,Afternoon,Under 15 miles,Yes,,No,103,41
+WL-01440,Group B,Cardiology,2026-05-31,2026-06-21,Morning,Under 15 miles,No,2026-06-03,Yes,26,24
+WL-01441,Group A,Neurology,2026-05-13,2026-08-11,Morning,Under 15 miles,Yes,,No,44,41
+WL-01442,Group B,Gastroenterology,2026-05-27,2026-06-17,Morning,15 to 40 miles,No,,No,30,29
+WL-01443,Group A,Neurology,2026-05-21,2026-06-11,Morning,Over 40 miles,No,,No,36,41
+WL-01444,Group D,Orthopedics,2026-05-24,2026-05-31,Afternoon,Under 15 miles,No,,No,33,19
+WL-01445,Group D,Orthopedics,2026-05-20,2026-08-18,Morning,15 to 40 miles,No,2026-06-12,No,37,19
+WL-01446,Group B,Neurology,2026-04-26,2026-05-03,Afternoon,15 to 40 miles,Yes,,No,61,41
+WL-01447,Group A,Cardiology,2026-03-10,2026-04-24,Morning,15 to 40 miles,Yes,,No,108,24
+WL-01448,Group C,Pulmonology,2026-04-01,2026-06-30,Afternoon,15 to 40 miles,No,2026-04-09,No,86,26
+WL-01449,Group C,Cardiology,2026-06-04,2026-09-02,Morning,Under 15 miles,Yes,,No,22,24
+WL-01450,Group B,Gastroenterology,2026-04-26,2026-06-10,Afternoon,15 to 40 miles,Yes,,No,61,29
+WL-01451,Group B,Cardiology,2026-05-22,2026-06-21,Afternoon,Under 15 miles,Yes,,No,35,24
+WL-01452,Group C,Cardiology,2026-06-10,2026-07-01,Morning,Over 40 miles,Yes,,No,16,24
+WL-01453,Group B,Pulmonology,2026-05-09,2026-08-07,No preference,Under 15 miles,Yes,,No,48,26
+WL-01454,Group B,Pulmonology,2026-04-29,2026-05-13,Morning,Under 15 miles,Yes,,No,58,26
+WL-01455,Group D,Endocrinology,2026-05-23,2026-07-22,Morning,15 to 40 miles,No,,No,34,38
+WL-01456,Group D,Cardiology,2026-04-19,2026-04-26,Morning,15 to 40 miles,No,2026-05-08,Yes,68,24
+WL-01457,Group B,Endocrinology,2026-05-15,2026-08-13,No preference,15 to 40 miles,No,,No,42,38
+WL-01458,Group B,Cardiology,2026-04-18,2026-05-18,No preference,15 to 40 miles,No,,No,69,24
+WL-01459,Group A,Cardiology,2026-05-13,2026-08-11,No preference,Under 15 miles,Yes,,No,44,24
+WL-01460,Group A,Gastroenterology,2026-03-30,2026-05-29,Morning,Under 15 miles,No,,No,88,29
+WL-01461,Group B,Orthopedics,2026-05-25,2026-08-23,No preference,Under 15 miles,Yes,2026-05-27,No,32,19
+WL-01462,Group A,Neurology,2026-06-07,2026-07-22,Morning,Over 40 miles,No,,No,19,41
+WL-01463,Group D,Orthopedics,2026-05-12,2026-06-26,Morning,Over 40 miles,Yes,,No,45,19
+WL-01464,Group A,Endocrinology,2026-06-04,2026-06-11,Morning,Over 40 miles,No,2026-06-08,No,22,38
+WL-01465,Group B,Cardiology,2026-06-01,2026-07-01,No preference,Under 15 miles,Yes,,No,25,24
+WL-01466,Group B,Gastroenterology,2026-04-13,2026-05-04,Afternoon,15 to 40 miles,No,,No,74,29
+WL-01467,Group C,Gastroenterology,2026-06-10,2026-06-17,Morning,15 to 40 miles,No,,No,16,29
+WL-01468,Group B,Cardiology,2026-01-23,2026-03-24,Afternoon,15 to 40 miles,Yes,2026-02-16,Yes,154,24
+WL-01469,Group A,Orthopedics,2026-04-13,2026-06-12,No preference,15 to 40 miles,Yes,,No,74,19
+WL-01470,Group B,Gastroenterology,2026-05-12,2026-06-02,No preference,15 to 40 miles,No,2026-05-21,Yes,45,29
+WL-01471,Group A,Gastroenterology,2026-03-11,2026-04-10,Afternoon,15 to 40 miles,Yes,,No,107,29
+WL-01472,Group C,Neurology,2026-06-06,2026-08-05,Morning,15 to 40 miles,No,,No,20,41
+WL-01473,Group C,Orthopedics,2026-05-14,2026-06-28,Morning,Under 15 miles,Yes,,No,43,19
+WL-01474,Group A,Orthopedics,2026-05-10,2026-05-24,Afternoon,Under 15 miles,Yes,,No,47,19
+WL-01475,Group C,Orthopedics,2026-06-07,2026-06-14,Afternoon,15 to 40 miles,No,2026-06-27,Yes,19,19
+WL-01476,Group A,Endocrinology,2026-05-29,2026-06-19,Morning,Under 15 miles,Yes,,No,28,38
+WL-01477,Group B,Orthopedics,2026-05-25,2026-07-24,Morning,15 to 40 miles,Yes,,No,32,19
+WL-01478,Group A,Pulmonology,2026-04-04,2026-04-11,Afternoon,15 to 40 miles,Yes,,No,83,26
+WL-01479,Group D,Neurology,2026-06-10,2026-07-25,No preference,15 to 40 miles,Yes,,No,16,41
+WL-01480,Group B,Orthopedics,2026-06-10,2026-07-25,Morning,Over 40 miles,No,,No,16,19
+WL-01481,Group D,Cardiology,2026-06-07,2026-08-06,Afternoon,Under 15 miles,No,,No,19,24
+WL-01482,Group D,Endocrinology,2026-05-30,2026-06-13,Morning,Over 40 miles,No,,No,27,38
+WL-01483,Group B,Gastroenterology,2026-05-19,2026-08-17,No preference,Under 15 miles,No,,No,38,29
+WL-01484,Group A,,2026-04-16,2026-05-31,Afternoon,Under 15 miles,Yes,2026-05-10,Yes,71,38
+WL-01485,Group D,Endocrinology,2026-05-26,2026-08-24,Morning,Under 15 miles,No,,No,31,38
+WL-01486,Group C,Endocrinology,2026-05-17,2026-06-16,No preference,15 to 40 miles,No,,No,40,38
+WL-01487,Group B,Cardiology,2026-06-16,2026-06-23,No preference,Under 15 miles,No,2026-07-07,Yes,10,24
+WL-01488,Group B,Cardiology,2026-04-21,2026-05-05,No preference,15 to 40 miles,Yes,2026-04-24,No,66,24
+WL-01489,Group D,Pulmonology,2026-06-19,2026-08-03,No preference,Over 40 miles,Yes,2026-07-19,Yes,7,26
+WL-01490,Group B,Gastroenterology,2026-03-27,2026-04-10,Afternoon,15 to 40 miles,Yes,,No,91,29
+WL-01491,Group A,Cardiology,2026-06-16,2026-07-16,Afternoon,15 to 40 miles,No,2026-07-11,Yes,10,24
+WL-01492,Group B,Orthopedics,2026-05-02,2026-05-23,No preference,Under 15 miles,No,,No,55,19
+WL-01493,Group C,Cardiology,2026-05-26,2026-06-09,Morning,Under 15 miles,Yes,,No,31,24
+WL-01494,Group B,Orthopedics,2026-06-10,2026-07-25,Morning,Over 40 miles,Yes,,No,16,19
+WL-01495,Group B,Pulmonology,2026-05-23,2026-06-22,Afternoon,Under 15 miles,No,,No,34,26
+WL-01496,Group D,Gastroenterology,2026-05-03,2026-06-17,No preference,15 to 40 miles,Yes,,No,54,29
+WL-01497,Group A,Endocrinology,2026-05-06,2026-05-13,Afternoon,Over 40 miles,Yes,,No,51,38
+WL-01498,Group C,Endocrinology,2026-05-05,2026-08-03,Morning,Under 15 miles,Yes,,No,52,38
+WL-01499,Group C,Endocrinology,2026-06-12,2026-08-11,No preference,15 to 40 miles,No,,No,14,38
+WL-01500,Group A,Cardiology,2026-01-18,2026-01-25,No preference,Under 15 miles,Yes,,No,159,24
+WL-01501,Group D,Neurology,2026-05-01,2026-06-30,Afternoon,Under 15 miles,Yes,,No,56,41
+WL-01502,Group B,Neurology,2026-04-27,2026-07-26,Morning,Under 15 miles,Yes,2026-05-16,No,60,41
+WL-01503,Group B,Cardiology,2026-04-03,2026-07-02,Afternoon,Under 15 miles,Yes,,No,84,24
+WL-01504,Group D,Gastroenterology,2026-05-18,2026-06-17,Morning,15 to 40 miles,No,2026-05-28,Yes,39,29
+WL-01505,Group A,Pulmonology,2026-06-23,2026-07-07,No preference,Under 15 miles,Yes,2026-07-11,No,3,26
+WL-01506,Group D,Neurology,2026-04-26,2026-05-17,No preference,15 to 40 miles,Yes,,No,61,41
+WL-01507,Group A,Neurology,2026-06-11,2026-08-10,Afternoon,Under 15 miles,Yes,2026-06-12,No,15,41
+WL-01508,Group B,Cardiology,2026-05-27,2026-07-11,No preference,15 to 40 miles,Yes,,No,30,24
+WL-01509,Group B,Pulmonology,2026-05-28,2026-08-26,Afternoon,Under 15 miles,No,2026-06-02,Yes,29,26
+WL-01510,Group A,Endocrinology,2026-06-04,2026-08-03,Morning,Over 40 miles,Yes,2026-06-26,Yes,22,38
+WL-01511,Group C,Orthopedics,2026-05-21,2026-08-19,Morning,Under 15 miles,No,2026-05-26,Yes,36,19
+WL-01512,Group B,Pulmonology,2026-06-06,2026-07-21,Afternoon,Under 15 miles,Yes,,No,20,26
+WL-01513,Group C,Pulmonology,2026-05-23,2026-06-22,Morning,15 to 40 miles,Yes,,No,34,26
+WL-01514,Group C,Pulmonology,2026-05-12,2026-08-10,Afternoon,Over 40 miles,No,,No,45,26
+WL-01515,Group C,Orthopedics,2026-05-10,2026-08-08,Morning,15 to 40 miles,No,,No,47,19
+WL-01516,Group C,Neurology,2026-05-24,2026-07-23,No preference,15 to 40 miles,Yes,,No,33,41
+WL-01517,Group B,Gastroenterology,2026-05-21,2026-05-28,Morning,Over 40 miles,Yes,2026-06-19,Yes,36,29
+WL-01518,Group D,Gastroenterology,2026-04-21,2026-07-20,Morning,Under 15 miles,No,,No,66,29
+WL-01519,Group D,Pulmonology,2026-05-05,2026-05-19,No preference,Under 15 miles,No,,No,52,26
+WL-01520,Group B,Orthopedics,2026-04-24,2026-05-01,Morning,15 to 40 miles,Yes,,No,63,19
+WL-01521,Group D,Gastroenterology,2026-04-28,2026-05-19,Afternoon,Under 15 miles,Yes,,No,59,29
+WL-01522,Group A,Orthopedics,2026-05-04,2026-06-18,No preference,Under 15 miles,Yes,2026-05-06,Yes,53,19
+WL-01523,Group D,Cardiology,2026-06-09,2026-09-07,Afternoon,Under 15 miles,Yes,2026-07-08,No,17,24
+WL-01524,Group C,Cardiology,2026-03-22,2026-04-12,No preference,Under 15 miles,No,,No,96,24
+WL-01525,Group C,Endocrinology,2026-05-26,2026-06-09,Morning,Under 15 miles,Yes,2026-06-03,No,31,38
+WL-01526,Group A,Orthopedics,2026-04-29,2026-05-20,Morning,Over 40 miles,No,,No,58,19
+WL-01527,Group D,Endocrinology,2026-06-04,2026-07-04,No preference,Under 15 miles,Yes,,No,22,38
+WL-01528,Group A,Endocrinology,2026-05-13,2026-06-12,Afternoon,Over 40 miles,No,,No,44,38
+WL-01529,Group B,Endocrinology,2026-05-06,2026-07-05,Morning,15 to 40 miles,Yes,,No,51,38
+WL-01530,Group C,Cardiology,2026-05-09,2026-08-07,Afternoon,Under 15 miles,Yes,,No,48,24
+WL-01531,Group D,Endocrinology,2026-03-18,2026-04-08,Morning,Under 15 miles,Yes,,No,100,38
+WL-01532,Group D,Pulmonology,2026-04-17,2026-07-16,Morning,Under 15 miles,Yes,,No,70,26
+WL-01533,Group C,Orthopedics,2026-05-09,2026-06-08,Afternoon,15 to 40 miles,Yes,,No,48,19
+WL-01534,Group A,Endocrinology,2026-05-19,2026-06-09,Afternoon,15 to 40 miles,No,,No,38,38
+WL-01535,Group C,Pulmonology,2026-05-24,2026-06-23,No preference,Under 15 miles,Yes,,Yes,33,26
+WL-01536,Group D,Cardiology,2026-04-11,2026-05-02,No preference,15 to 40 miles,No,,No,76,24
+WL-01537,Group C,Orthopedics,2026-06-12,2026-07-03,Morning,Over 40 miles,Yes,,No,14,19
+WL-01538,Group C,Neurology,2026-05-30,2026-06-13,Morning,Under 15 miles,Yes,2026-06-21,No,27,41
+WL-01539,Group B,Orthopedics,2026-05-31,2026-06-07,Morning,15 to 40 miles,Yes,,No,26,19
+WL-01540,Group B,Gastroenterology,2026-03-30,2026-06-28,No preference,15 to 40 miles,No,,No,88,29
+WL-01541,Group A,Endocrinology,2026-06-11,2026-08-10,Morning,Under 15 miles,Yes,2026-06-24,Yes,15,38
+WL-01542,Group C,Pulmonology,2026-04-25,2026-07-24,Morning,Under 15 miles,Yes,,No,62,26
+WL-01543,Group C,Cardiology,2026-01-16,2026-03-02,No preference,Under 15 miles,No,,No,161,24
+WL-01544,Group B,Cardiology,2026-05-30,2026-06-29,No preference,Under 15 miles,No,,No,27,24
+WL-01545,Group B,,2026-05-23,2026-06-13,No preference,15 to 40 miles,No,2026-06-16,No,34,38
+WL-01546,Group C,Endocrinology,2026-05-11,2026-05-18,Afternoon,Under 15 miles,Yes,2026-06-03,No,46,38
+WL-01547,Group A,Cardiology,2026-03-19,2026-04-09,Afternoon,Under 15 miles,Yes,2026-04-12,No,99,24
+WL-01548,Group B,Orthopedics,2026-05-08,2026-07-07,Morning,Over 40 miles,Yes,,No,49,19
+WL-01549,Group D,Orthopedics,2026-06-05,2026-06-19,No preference,Over 40 miles,No,,No,21,19
+WL-01550,Group C,Pulmonology,2026-03-21,2026-04-04,Morning,Over 40 miles,Yes,2026-04-17,Yes,97,26
+WL-01551,Group C,Gastroenterology,2026-03-17,2026-05-01,Afternoon,15 to 40 miles,Yes,2026-04-01,Yes,101,29
+WL-01552,Group A,Cardiology,2026-05-01,2026-07-30,Morning,Under 15 miles,Yes,2026-05-14,Yes,56,24
+WL-01553,Group B,Cardiology,2026-06-09,2026-07-09,Afternoon,Under 15 miles,Yes,,No,17,24
+WL-01554,Group A,Pulmonology,2026-06-25,2026-08-24,Morning,Over 40 miles,Yes,,No,1,26
+WL-01555,Group B,Pulmonology,2026-05-19,2026-07-18,Afternoon,Over 40 miles,No,2026-06-18,Yes,38,26
+WL-01556,Group A,Gastroenterology,2026-06-12,2026-06-26,Morning,Under 15 miles,No,,No,14,29
+WL-01557,Group B,Neurology,2026-06-24,2026-09-22,Morning,15 to 40 miles,Yes,2026-06-25,No,2,41
+WL-01558,Group A,Pulmonology,2026-04-22,2026-07-21,Morning,Under 15 miles,No,,No,65,26
+WL-01559,Group C,Cardiology,2026-04-10,2026-05-01,Morning,Under 15 miles,No,2026-04-21,No,77,24
+WL-01560,Group B,Cardiology,2026-06-07,2026-06-28,Morning,15 to 40 miles,Yes,,No,19,24
+WL-01561,Group C,Orthopedics,2026-06-06,2026-09-04,Afternoon,Under 15 miles,No,,No,20,19
+WL-01562,Group C,Endocrinology,2026-04-17,2026-06-16,Afternoon,Over 40 miles,Yes,,No,70,38
+WL-01563,Group D,Cardiology,2026-05-29,2026-06-05,Morning,Under 15 miles,Yes,,No,28,24
+WL-01564,Group C,Neurology,2026-05-20,2026-07-04,Morning,Under 15 miles,Yes,2026-06-03,No,37,41
+WL-01565,Group A,Cardiology,2026-05-07,2026-07-06,No preference,15 to 40 miles,No,,No,50,24
+WL-01566,Group A,Orthopedics,2026-06-13,2026-09-11,Morning,Under 15 miles,Yes,,No,13,19
+WL-01567,Group D,Neurology,2026-05-15,2026-07-14,Afternoon,15 to 40 miles,Yes,,No,42,41
+WL-01568,Group B,Neurology,2026-05-25,2026-07-09,Afternoon,Under 15 miles,Yes,,No,32,41
+WL-01569,Group D,Cardiology,2026-06-17,2026-06-24,No preference,Over 40 miles,Yes,,No,9,24
+WL-01570,Group B,Orthopedics,2026-05-20,2026-06-19,No preference,15 to 40 miles,No,,No,37,19
+WL-01571,Group A,Orthopedics,2026-05-16,2026-06-30,Morning,Under 15 miles,Yes,,No,41,19
+WL-01572,Group D,Endocrinology,2026-05-02,2026-07-01,Afternoon,Under 15 miles,Yes,,No,55,38
+WL-01573,Group A,Orthopedics,2026-05-18,2026-07-02,Afternoon,Under 15 miles,Yes,,No,39,19
+WL-01574,Group C,Cardiology,2026-05-30,2026-06-13,Afternoon,Under 15 miles,No,2026-06-08,No,27,24
+WL-01575,Group A,Cardiology,2026-05-15,2026-08-13,Afternoon,15 to 40 miles,Yes,,No,42,24
+WL-01576,Group A,Cardiology,2026-04-22,2026-06-06,No preference,Under 15 miles,No,2026-05-03,Yes,65,24
+WL-01577,Group D,Cardiology,2026-05-30,2026-06-29,Morning,Under 15 miles,No,,No,27,24
+WL-01578,Group C,Orthopedics,2026-05-03,2026-05-10,Morning,15 to 40 miles,Yes,,No,54,19
+WL-01579,Group C,Orthopedics,2026-05-22,2026-06-21,No preference,15 to 40 miles,No,,No,35,19
+WL-01580,Group C,Endocrinology,2026-05-23,2026-07-22,Morning,Over 40 miles,Yes,,Yes,34,38
+WL-01581,Group D,Orthopedics,2026-05-15,2026-06-05,Morning,Under 15 miles,Yes,2026-05-18,Yes,42,19
+WL-01582,Group C,Gastroenterology,2026-04-18,2026-05-18,Morning,Under 15 miles,No,2026-05-07,Yes,69,29
+WL-01583,Group D,Gastroenterology,2026-06-02,2026-07-17,Afternoon,Under 15 miles,No,,No,24,29
+WL-01584,Group C,Neurology,2026-04-07,2026-07-06,Morning,Under 15 miles,No,2026-04-19,No,80,41
+WL-01585,Group B,Cardiology,2026-04-05,2026-05-05,Afternoon,Under 15 miles,Yes,,No,82,24
+WL-01586,Group D,Gastroenterology,2026-04-24,2026-05-01,Morning,Under 15 miles,Yes,,No,63,29
+WL-01587,Group C,Cardiology,2026-05-05,2026-08-03,Morning,Over 40 miles,Yes,2026-05-17,No,52,24
+WL-01588,Group B,Endocrinology,2026-05-12,2026-06-02,No preference,15 to 40 miles,No,,No,45,38
+WL-01589,Group B,Endocrinology,2026-05-05,2026-06-04,Afternoon,Under 15 miles,Yes,,No,52,38
+WL-01590,Group B,Cardiology,2026-05-14,2026-07-13,Afternoon,Under 15 miles,Yes,2026-06-02,Yes,43,24
+WL-01591,Group B,Cardiology,2026-05-13,2026-05-27,Afternoon,Over 40 miles,Yes,,No,44,24
+WL-01592,Group D,Neurology,2026-04-18,2026-06-02,No preference,Under 15 miles,No,2026-05-14,No,69,41
+WL-01593,Group B,Neurology,2026-05-28,2026-06-18,No preference,Over 40 miles,Yes,,No,29,41
+WL-01594,Group C,Orthopedics,2026-06-17,2026-07-08,Afternoon,15 to 40 miles,Yes,2026-07-13,Yes,9,19
+WL-01595,Group B,Neurology,2026-04-12,2026-05-03,Afternoon,Under 15 miles,No,2026-04-24,Yes,75,41
+WL-01596,Group C,Endocrinology,2026-06-18,2026-09-16,Afternoon,Under 15 miles,No,,No,8,38
+WL-01597,Group B,Orthopedics,2026-04-02,2026-06-01,Morning,15 to 40 miles,Yes,,No,85,19
+WL-01598,Group B,Cardiology,2026-05-14,2026-05-21,Afternoon,Under 15 miles,No,,No,43,24
+WL-01599,Group C,Neurology,2026-06-14,2026-08-13,Afternoon,Under 15 miles,Yes,,No,12,41
+WL-01600,Group A,Endocrinology,2026-06-11,2026-07-11,Morning,Under 15 miles,Yes,,No,15,38
+WL-01601,Group B,Gastroenterology,2026-04-26,2026-07-25,Afternoon,Over 40 miles,Yes,,No,61,29
+WL-01602,Group D,Endocrinology,2026-05-20,2026-05-27,Morning,Under 15 miles,Yes,,No,37,38
+WL-01603,Group D,Endocrinology,2026-06-19,2026-06-26,No preference,15 to 40 miles,Yes,,No,7,38
+WL-01604,Group A,Pulmonology,2026-05-12,2026-06-26,No preference,Under 15 miles,Yes,2026-05-21,No,45,26
+WL-01605,Group D,Neurology,2026-05-14,2026-08-12,No preference,Under 15 miles,Yes,,No,43,41
+WL-01606,Group A,Pulmonology,2026-05-26,2026-08-24,Afternoon,Under 15 miles,No,2026-06-02,Yes,31,26
+WL-01607,Group C,Cardiology,2026-04-27,2026-06-26,Morning,Over 40 miles,Yes,,No,60,24
+WL-01608,Group D,Gastroenterology,2026-05-31,2026-07-15,Morning,Under 15 miles,Yes,,No,26,29
+WL-01609,Group A,Gastroenterology,2026-06-03,2026-06-24,Morning,15 to 40 miles,Yes,2026-06-11,Yes,23,29
+WL-01610,Group A,Orthopedics,2026-06-09,2026-09-07,Morning,15 to 40 miles,Yes,,No,17,19
+WL-01611,Group A,Cardiology,2026-06-19,2026-08-18,No preference,Under 15 miles,Yes,,No,7,24
+WL-01612,Group D,Endocrinology,2026-02-13,2026-05-14,Morning,15 to 40 miles,No,,No,133,38
+WL-01613,Group B,Pulmonology,2026-05-24,2026-06-07,Morning,Under 15 miles,Yes,2026-06-05,Yes,33,26
+WL-01614,Group B,Endocrinology,2026-04-28,2026-06-27,Morning,Under 15 miles,Yes,,No,59,38
+WL-01615,Group A,Endocrinology,2026-04-10,2026-05-10,No preference,Over 40 miles,No,,No,77,38
+WL-01616,Group D,Endocrinology,2026-04-26,2026-05-03,Morning,Over 40 miles,No,,No,61,38
+WL-01617,Group B,Endocrinology,2026-05-27,2026-07-11,Morning,Under 15 miles,Yes,,No,30,38
+WL-01618,Group B,Endocrinology,2026-06-17,2026-08-16,Morning,Under 15 miles,Yes,,No,9,38
+WL-01619,Group C,Orthopedics,2026-04-16,2026-05-07,Morning,Over 40 miles,Yes,,No,71,19
+WL-01620,Group A,Cardiology,2026-03-31,2026-04-21,Morning,15 to 40 miles,No,,No,87,24
+WL-01621,Group B,Neurology,2026-06-07,2026-08-06,Morning,15 to 40 miles,No,,No,19,41
+WL-01622,Group C,Gastroenterology,2026-06-08,2025-11-15,Morning,15 to 40 miles,Yes,,No,18,29
+WL-01623,Group A,Pulmonology,2026-05-15,2026-06-05,Afternoon,15 to 40 miles,No,,No,42,26
+WL-01624,Group A,Orthopedics,2026-05-27,2026-06-03,Afternoon,Under 15 miles,No,,No,30,19
+WL-01625,Group D,Orthopedics,2026-05-06,2026-05-20,Morning,Under 15 miles,Yes,2026-05-27,No,51,19
+WL-01626,Group B,Orthopedics,2026-04-18,2026-07-17,Afternoon,Under 15 miles,Yes,2026-04-25,Yes,69,19
+WL-01627,Group A,Gastroenterology,2026-04-27,2026-05-18,No preference,Over 40 miles,No,,No,60,29
+WL-01628,Group D,Endocrinology,2026-05-05,2026-05-26,Morning,Over 40 miles,Yes,,No,52,38
+WL-01629,Group D,Pulmonology,2026-03-29,2026-05-28,Morning,15 to 40 miles,No,,No,89,26
+WL-01630,Group B,Neurology,2026-04-24,2026-07-23,No preference,Under 15 miles,Yes,2026-05-22,No,63,41
+WL-01631,Group B,Endocrinology,2026-06-08,2026-07-08,Morning,Under 15 miles,No,,No,18,38
+WL-01632,Group C,Gastroenterology,2026-05-24,2026-05-31,No preference,15 to 40 miles,No,,No,33,29
+WL-01633,Group A,Pulmonology,2026-04-13,2026-05-13,Morning,15 to 40 miles,Yes,,No,74,26
+WL-01634,Group D,Endocrinology,2026-04-27,2026-05-11,Morning,Under 15 miles,Yes,,No,60,38
+WL-01635,Group A,Pulmonology,2026-06-12,2026-06-19,Afternoon,15 to 40 miles,Yes,,No,14,26
+WL-01636,Group A,Cardiology,2026-06-10,2025-11-15,No preference,Under 15 miles,Yes,2026-07-06,Yes,16,24
+WL-01637,Group C,Orthopedics,2026-05-23,2026-07-22,Afternoon,Under 15 miles,No,,No,34,19
+WL-01638,Group D,Endocrinology,2026-05-16,2026-08-14,Afternoon,Over 40 miles,Yes,2026-06-02,Yes,41,38
+WL-01639,Group C,Gastroenterology,2026-05-28,2026-08-26,Afternoon,15 to 40 miles,Yes,,No,29,29
+WL-01640,Group D,Gastroenterology,2026-05-28,2026-08-26,Morning,Under 15 miles,Yes,,No,29,29
+WL-01641,Group A,,2026-04-21,2026-06-20,Morning,15 to 40 miles,Yes,2026-05-04,Yes,66,19
+WL-01642,Group D,Cardiology,2026-05-07,2026-06-06,No preference,Under 15 miles,Yes,,No,50,24
+WL-01643,Group B,Cardiology,2026-05-01,2026-05-08,Morning,Under 15 miles,Yes,,No,56,24
+WL-01644,Group D,Orthopedics,2026-05-02,2026-07-01,Afternoon,15 to 40 miles,Yes,,No,55,19
+WL-01645,Group D,Endocrinology,2026-06-12,2026-08-11,Afternoon,Under 15 miles,No,,No,14,38
+WL-01646,Group D,Neurology,2026-06-04,2026-07-19,Morning,Under 15 miles,Yes,,Yes,22,41
+WL-01647,Group B,Orthopedics,2026-06-05,2026-06-12,Morning,15 to 40 miles,No,2026-06-15,Yes,21,19
+WL-01648,Group C,Neurology,2026-05-24,2026-06-23,Morning,Over 40 miles,No,,No,33,41
+WL-01649,Group B,Orthopedics,2026-05-25,2026-07-24,Afternoon,Under 15 miles,Yes,,No,32,19
+WL-01650,Group B,Pulmonology,2026-04-29,2026-05-20,Morning,15 to 40 miles,Yes,,No,58,26
+WL-01651,Group D,Neurology,2026-06-05,2026-06-12,Morning,15 to 40 miles,Yes,,No,21,41
+WL-01652,Group D,Pulmonology,2026-05-08,2026-07-07,Morning,15 to 40 miles,No,2026-05-30,No,49,26
+WL-01653,Group A,Gastroenterology,2026-05-10,2026-08-08,Morning,15 to 40 miles,No,,No,47,29
+WL-01654,Group D,Neurology,2026-01-15,2026-02-14,Afternoon,Over 40 miles,Yes,,No,162,41
+WL-01655,Group B,Gastroenterology,2026-05-17,2026-05-24,Morning,Under 15 miles,No,2026-06-08,No,40,29
+WL-01656,Group C,Endocrinology,2026-03-09,2026-03-30,Afternoon,Over 40 miles,No,,No,109,38
+WL-01657,Group C,Endocrinology,2026-05-12,2026-06-11,No preference,Under 15 miles,Yes,2026-06-06,Yes,45,38
+WL-01658,Group B,Neurology,2026-06-01,2026-07-16,Morning,Over 40 miles,No,,No,25,41
+WL-01659,Group B,Neurology,2026-06-08,2026-06-22,Morning,Under 15 miles,Yes,2026-07-08,No,18,41
+WL-01660,Group B,Gastroenterology,2026-05-23,2026-07-22,No preference,15 to 40 miles,Yes,2026-05-27,Yes,34,29
+WL-01661,Group A,Pulmonology,2026-06-03,2026-09-01,Afternoon,15 to 40 miles,Yes,,No,23,26
+WL-01662,Group C,Cardiology,2026-05-02,2026-06-01,Afternoon,Under 15 miles,Yes,,No,55,24
+WL-01663,Group B,Endocrinology,2026-05-05,2026-06-19,No preference,Over 40 miles,Yes,,No,52,38
+WL-01664,Group B,Neurology,2026-06-11,2026-07-11,Afternoon,Over 40 miles,Yes,,No,15,41
+WL-01665,Group C,Orthopedics,2026-06-05,2026-09-03,No preference,15 to 40 miles,No,,No,21,19
+WL-01666,Group A,Pulmonology,2026-04-08,2026-07-07,Afternoon,Over 40 miles,Yes,2026-04-12,No,79,26
+WL-01667,Group D,Pulmonology,2026-05-08,2026-05-15,Afternoon,Over 40 miles,No,,No,49,26
+WL-01668,Group D,Endocrinology,2026-06-03,2026-06-10,Morning,Under 15 miles,Yes,,No,23,38
+WL-01669,Group A,Neurology,2026-06-22,2026-07-06,Afternoon,Under 15 miles,No,,No,4,41
+WL-01670,Group A,Pulmonology,2026-05-22,2026-07-06,Afternoon,Over 40 miles,No,,No,35,26
+WL-01671,Group C,Gastroenterology,2026-05-01,2026-06-15,Morning,15 to 40 miles,No,2026-05-18,No,56,29
+WL-01672,Group C,Neurology,2026-05-16,2026-06-06,No preference,Under 15 miles,Yes,,No,41,41
+WL-01673,Group D,Cardiology,2026-04-27,2026-05-18,Afternoon,Under 15 miles,Yes,,No,60,24
+WL-01674,Group A,Pulmonology,2026-06-08,2026-07-23,Morning,15 to 40 miles,Yes,2026-06-10,Yes,18,26
+WL-01675,Group D,Cardiology,2026-05-29,2026-07-13,No preference,Under 15 miles,Yes,,No,28,24
+WL-01676,Group B,Endocrinology,2026-04-10,2026-05-10,Morning,Under 15 miles,No,,No,77,38
+WL-01677,Group B,Endocrinology,2026-06-17,2026-07-08,Morning,Under 15 miles,No,2026-06-23,No,9,38
+WL-01678,Group C,Pulmonology,2026-05-01,2026-05-22,Morning,15 to 40 miles,Yes,,No,56,26
+WL-01679,Group B,Neurology,2026-05-02,2026-05-16,No preference,Under 15 miles,Yes,,No,55,41
+WL-01680,Group A,Endocrinology,2026-06-12,2026-06-19,No preference,Over 40 miles,No,2026-07-02,Yes,14,38
+WL-01681,Group D,Cardiology,2026-06-08,2026-06-15,Morning,Under 15 miles,No,,No,18,24
+WL-01682,Group C,Neurology,2026-06-18,2026-07-18,Morning,Under 15 miles,Yes,,No,8,41
+WL-01683,Group C,Endocrinology,2026-05-28,2026-07-12,Morning,Under 15 miles,Yes,,No,29,38
+WL-01684,Group C,Gastroenterology,2026-05-08,2026-05-15,No preference,Over 40 miles,Yes,2026-05-26,Yes,49,29
+WL-01685,Group A,Gastroenterology,2026-04-21,2026-05-05,No preference,15 to 40 miles,No,,No,66,29
+WL-01686,Group B,Cardiology,2026-06-09,2026-06-16,Morning,15 to 40 miles,No,,No,17,24
+WL-01687,Group B,Pulmonology,2026-05-02,2026-05-09,Morning,Under 15 miles,No,,No,55,26
+WL-01688,Group C,Orthopedics,2026-05-29,2026-06-28,Morning,15 to 40 miles,No,,No,28,19
+WL-01689,Group D,Neurology,2026-05-15,2026-06-29,Afternoon,15 to 40 miles,Yes,2026-06-10,Yes,42,41
+WL-01690,Group C,Orthopedics,2026-05-08,2026-07-07,Morning,15 to 40 miles,Yes,2026-05-29,Yes,49,19
+WL-01691,Group D,Cardiology,2026-06-01,2026-08-30,Afternoon,Under 15 miles,Yes,,No,25,24
+WL-01692,Group C,Pulmonology,2026-04-30,2026-05-21,Morning,15 to 40 miles,Yes,,No,57,26
+WL-01693,Group D,Orthopedics,2026-04-28,2026-05-12,Morning,Under 15 miles,Yes,,No,59,19
+WL-01694,Group B,Orthopedics,2026-04-10,2026-07-09,Morning,Under 15 miles,No,,No,77,19
+WL-01695,Group B,Pulmonology,2026-06-07,2026-06-28,Afternoon,15 to 40 miles,Yes,,No,19,26
+WL-01696,Group C,Pulmonology,2026-05-08,2026-05-22,Morning,Over 40 miles,Yes,2026-05-27,Yes,49,26
+WL-01697,Group B,Gastroenterology,2026-06-15,2026-09-13,Afternoon,Over 40 miles,Yes,2026-07-07,Yes,11,29
+WL-01698,Group A,Gastroenterology,2026-05-10,2026-05-31,Afternoon,Under 15 miles,No,2026-05-11,Yes,47,29
+WL-01699,Group A,Neurology,2026-04-23,2026-05-23,Afternoon,Under 15 miles,Yes,2026-05-13,Yes,64,41
+WL-01700,Group D,Gastroenterology,2026-06-09,2026-07-09,Morning,15 to 40 miles,No,,No,17,29
+WL-01701,Group A,Neurology,2026-05-27,2026-07-11,Morning,Over 40 miles,Yes,,No,30,41
+WL-01702,Group A,Cardiology,2026-06-17,2026-07-08,No preference,15 to 40 miles,Yes,2026-06-20,Yes,9,24
+WL-01703,Group A,Cardiology,2026-06-06,2026-06-27,Morning,15 to 40 miles,Yes,,No,20,24
+WL-01704,Group A,Endocrinology,2026-05-14,2026-06-04,Morning,Under 15 miles,Yes,2026-05-28,Yes,43,38
+WL-01705,Group A,Gastroenterology,2026-06-18,2026-07-18,No preference,Under 15 miles,Yes,,No,8,29
+WL-01706,Group C,Pulmonology,2026-04-26,2026-07-25,Afternoon,Under 15 miles,Yes,,No,61,26
+WL-01707,Group B,Pulmonology,2026-04-29,2026-05-29,Afternoon,Under 15 miles,Yes,,No,58,26
+WL-01708,Group C,Neurology,2026-05-25,2026-07-24,Afternoon,Under 15 miles,Yes,2026-05-27,No,32,41
+WL-01709,Group A,Gastroenterology,2026-05-30,2026-06-06,Morning,Under 15 miles,Yes,,No,27,29
+WL-01710,Group B,Orthopedics,2026-06-03,2026-07-18,Morning,Under 15 miles,Yes,2026-07-03,No,23,19
+WL-01711,Group D,Orthopedics,2026-04-06,2026-04-20,No preference,Under 15 miles,No,,No,81,19
+WL-01712,Group B,Gastroenterology,2026-04-05,2026-05-05,No preference,Under 15 miles,Yes,,No,82,29
+WL-01713,Group A,Cardiology,2026-04-06,2026-04-27,Morning,Under 15 miles,Yes,,No,81,24
+WL-01714,Group C,Neurology,2026-05-07,2026-06-06,No preference,15 to 40 miles,No,,No,50,41
+WL-01715,Group D,Pulmonology,2026-06-02,2026-08-31,Morning,15 to 40 miles,Yes,,No,24,26
+WL-01716,Group A,Orthopedics,2026-05-14,2026-08-12,No preference,Under 15 miles,Yes,,No,43,19
+WL-01717,Group C,Cardiology,2026-04-08,2026-04-15,Morning,Under 15 miles,Yes,,No,79,24
+WL-01718,Group C,Gastroenterology,2026-05-14,2026-05-28,Afternoon,Under 15 miles,Yes,,No,43,29
+WL-01719,Group B,Neurology,2026-03-24,2026-06-22,Afternoon,Under 15 miles,Yes,,No,94,41
+WL-01720,Group A,Cardiology,2026-05-24,2026-05-31,Afternoon,Under 15 miles,Yes,,No,33,24
+WL-01721,Group D,Pulmonology,2026-06-24,2026-09-22,Morning,Under 15 miles,Yes,,No,2,26
+WL-01722,Group A,Endocrinology,2026-01-31,2026-03-17,Morning,15 to 40 miles,Yes,2026-02-08,No,146,38
+WL-01723,Group C,Pulmonology,2026-05-08,2026-08-06,No preference,Under 15 miles,Yes,,No,49,26
+WL-01724,Group D,Orthopedics,2026-04-29,2026-06-13,Afternoon,15 to 40 miles,No,,No,58,19
+WL-01725,Group A,Orthopedics,2026-05-09,2026-05-30,Afternoon,Under 15 miles,No,2026-05-20,Yes,48,19
+WL-01726,Group A,Orthopedics,2026-04-05,2026-06-04,Morning,15 to 40 miles,Yes,2026-04-27,No,82,19
+WL-01727,Group A,Gastroenterology,2026-06-10,2026-09-08,Morning,Over 40 miles,Yes,,No,16,29
+WL-01728,Group B,Pulmonology,2026-05-04,2026-05-18,Morning,15 to 40 miles,No,,No,53,26
+WL-01729,Group C,Gastroenterology,2026-05-01,2026-06-15,No preference,15 to 40 miles,Yes,,No,56,29
+WL-01730,Group B,Cardiology,2026-04-04,2026-04-18,Afternoon,15 to 40 miles,Yes,,No,83,24
+WL-01731,Group C,Pulmonology,2026-06-13,2026-06-27,Afternoon,Over 40 miles,No,,No,13,26
+WL-01732,Group A,Neurology,2026-05-01,2026-05-31,Morning,15 to 40 miles,No,2026-05-21,Yes,56,41
+WL-01733,Group A,Pulmonology,2026-04-23,2026-06-07,Afternoon,Under 15 miles,No,,No,64,26
+WL-01734,Group C,Cardiology,2026-04-27,2026-05-04,Afternoon,15 to 40 miles,Yes,,No,60,24
+WL-01735,Group D,Orthopedics,2026-03-07,2026-03-14,No preference,15 to 40 miles,Yes,2026-03-18,Yes,111,19
+WL-01736,Group D,Gastroenterology,2026-05-23,2026-06-13,No preference,15 to 40 miles,Yes,2026-06-08,Yes,34,29
+WL-01737,Group A,Pulmonology,2026-06-14,2026-06-28,Morning,Under 15 miles,No,,No,12,26
+WL-01738,Group B,Cardiology,2026-04-14,2026-05-05,No preference,Under 15 miles,Yes,,No,73,24
+WL-01739,Group C,Gastroenterology,2026-05-24,2026-06-07,No preference,Under 15 miles,No,,No,33,29
+WL-01740,Group D,Gastroenterology,2026-06-09,2026-08-08,Morning,Under 15 miles,No,2026-06-14,No,17,29
+WL-01741,Group B,Orthopedics,2026-06-22,2026-08-06,Morning,Under 15 miles,Yes,,No,4,19
+WL-01742,Group D,Pulmonology,2026-04-11,2026-05-02,Afternoon,15 to 40 miles,No,,No,76,26
+WL-01743,Group D,Neurology,2026-04-18,2026-05-09,No preference,Under 15 miles,Yes,2026-05-03,Yes,69,41
+WL-01744,Group A,Orthopedics,2026-04-16,2026-05-07,No preference,Over 40 miles,Yes,,No,71,19
+WL-01745,Group B,Neurology,2026-05-24,2026-07-23,Morning,Under 15 miles,Yes,2026-06-19,Yes,33,41
+WL-01746,Group B,Neurology,2026-05-25,2026-06-15,Morning,Under 15 miles,Yes,,No,32,41
+WL-01747,Group D,Orthopedics,2026-04-08,2026-04-15,No preference,Under 15 miles,Yes,2026-04-23,Yes,79,19
+WL-01748,Group C,Endocrinology,2026-05-26,2026-06-02,Afternoon,15 to 40 miles,No,,No,31,38
+WL-01749,Group D,Neurology,2026-06-03,2026-06-24,No preference,Under 15 miles,Yes,,No,23,41
+WL-01750,Group A,Cardiology,2026-02-28,2026-05-29,Afternoon,15 to 40 miles,Yes,2026-03-21,Yes,118,24
+WL-01751,Group C,Endocrinology,2026-04-26,2026-05-26,Morning,15 to 40 miles,Yes,2026-05-16,No,61,38
+WL-01752,Group B,Pulmonology,2026-03-02,2026-05-01,Afternoon,15 to 40 miles,No,,No,116,26
+WL-01753,Group D,Gastroenterology,2026-05-07,2026-08-05,No preference,15 to 40 miles,Yes,,No,50,29
+WL-01754,Group D,Orthopedics,2026-05-12,2026-05-26,Afternoon,Under 15 miles,Yes,,No,45,19
+WL-01755,Group A,Cardiology,2026-04-18,2026-07-17,No preference,15 to 40 miles,Yes,,No,69,24
+WL-01756,Group B,Pulmonology,2026-04-03,2026-04-17,No preference,Under 15 miles,Yes,,No,84,26
+WL-01757,Group A,Gastroenterology,2026-04-12,2026-04-26,Morning,Under 15 miles,Yes,2026-04-28,No,75,29
+WL-01758,Group C,Gastroenterology,2026-04-22,2026-06-21,Morning,15 to 40 miles,Yes,,No,65,29
+WL-01759,Group A,Gastroenterology,2026-03-08,2026-04-07,No preference,Over 40 miles,Yes,2026-04-07,Yes,110,29
+WL-01760,Group A,Cardiology,2026-05-02,2026-05-09,Afternoon,Under 15 miles,No,,No,55,24
+WL-01761,Group B,Neurology,2026-06-11,2026-06-18,Afternoon,15 to 40 miles,No,,No,15,41
+WL-01762,Group D,Pulmonology,2026-03-08,2026-06-06,No preference,Under 15 miles,Yes,,No,110,26
+WL-01763,Group A,Orthopedics,2026-06-20,2026-08-04,No preference,Under 15 miles,Yes,,No,6,19
+WL-01764,Group D,Pulmonology,2026-05-27,2026-06-17,No preference,Over 40 miles,Yes,2026-06-07,Yes,30,26
+WL-01765,Group D,Neurology,2026-06-10,2026-08-09,Morning,Under 15 miles,Yes,,No,16,41
+WL-01766,Group B,Neurology,2026-05-31,2026-06-07,Morning,Under 15 miles,Yes,,No,26,41
+WL-01767,Group A,Endocrinology,2026-04-26,2026-05-10,Afternoon,Under 15 miles,Yes,,No,61,38
+WL-01768,Group A,Neurology,2026-06-06,2026-06-20,Morning,Over 40 miles,No,2026-06-18,Yes,20,41
+WL-01769,Group B,Neurology,2026-05-29,2026-06-12,Afternoon,Under 15 miles,Yes,2026-06-24,No,28,41
+WL-01770,Group A,Endocrinology,2026-05-06,2026-06-05,No preference,15 to 40 miles,Yes,2026-05-27,Yes,51,38
+WL-01771,Group B,Orthopedics,2026-05-30,2026-08-28,Afternoon,Under 15 miles,Yes,2026-06-01,Yes,27,19
+WL-01772,Group D,Cardiology,2026-04-22,2026-07-21,Morning,Under 15 miles,No,,No,65,24
+WL-01773,Group A,Orthopedics,2026-04-18,2026-07-17,Afternoon,15 to 40 miles,Yes,2026-05-04,Yes,69,19
+WL-01774,Group D,Pulmonology,2026-04-20,2026-05-04,Afternoon,Under 15 miles,Yes,,No,67,26
+WL-01775,Group B,Endocrinology,2026-06-17,2026-09-15,Afternoon,Under 15 miles,Yes,2026-07-09,Yes,9,38
+WL-01776,Group C,Cardiology,2026-06-13,2026-06-27,No preference,15 to 40 miles,Yes,2026-07-08,Yes,13,24
+WL-01777,Group C,Cardiology,2026-05-10,2026-06-24,Afternoon,Under 15 miles,Yes,,No,47,24
+WL-01778,Group B,Neurology,2026-06-15,2026-07-15,Morning,Under 15 miles,Yes,2026-06-26,No,11,41
+WL-01779,Group B,Neurology,2026-05-19,2026-06-09,Afternoon,15 to 40 miles,Yes,,No,38,41
+WL-01780,Group A,Neurology,2026-06-22,2026-07-22,Morning,15 to 40 miles,Yes,2026-07-11,No,4,41
+WL-01781,Group C,Neurology,2026-06-20,2026-07-20,No preference,Under 15 miles,Yes,,No,6,41
+WL-01782,Group D,Endocrinology,2026-06-19,2026-07-19,Morning,Under 15 miles,Yes,2026-07-15,No,7,38
+WL-01783,Group C,Cardiology,2026-06-08,2025-11-15,No preference,15 to 40 miles,No,2026-07-03,Yes,18,24
+WL-01784,Group D,Neurology,2026-05-29,2026-07-28,No preference,Over 40 miles,No,2026-06-02,Yes,28,41
+WL-01785,Group C,Cardiology,2026-04-17,2026-05-01,Morning,Over 40 miles,Yes,,No,70,24
+WL-01786,Group B,Neurology,2026-06-11,2026-07-11,Afternoon,Under 15 miles,Yes,2026-07-07,Yes,15,41
+WL-01787,Group C,Gastroenterology,2026-06-03,2026-06-24,Afternoon,15 to 40 miles,No,,No,23,29
+WL-01788,Group D,Orthopedics,2026-06-18,2026-09-16,Morning,Under 15 miles,Yes,2026-06-19,No,8,19
+WL-01789,Group A,Orthopedics,2026-06-08,2026-09-06,Morning,Under 15 miles,Yes,,No,18,19
+WL-01790,Group D,Gastroenterology,2026-06-15,2026-07-15,No preference,Under 15 miles,Yes,,No,11,29
+WL-01791,Group B,Gastroenterology,2026-05-21,2026-05-28,Morning,Under 15 miles,No,,No,36,29
+WL-01792,Group D,Orthopedics,2026-06-05,2026-07-05,Afternoon,Under 15 miles,Yes,,No,21,19
+WL-01793,Group B,Cardiology,2026-05-07,2026-06-06,Morning,Under 15 miles,No,,No,50,24
+WL-01794,Group C,Endocrinology,2026-04-07,2026-04-28,Morning,Under 15 miles,Yes,2026-05-06,No,80,38
+WL-01795,Group C,Cardiology,2026-05-12,2026-06-26,Afternoon,Under 15 miles,No,,No,45,24
+WL-01796,Group A,Cardiology,2026-05-22,2026-05-29,Morning,Under 15 miles,No,,No,35,24
+WL-01797,Group D,Pulmonology,2026-04-20,2026-04-27,Afternoon,Under 15 miles,Yes,,No,67,26
+WL-01798,Group C,Neurology,2026-04-06,2026-04-13,Morning,Under 15 miles,No,,No,81,41
+WL-01799,Group A,Gastroenterology,2026-05-05,2026-07-04,Afternoon,15 to 40 miles,No,2026-05-08,Yes,52,29
+WL-01800,Group D,Orthopedics,2026-05-16,2026-06-30,Afternoon,Over 40 miles,Yes,2026-06-14,Yes,41,19
