@@ -1,0 +1,230 @@
+# Dashboard Specification — Capacity-to-Deadline Optimizer (Power BI)
+
+The `.pbix` is not committed. A binary file produces no reviewable diff, so this specification
+is the artifact: enough model, measures, and layout detail to rebuild the report from the CSVs
+in `data/clean/` and `data/raw/`.
+
+## Data model
+
+| Table | Role | Key |
+|---|---|---|
+| `appointments` | Fact | Appointment_ID |
+| `waitlist` | Fact | Waitlist_ID |
+| `provider_capacity` | Fact, daily grain | Provider_ID + Date |
+| `fill_simulation` | Fact, 3 rows | Fill_Rate_Modeled |
+| `dq_exceptions` | Fact | Exception_ID |
+| `dim_provider` | Dimension | Provider_ID |
+| `dim_specialty` | Dimension | Specialty |
+| `dim_date` | Dimension, marked as date table | Date |
+
+Relationships: `dim_specialty[Specialty]` one-to-many into `appointments`, `waitlist`, and
+`provider_capacity`. `dim_provider[Provider_ID]` one-to-many into `appointments` and
+`provider_capacity`. `dim_date[Date]` one-to-many into `appointments[Request_Date]`, with an
+inactive relationship to `appointments[Appointment_Date]` activated via `USERELATIONSHIP` for
+the capacity pages, and a second inactive relationship to `provider_capacity[Date]`.
+
+`waitlist` connects to `dim_specialty` only. It has no appointment-level relationship because
+waitlist entries are not appointments, and forcing a join would silently filter the queue when
+an appointment slicer is touched.
+
+`fill_simulation` sits unrelated as a small lookup driving a single visual. Relating it to
+anything would imply a grain it does not have.
+
+## Measures
+
+```DAX
+-- Access
+Appointments = COUNTROWS ( appointments )
+
+Avg Lead Time Days = AVERAGE ( appointments[Lead_Time_Days] )
+
+Median Lead Time Days = MEDIAN ( appointments[Lead_Time_Days] )
+
+Within Standard % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( appointments ),
+                appointments[Lead_Time_Within_Standard] = "Yes" ),
+    [Appointments]
+) * 100
+
+New Patient Within Standard % =
+CALCULATE ( [Within Standard %], appointments[Visit_Type] = "New Patient" )
+
+-- Reliability. Note the denominator: completed plus no-show only.
+Attended Or Missed =
+CALCULATE ( COUNTROWS ( appointments ),
+            appointments[Status] IN { "Completed", "No Show" } )
+
+No Shows = CALCULATE ( COUNTROWS ( appointments ), appointments[Status] = "No Show" )
+
+No Show Rate % = DIVIDE ( [No Shows], [Attended Or Missed] ) * 100
+
+Cancellations =
+CALCULATE ( COUNTROWS ( appointments ), appointments[Status] = "Cancelled" )
+
+Cancellation Rate % = DIVIDE ( [Cancellations], [Appointments] ) * 100
+
+Refillable Slots =
+CALCULATE ( COUNTROWS ( appointments ),
+            appointments[Status] = "Cancelled",
+            appointments[Refillable] = "Yes" )
+
+Unassessable Cancellations =
+CALCULATE ( COUNTROWS ( appointments ),
+            appointments[Status] = "Cancelled",
+            ISBLANK ( appointments[Cancel_Notice_Days] ) )
+
+Reminder Coverage % =
+DIVIDE (
+    CALCULATE ( [Attended Or Missed], appointments[Reminder_Sent] = "Yes" ),
+    [Attended Or Missed]
+) * 100
+
+-- Capacity. Booked and realized are deliberately separate.
+Available Slots = SUM ( provider_capacity[Available_Slots] )
+Booked Slots    = SUM ( provider_capacity[Booked_Slots] )
+Completed Slots = SUM ( provider_capacity[Completed_Slots] )
+
+Booked Utilization % = DIVIDE ( [Booked Slots], [Available Slots] ) * 100
+
+Realized Utilization % = DIVIDE ( [Completed Slots], [Available Slots] ) * 100
+
+Leakage % =
+DIVIDE (
+    SUM ( provider_capacity[Cancelled_Slots] ) + SUM ( provider_capacity[No_Show_Slots] ),
+    [Booked Slots]
+) * 100
+
+Utilization Spread PP =
+VAR ByProv =
+    ADDCOLUMNS ( VALUES ( provider_capacity[Provider_ID] ),
+                 "@u", [Realized Utilization %] )
+RETURN MAXX ( ByProv, [@u] ) - MINX ( ByProv, [@u] )
+
+-- Waitlist
+Waiting Patients = COUNTROWS ( waitlist )
+
+Avg Match Score = AVERAGE ( waitlist[Waitlist_Match_Score] )
+
+Critical Priority =
+CALCULATE ( COUNTROWS ( waitlist ), waitlist[Match_Priority] = "Critical" )
+
+Past Requested By =
+CALCULATE ( COUNTROWS ( waitlist ), waitlist[Days_To_Requested_By] < 0 )
+
+Past Requested By % = DIVIDE ( [Past Requested By], [Waiting Patients] ) * 100
+
+Avg Days Waiting = AVERAGE ( waitlist[Days_Waiting] )
+
+Offers Made =
+CALCULATE ( COUNTROWS ( waitlist ), NOT ISBLANK ( waitlist[Offered_Slot_Date] ) )
+
+Offer Acceptance % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( waitlist ), waitlist[Offer_Accepted] = "Yes" ),
+    [Offers Made]
+) * 100
+
+Slots Per Waiting Patient =
+DIVIDE ( [Refillable Slots], [Waiting Patients] )
+
+-- Quality
+Records Excluded =
+CALCULATE ( COUNTROWS ( dq_exceptions ),
+            dq_exceptions[Action_Taken] = "Excluded from reporting" )
+
+Data Quality Score % = ( 1 - DIVIDE ( [Records Excluded], 14048 ) ) * 100
+```
+
+### Conditional formatting
+
+- `Within Standard %`: red below 60, amber 60-80, green above 80.
+- `No Show Rate %`: green below 6, amber 6-10, red above 10.
+- `Match_Priority`: Critical dark red, High red, Moderate amber, Low grey — same palette as the
+  other repos in this portfolio.
+- `Realized Utilization %` vs `Booked Utilization %`: show the gap as a separate bar, not a
+  colour, so the leakage is readable in a printed copy.
+
+## Pages
+
+### Page 1 — Patient Access Overview
+
+- Cards: `Appointments`, `Avg Lead Time Days`, `Within Standard %`,
+  `New Patient Within Standard %`, `No Show Rate %`, `Cancellation Rate %`,
+  `Data Quality Score %`.
+- The new-patient card sits immediately beside the blended one. That adjacency is the
+  requirement from US-02 — the blended 59.1% and the new-patient 31.4% must be impossible to
+  read separately.
+- Clustered bar: average lead time by visit type, with a reference line at each specialty's
+  target when a specialty slicer is applied.
+- Line chart: monthly request volume and average lead time, dual axis.
+- Table: data-quality exceptions by rule, severity, and action.
+- Slicers: request month, specialty, visit type, provider.
+
+### Page 2 — Specialty Access Map
+
+- Matrix: specialty on rows; target days, appointments, average lead time, and
+  `Within Standard %` in values, sorted worst first.
+- Scatter: `Booked Utilization %` on the x axis, `Realized Utilization %` on the y, one point
+  per provider, coloured by specialty, with a 45-degree reference line. Points far below the
+  line are the leakage story.
+- Bar: `Utilization Spread PP` by specialty, descending.
+- Table: per-provider available, booked, completed, booked utilization, realized utilization,
+  and `Leakage %`.
+- Slicer: specialty.
+
+### Page 3 — Cancellation Opportunity
+
+- Cards: `Cancellations`, `Refillable Slots`, `Unassessable Cancellations`,
+  `Cancellation Rate %`.
+- Funnel or ordered bar: cancellations by notice band — no date recorded, same day, 1-2 days,
+  3-7 days, over 7 days — with the refillable portion highlighted.
+- Matrix: refillable slots by specialty and time block, with average notice days. This is the
+  supply table the waitlist queue is matched against.
+- Bar: cancellation reasons with the refillable count overlaid, so addressable reasons are
+  distinguishable from unavoidable ones.
+- Table: `fill_simulation`, showing all three modeled rates. The `Note` column stays visible —
+  the modeled-opportunity caveat travels with the number.
+- Text box: no revenue or savings figure is presented, by design.
+
+### Page 4 — Waitlist Action Queue
+
+Purpose: an operational work list, not a report.
+
+- Cards: `Waiting Patients`, `Critical Priority`, `Past Requested By %`, `Avg Days Waiting`,
+  `Refillable Slots`, `Slots Per Waiting Patient`.
+- Table: the queue — Waitlist_ID, Specialty, Match_Priority, Waitlist_Match_Score, Days_Waiting,
+  Days_To_Requested_By, Preferred_Time, Travel_Category, Notification_Opt_In — sorted by score
+  descending then days waiting.
+- Decomposition or stacked bar for the selected row: the five score components, so a scheduler
+  can answer "why is this patient first?" without opening documentation.
+- Matrix: specialty on rows, priority band on columns, patient count in values, with refillable
+  slots per specialty alongside so the queue is read against actual supply.
+- Table: offers made, accepted, and acceptance rate by notification opt-in. This visual exists
+  to keep the null result from finding 8 visible rather than buried in a document.
+- Slicers: specialty, priority band, opt-in status, travel category.
+
+### Page 5 — No-Show Pattern Analysis
+
+- Cards: `No Show Rate %`, `No Shows`, `Reminder Coverage %`.
+- Clustered bar: no-show rate by reminder flag, with the count labelled so base rates are
+  visible.
+- Small multiples or matrix: no-show rate by visit type and reminder flag together — the control
+  that shows the reminder effect is not just a difference in who gets reminded.
+- Line or column: no-show rate by lead-time band, 0-14 / 15-30 / 31-60 / 60+ days.
+- Bar: no-show rate by rescheduled flag and by appointment hour.
+- Text box stating plainly that these are associations in synthetic data and establish no
+  causation.
+
+## Refresh and distribution
+
+Daily refresh at 05:30 local, before clinic sessions start, so the action queue reflects
+overnight cancellations. The queue page is the only page most schedulers need; it is published
+as a separate app page with row-level context removed. Access managers receive the overview and
+specialty pages.
+
+## Accessibility
+
+Priority and compliance states carry text labels, never colour alone. The utilization gap is
+encoded as a distance and a second bar rather than a hue. Tooltips on every score component
+state the rule in one sentence.
