@@ -1,0 +1,36 @@
+table reminder
+
+	column bucket
+		dataType: string
+		summarizeBy: none
+		sourceColumn: bucket
+
+	column appointments
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: appointments
+
+	column no_show_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: no_show_pct
+
+	measure 'No-show rate % (reminder)' = AVERAGE ( 'reminder'[no_show_pct] )
+		formatString: #,0.00
+		displayFolder: Measures
+		/// No-show rate % for the 'The reminder effect' visual.
+
+	partition reminder = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExtractFolder & "\reminder.csv"),
+				        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {
+				        {"bucket", type text},
+				        {"appointments", Int64.Type},
+				        {"no_show_pct", type number}
+				    })
+				in
+				    Typed

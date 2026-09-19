@@ -1,0 +1,29 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["headline", "wl_head", "status", "by_specialty", "reminder", "lead_bands", "fill_sim", "cancel_reasons", "time_block", "by_hour", "capacity", "wl_priority", "wl_specialty", "optin", "monthly", "wl_queue", "exceptions"]
+
+ref table headline
+ref table wl_head
+ref table status
+ref table by_specialty
+ref table reminder
+ref table lead_bands
+ref table fill_sim
+ref table cancel_reasons
+ref table time_block
+ref table by_hour
+ref table capacity
+ref table wl_priority
+ref table wl_specialty
+ref table optin
+ref table monthly
+ref table wl_queue
+ref table exceptions
+
+ref expression ExtractFolder

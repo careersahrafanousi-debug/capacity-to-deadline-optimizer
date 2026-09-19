@@ -1,0 +1,96 @@
+table headline
+
+	column appointments
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: appointments
+
+	column avg_lead
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: avg_lead
+
+	column within_std_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: within_std_pct
+
+	column no_show_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: no_show_pct
+
+	column cancel_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: cancel_pct
+
+	column refillable
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: refillable
+
+	column unused_slots
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: unused_slots
+
+	column dq_score
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: dq_score
+
+	measure 'Appointments' = SELECTEDVALUE ( 'headline'[appointments] )
+		formatString: #,0
+		displayFolder: Measures
+		/// Appointments from the headline query extract.
+
+	measure 'Avg lead time' = SELECTEDVALUE ( 'headline'[avg_lead] )
+		formatString: #,0.0"d"
+		displayFolder: Measures
+		/// Avg lead time from the headline query extract.
+
+	measure 'Within access standard' = SELECTEDVALUE ( 'headline'[within_std_pct] )
+		formatString: 0.00"%"
+		displayFolder: Measures
+		/// Each specialty against its own target
+
+	measure 'No-show rate' = SELECTEDVALUE ( 'headline'[no_show_pct] )
+		formatString: 0.00"%"
+		displayFolder: Measures
+		/// 5.27% with a reminder, 15.68% without
+
+	measure 'Cancellation rate' = SELECTEDVALUE ( 'headline'[cancel_pct] )
+		formatString: 0.00"%"
+		displayFolder: Measures
+		/// Cancellation rate from the headline query extract.
+
+	measure 'Slots lost' = SELECTEDVALUE ( 'headline'[unused_slots] )
+		formatString: #,0
+		displayFolder: Measures
+		/// Cancellations plus no-shows
+
+	measure 'Refillable cancellations' = SELECTEDVALUE ( 'headline'[refillable] )
+		formatString: #,0
+		displayFolder: Measures
+		/// Enough notice to offer the slot on
+
+	partition headline = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExtractFolder & "\headline.csv"),
+				        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {
+				        {"appointments", Int64.Type},
+				        {"avg_lead", type number},
+				        {"within_std_pct", type number},
+				        {"no_show_pct", type number},
+				        {"cancel_pct", type number},
+				        {"refillable", Int64.Type},
+				        {"unused_slots", Int64.Type},
+				        {"dq_score", type number}
+				    })
+				in
+				    Typed

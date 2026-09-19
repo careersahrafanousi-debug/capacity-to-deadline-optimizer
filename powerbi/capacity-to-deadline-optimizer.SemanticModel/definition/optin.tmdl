@@ -1,0 +1,42 @@
+table optin
+
+	column bucket
+		dataType: string
+		summarizeBy: none
+		sourceColumn: bucket
+
+	column entries
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: entries
+
+	column offers_made
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: offers_made
+
+	column acceptance_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: acceptance_pct
+
+	measure 'Offer acceptance % (optin)' = AVERAGE ( 'optin'[acceptance_pct] )
+		formatString: #,0.00
+		displayFolder: Measures
+		/// Offer acceptance % for the 'Notification opt-in — a null finding, reported anyway' visual.
+
+	partition optin = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExtractFolder & "\optin.csv"),
+				        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {
+				        {"bucket", type text},
+				        {"entries", Int64.Type},
+				        {"offers_made", Int64.Type},
+				        {"acceptance_pct", type number}
+				    })
+				in
+				    Typed

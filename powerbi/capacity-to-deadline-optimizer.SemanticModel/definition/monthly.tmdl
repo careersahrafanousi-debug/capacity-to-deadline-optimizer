@@ -1,0 +1,52 @@
+table monthly
+
+	column month
+		dataType: string
+		summarizeBy: none
+		sourceColumn: month
+
+	column appointments
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: appointments
+
+	column avg_lead
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: avg_lead
+
+	column within_std_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: within_std_pct
+
+	measure 'Appointments (monthly)' = SUM ( 'monthly'[appointments] )
+		formatString: #,0.00
+		displayFolder: Measures
+		/// Appointments for the 'Monthly trend' visual.
+
+	measure 'Within standard % (monthly)' = AVERAGE ( 'monthly'[within_std_pct] )
+		formatString: #,0.00
+		displayFolder: Measures
+		/// Within standard % for the 'Monthly trend' visual.
+
+	measure 'Avg lead time (days) (monthly)' = AVERAGE ( 'monthly'[avg_lead] )
+		formatString: #,0.00
+		displayFolder: Measures
+		/// Avg lead time (days) for the 'Monthly trend' visual.
+
+	partition monthly = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExtractFolder & "\monthly.csv"),
+				        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {
+				        {"month", type text},
+				        {"appointments", Int64.Type},
+				        {"avg_lead", type number},
+				        {"within_std_pct", type number}
+				    })
+				in
+				    Typed

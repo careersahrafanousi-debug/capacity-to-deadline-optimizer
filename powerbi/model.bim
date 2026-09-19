@@ -1,0 +1,926 @@
+{
+  "name": "capacity-to-deadline-optimizer",
+  "compatibilityLevel": 1567,
+  "model": {
+    "culture": "en-US",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "headline",
+        "columns": [
+          {
+            "name": "appointments",
+            "dataType": "int64",
+            "sourceColumn": "appointments",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "avg_lead",
+            "dataType": "double",
+            "sourceColumn": "avg_lead",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "within_std_pct",
+            "dataType": "double",
+            "sourceColumn": "within_std_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "no_show_pct",
+            "dataType": "double",
+            "sourceColumn": "no_show_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancel_pct",
+            "dataType": "double",
+            "sourceColumn": "cancel_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "refillable",
+            "dataType": "int64",
+            "sourceColumn": "refillable",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "unused_slots",
+            "dataType": "int64",
+            "sourceColumn": "unused_slots",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "dq_score",
+            "dataType": "double",
+            "sourceColumn": "dq_score",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "headline",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\headline.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Appointments",
+            "expression": "SELECTEDVALUE ( 'headline'[appointments] )",
+            "formatString": "#,0",
+            "description": "Appointments from the headline query extract."
+          },
+          {
+            "name": "Avg lead time",
+            "expression": "SELECTEDVALUE ( 'headline'[avg_lead] )",
+            "formatString": "#,0.0\"d\"",
+            "description": "Avg lead time from the headline query extract."
+          },
+          {
+            "name": "Within access standard",
+            "expression": "SELECTEDVALUE ( 'headline'[within_std_pct] )",
+            "formatString": "0.00\"%\"",
+            "description": "Each specialty against its own target"
+          },
+          {
+            "name": "No-show rate",
+            "expression": "SELECTEDVALUE ( 'headline'[no_show_pct] )",
+            "formatString": "0.00\"%\"",
+            "description": "5.27% with a reminder, 15.68% without"
+          },
+          {
+            "name": "Cancellation rate",
+            "expression": "SELECTEDVALUE ( 'headline'[cancel_pct] )",
+            "formatString": "0.00\"%\"",
+            "description": "Cancellation rate from the headline query extract."
+          },
+          {
+            "name": "Slots lost",
+            "expression": "SELECTEDVALUE ( 'headline'[unused_slots] )",
+            "formatString": "#,0",
+            "description": "Cancellations plus no-shows"
+          },
+          {
+            "name": "Refillable cancellations",
+            "expression": "SELECTEDVALUE ( 'headline'[refillable] )",
+            "formatString": "#,0",
+            "description": "Enough notice to offer the slot on"
+          }
+        ]
+      },
+      {
+        "name": "wl_head",
+        "columns": [
+          {
+            "name": "waiting",
+            "dataType": "int64",
+            "sourceColumn": "waiting",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "past_requested",
+            "dataType": "int64",
+            "sourceColumn": "past_requested",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "avg_waiting",
+            "dataType": "double",
+            "sourceColumn": "avg_waiting",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "high_priority",
+            "dataType": "int64",
+            "sourceColumn": "high_priority",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "wl_head",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\wl_head.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Waitlist past requested-by",
+            "expression": "SELECTEDVALUE ( 'wl_head'[past_requested] )",
+            "formatString": "#,0",
+            "description": "53.0% of the waitlist"
+          }
+        ]
+      },
+      {
+        "name": "status",
+        "columns": [
+          {
+            "name": "Status",
+            "dataType": "string",
+            "sourceColumn": "Status",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "appointments",
+            "dataType": "int64",
+            "sourceColumn": "appointments",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "status",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\status.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Appointments (status)",
+            "expression": "SUM ( 'status'[appointments] )",
+            "formatString": "#,0.00",
+            "description": "Appointments for the 'Appointment outcomes' visual."
+          }
+        ]
+      },
+      {
+        "name": "by_specialty",
+        "columns": [
+          {
+            "name": "Specialty",
+            "dataType": "string",
+            "sourceColumn": "Specialty",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "target_days",
+            "dataType": "int64",
+            "sourceColumn": "target_days",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "appointments",
+            "dataType": "int64",
+            "sourceColumn": "appointments",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "avg_lead",
+            "dataType": "double",
+            "sourceColumn": "avg_lead",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "within_std_pct",
+            "dataType": "double",
+            "sourceColumn": "within_std_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "no_show_pct",
+            "dataType": "double",
+            "sourceColumn": "no_show_pct",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "by_specialty",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\by_specialty.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Avg lead time (days) (by_specialty)",
+            "expression": "AVERAGE ( 'by_specialty'[avg_lead] )",
+            "formatString": "#,0.00",
+            "description": "Avg lead time (days) for the 'Lead time against each specialty's own access standard' visual."
+          },
+          {
+            "name": "Target lead time (days) (by_specialty)",
+            "expression": "SUM ( 'by_specialty'[target_days] )",
+            "formatString": "#,0.00",
+            "description": "Target lead time (days) for the 'Lead time against each specialty's own access standard' visual."
+          },
+          {
+            "name": "Within standard % (by_specialty)",
+            "expression": "AVERAGE ( 'by_specialty'[within_std_pct] )",
+            "formatString": "#,0.00",
+            "description": "Within standard % for the 'Compliance with access standard, by specialty' visual."
+          }
+        ]
+      },
+      {
+        "name": "reminder",
+        "columns": [
+          {
+            "name": "bucket",
+            "dataType": "string",
+            "sourceColumn": "bucket",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "appointments",
+            "dataType": "int64",
+            "sourceColumn": "appointments",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "no_show_pct",
+            "dataType": "double",
+            "sourceColumn": "no_show_pct",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "reminder",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\reminder.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "No-show rate % (reminder)",
+            "expression": "AVERAGE ( 'reminder'[no_show_pct] )",
+            "formatString": "#,0.00",
+            "description": "No-show rate % for the 'The reminder effect' visual."
+          }
+        ]
+      },
+      {
+        "name": "lead_bands",
+        "columns": [
+          {
+            "name": "band",
+            "dataType": "string",
+            "sourceColumn": "band",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "appointments",
+            "dataType": "int64",
+            "sourceColumn": "appointments",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "no_show_pct",
+            "dataType": "double",
+            "sourceColumn": "no_show_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancel_pct",
+            "dataType": "double",
+            "sourceColumn": "cancel_pct",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "lead_bands",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\lead_bands.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "No-show rate % (lead_bands)",
+            "expression": "AVERAGE ( 'lead_bands'[no_show_pct] )",
+            "formatString": "#,0.00",
+            "description": "No-show rate % for the 'Longer waits, worse attendance' visual."
+          },
+          {
+            "name": "Cancellation rate % (lead_bands)",
+            "expression": "AVERAGE ( 'lead_bands'[cancel_pct] )",
+            "formatString": "#,0.00",
+            "description": "Cancellation rate % for the 'Longer waits, worse attendance' visual."
+          }
+        ]
+      },
+      {
+        "name": "fill_sim",
+        "columns": [
+          {
+            "name": "scenario",
+            "dataType": "string",
+            "sourceColumn": "scenario",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "slots",
+            "dataType": "int64",
+            "sourceColumn": "slots",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "pct_of_completed",
+            "dataType": "double",
+            "sourceColumn": "pct_of_completed",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Note",
+            "dataType": "string",
+            "sourceColumn": "Note",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "fill_sim",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\fill_sim.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Slots recovered (fill_sim)",
+            "expression": "SUM ( 'fill_sim'[slots] )",
+            "formatString": "#,0.00",
+            "description": "Slots recovered for the 'What refilling cancelled slots would actually buy' visual."
+          },
+          {
+            "name": "% of completed volume (fill_sim)",
+            "expression": "AVERAGE ( 'fill_sim'[pct_of_completed] )",
+            "formatString": "#,0.00",
+            "description": "% of completed volume for the 'What refilling cancelled slots would actually buy' visual."
+          }
+        ]
+      },
+      {
+        "name": "cancel_reasons",
+        "columns": [
+          {
+            "name": "Cancellation_Reason",
+            "dataType": "string",
+            "sourceColumn": "Cancellation_Reason",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "cancellations",
+            "dataType": "int64",
+            "sourceColumn": "cancellations",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "avg_notice_days",
+            "dataType": "double",
+            "sourceColumn": "avg_notice_days",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "refillable",
+            "dataType": "int64",
+            "sourceColumn": "refillable",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "cancel_reasons",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\cancel_reasons.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ]
+      },
+      {
+        "name": "time_block",
+        "columns": [
+          {
+            "name": "Time_Block",
+            "dataType": "string",
+            "sourceColumn": "Time_Block",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "appointments",
+            "dataType": "int64",
+            "sourceColumn": "appointments",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "no_show_pct",
+            "dataType": "double",
+            "sourceColumn": "no_show_pct",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "cancel_pct",
+            "dataType": "double",
+            "sourceColumn": "cancel_pct",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "time_block",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\time_block.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "No-show rate % (time_block)",
+            "expression": "AVERAGE ( 'time_block'[no_show_pct] )",
+            "formatString": "#,0.00",
+            "description": "No-show rate % for the 'Time block performance' visual."
+          },
+          {
+            "name": "Cancellation rate % (time_block)",
+            "expression": "AVERAGE ( 'time_block'[cancel_pct] )",
+            "formatString": "#,0.00",
+            "description": "Cancellation rate % for the 'Time block performance' visual."
+          }
+        ]
+      },
+      {
+        "name": "by_hour",
+        "columns": [
+          {
+            "name": "hour",
+            "dataType": "int64",
+            "sourceColumn": "hour",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "appointments",
+            "dataType": "int64",
+            "sourceColumn": "appointments",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "no_show_pct",
+            "dataType": "double",
+            "sourceColumn": "no_show_pct",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "by_hour",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\by_hour.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "No-show rate % (by_hour)",
+            "expression": "AVERAGE ( 'by_hour'[no_show_pct] )",
+            "formatString": "#,0.00",
+            "description": "No-show rate % for the 'No-shows by time of day' visual."
+          }
+        ]
+      },
+      {
+        "name": "capacity",
+        "columns": [
+          {
+            "name": "Specialty",
+            "dataType": "string",
+            "sourceColumn": "Specialty",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "available",
+            "dataType": "double",
+            "sourceColumn": "available",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "booked",
+            "dataType": "double",
+            "sourceColumn": "booked",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "lost",
+            "dataType": "double",
+            "sourceColumn": "lost",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "utilisation_pct",
+            "dataType": "double",
+            "sourceColumn": "utilisation_pct",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "capacity",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\capacity.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ]
+      },
+      {
+        "name": "wl_priority",
+        "columns": [
+          {
+            "name": "Match_Priority",
+            "dataType": "string",
+            "sourceColumn": "Match_Priority",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "entries",
+            "dataType": "int64",
+            "sourceColumn": "entries",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "avg_waiting",
+            "dataType": "double",
+            "sourceColumn": "avg_waiting",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "avg_score",
+            "dataType": "double",
+            "sourceColumn": "avg_score",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "past_requested",
+            "dataType": "int64",
+            "sourceColumn": "past_requested",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "wl_priority",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\wl_priority.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Entries (wl_priority)",
+            "expression": "SUM ( 'wl_priority'[entries] )",
+            "formatString": "#,0.00",
+            "description": "Entries for the 'Waitlist by match priority' visual."
+          },
+          {
+            "name": "Avg days waiting (wl_priority)",
+            "expression": "AVERAGE ( 'wl_priority'[avg_waiting] )",
+            "formatString": "#,0.00",
+            "description": "Avg days waiting for the 'Waitlist by match priority' visual."
+          }
+        ]
+      },
+      {
+        "name": "wl_specialty",
+        "columns": [
+          {
+            "name": "Specialty",
+            "dataType": "string",
+            "sourceColumn": "Specialty",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "entries",
+            "dataType": "int64",
+            "sourceColumn": "entries",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "avg_waiting",
+            "dataType": "double",
+            "sourceColumn": "avg_waiting",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "slots_per_patient",
+            "dataType": "double",
+            "sourceColumn": "slots_per_patient",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "past_requested",
+            "dataType": "int64",
+            "sourceColumn": "past_requested",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "wl_specialty",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\wl_specialty.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ]
+      },
+      {
+        "name": "optin",
+        "columns": [
+          {
+            "name": "bucket",
+            "dataType": "string",
+            "sourceColumn": "bucket",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "entries",
+            "dataType": "int64",
+            "sourceColumn": "entries",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "offers_made",
+            "dataType": "int64",
+            "sourceColumn": "offers_made",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "acceptance_pct",
+            "dataType": "double",
+            "sourceColumn": "acceptance_pct",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "optin",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\optin.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Offer acceptance % (optin)",
+            "expression": "AVERAGE ( 'optin'[acceptance_pct] )",
+            "formatString": "#,0.00",
+            "description": "Offer acceptance % for the 'Notification opt-in \u2014 a null finding, reported anyway' visual."
+          }
+        ]
+      },
+      {
+        "name": "monthly",
+        "columns": [
+          {
+            "name": "month",
+            "dataType": "string",
+            "sourceColumn": "month",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "appointments",
+            "dataType": "int64",
+            "sourceColumn": "appointments",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "avg_lead",
+            "dataType": "double",
+            "sourceColumn": "avg_lead",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "within_std_pct",
+            "dataType": "double",
+            "sourceColumn": "within_std_pct",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "monthly",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\monthly.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Appointments (monthly)",
+            "expression": "SUM ( 'monthly'[appointments] )",
+            "formatString": "#,0.00",
+            "description": "Appointments for the 'Monthly trend' visual."
+          },
+          {
+            "name": "Within standard % (monthly)",
+            "expression": "AVERAGE ( 'monthly'[within_std_pct] )",
+            "formatString": "#,0.00",
+            "description": "Within standard % for the 'Monthly trend' visual."
+          },
+          {
+            "name": "Avg lead time (days) (monthly)",
+            "expression": "AVERAGE ( 'monthly'[avg_lead] )",
+            "formatString": "#,0.00",
+            "description": "Avg lead time (days) for the 'Monthly trend' visual."
+          }
+        ]
+      },
+      {
+        "name": "wl_queue",
+        "columns": [
+          {
+            "name": "Waitlist_ID",
+            "dataType": "string",
+            "sourceColumn": "Waitlist_ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Specialty",
+            "dataType": "string",
+            "sourceColumn": "Specialty",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Days_Waiting",
+            "dataType": "int64",
+            "sourceColumn": "Days_Waiting",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Days_To_Requested_By",
+            "dataType": "double",
+            "sourceColumn": "Days_To_Requested_By",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Preferred_Time",
+            "dataType": "string",
+            "sourceColumn": "Preferred_Time",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Travel_Category",
+            "dataType": "string",
+            "sourceColumn": "Travel_Category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Notification_Opt_In",
+            "dataType": "string",
+            "sourceColumn": "Notification_Opt_In",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "score",
+            "dataType": "double",
+            "sourceColumn": "score",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Match_Priority",
+            "dataType": "string",
+            "sourceColumn": "Match_Priority",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "wl_queue",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\wl_queue.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ]
+      },
+      {
+        "name": "exceptions",
+        "columns": [
+          {
+            "name": "Rule_ID",
+            "dataType": "string",
+            "sourceColumn": "Rule_ID",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Severity",
+            "dataType": "string",
+            "sourceColumn": "Severity",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Action_Taken",
+            "dataType": "string",
+            "sourceColumn": "Action_Taken",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "exceptions",
+            "dataType": "int64",
+            "sourceColumn": "exceptions",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "exceptions",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": "Csv.Document(File.Contents(ExtractFolder & \"\\exceptions.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv])"
+            }
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "name": "ExtractFolder",
+        "kind": "m",
+        "expression": "\"..\\..\\bi_extracts\" meta [IsParameterQuery=true, Type=\"Text\", IsParameterQueryRequired=true]",
+        "description": "Folder holding the CSV extracts written by src/build_bi_assets.py."
+      }
+    ]
+  }
+}

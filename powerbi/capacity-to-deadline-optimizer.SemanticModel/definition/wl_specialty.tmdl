@@ -1,0 +1,43 @@
+table wl_specialty
+
+	column Specialty
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Specialty
+
+	column entries
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: entries
+
+	column avg_waiting
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: avg_waiting
+
+	column slots_per_patient
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: slots_per_patient
+
+	column past_requested
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: past_requested
+
+	partition wl_specialty = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExtractFolder & "\wl_specialty.csv"),
+				        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {
+				        {"Specialty", type text},
+				        {"entries", Int64.Type},
+				        {"avg_waiting", type number},
+				        {"slots_per_patient", type number},
+				        {"past_requested", Int64.Type}
+				    })
+				in
+				    Typed

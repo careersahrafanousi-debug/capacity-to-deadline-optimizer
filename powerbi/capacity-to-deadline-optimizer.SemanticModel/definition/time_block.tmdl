@@ -1,0 +1,47 @@
+table time_block
+
+	column Time_Block
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Time_Block
+
+	column appointments
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: appointments
+
+	column no_show_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: no_show_pct
+
+	column cancel_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: cancel_pct
+
+	measure 'No-show rate % (time_block)' = AVERAGE ( 'time_block'[no_show_pct] )
+		formatString: #,0.00
+		displayFolder: Measures
+		/// No-show rate % for the 'Time block performance' visual.
+
+	measure 'Cancellation rate % (time_block)' = AVERAGE ( 'time_block'[cancel_pct] )
+		formatString: #,0.00
+		displayFolder: Measures
+		/// Cancellation rate % for the 'Time block performance' visual.
+
+	partition time_block = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExtractFolder & "\time_block.csv"),
+				        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {
+				        {"Time_Block", type text},
+				        {"appointments", Int64.Type},
+				        {"no_show_pct", type number},
+				        {"cancel_pct", type number}
+				    })
+				in
+				    Typed

@@ -1,0 +1,37 @@
+table cancel_reasons
+
+	column Cancellation_Reason
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Cancellation_Reason
+
+	column cancellations
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: cancellations
+
+	column avg_notice_days
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: avg_notice_days
+
+	column refillable
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: refillable
+
+	partition cancel_reasons = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExtractFolder & "\cancel_reasons.csv"),
+				        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {
+				        {"Cancellation_Reason", type text},
+				        {"cancellations", Int64.Type},
+				        {"avg_notice_days", type number},
+				        {"refillable", Int64.Type}
+				    })
+				in
+				    Typed

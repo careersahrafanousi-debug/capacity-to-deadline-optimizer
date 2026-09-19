@@ -1,0 +1,47 @@
+table fill_sim
+
+	column scenario
+		dataType: string
+		summarizeBy: none
+		sourceColumn: scenario
+
+	column slots
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: slots
+
+	column pct_of_completed
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: pct_of_completed
+
+	column Note
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Note
+
+	measure 'Slots recovered (fill_sim)' = SUM ( 'fill_sim'[slots] )
+		formatString: #,0.00
+		displayFolder: Measures
+		/// Slots recovered for the 'What refilling cancelled slots would actually buy' visual.
+
+	measure '% of completed volume (fill_sim)' = AVERAGE ( 'fill_sim'[pct_of_completed] )
+		formatString: #,0.00
+		displayFolder: Measures
+		/// % of completed volume for the 'What refilling cancelled slots would actually buy' visual.
+
+	partition fill_sim = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExtractFolder & "\fill_sim.csv"),
+				        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {
+				        {"scenario", type text},
+				        {"slots", Int64.Type},
+				        {"pct_of_completed", type number},
+				        {"Note", type text}
+				    })
+				in
+				    Typed

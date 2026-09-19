@@ -1,0 +1,67 @@
+table wl_queue
+
+	column Waitlist_ID
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Waitlist_ID
+
+	column Specialty
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Specialty
+
+	column Days_Waiting
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: Days_Waiting
+
+	column Days_To_Requested_By
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: Days_To_Requested_By
+
+	column Preferred_Time
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Preferred_Time
+
+	column Travel_Category
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Travel_Category
+
+	column Notification_Opt_In
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Notification_Opt_In
+
+	column score
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: score
+
+	column Match_Priority
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Match_Priority
+
+	partition wl_queue = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExtractFolder & "\wl_queue.csv"),
+				        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {
+				        {"Waitlist_ID", type text},
+				        {"Specialty", type text},
+				        {"Days_Waiting", Int64.Type},
+				        {"Days_To_Requested_By", type number},
+				        {"Preferred_Time", type text},
+				        {"Travel_Category", type text},
+				        {"Notification_Opt_In", type text},
+				        {"score", type number},
+				        {"Match_Priority", type text}
+				    })
+				in
+				    Typed

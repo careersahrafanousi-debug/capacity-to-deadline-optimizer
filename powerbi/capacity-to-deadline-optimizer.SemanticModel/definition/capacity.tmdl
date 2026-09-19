@@ -1,0 +1,43 @@
+table capacity
+
+	column Specialty
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Specialty
+
+	column available
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: available
+
+	column booked
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: booked
+
+	column lost
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: lost
+
+	column utilisation_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: utilisation_pct
+
+	partition capacity = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExtractFolder & "\capacity.csv"),
+				        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {
+				        {"Specialty", type text},
+				        {"available", type number},
+				        {"booked", type number},
+				        {"lost", type number},
+				        {"utilisation_pct", type number}
+				    })
+				in
+				    Typed

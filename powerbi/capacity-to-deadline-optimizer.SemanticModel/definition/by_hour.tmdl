@@ -1,0 +1,36 @@
+table by_hour
+
+	column hour
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: hour
+
+	column appointments
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: appointments
+
+	column no_show_pct
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: no_show_pct
+
+	measure 'No-show rate % (by_hour)' = AVERAGE ( 'by_hour'[no_show_pct] )
+		formatString: #,0.00
+		displayFolder: Measures
+		/// No-show rate % for the 'No-shows by time of day' visual.
+
+	partition by_hour = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExtractFolder & "\by_hour.csv"),
+				        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {
+				        {"hour", Int64.Type},
+				        {"appointments", Int64.Type},
+				        {"no_show_pct", type number}
+				    })
+				in
+				    Typed

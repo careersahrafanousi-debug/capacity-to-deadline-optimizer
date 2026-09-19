@@ -1,0 +1,53 @@
+table wl_priority
+
+	column Match_Priority
+		dataType: string
+		summarizeBy: none
+		sourceColumn: Match_Priority
+
+	column entries
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: entries
+
+	column avg_waiting
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: avg_waiting
+
+	column avg_score
+		dataType: double
+		summarizeBy: sum
+		sourceColumn: avg_score
+
+	column past_requested
+		dataType: int64
+		summarizeBy: sum
+		sourceColumn: past_requested
+
+	measure 'Entries (wl_priority)' = SUM ( 'wl_priority'[entries] )
+		formatString: #,0.00
+		displayFolder: Measures
+		/// Entries for the 'Waitlist by match priority' visual.
+
+	measure 'Avg days waiting (wl_priority)' = AVERAGE ( 'wl_priority'[avg_waiting] )
+		formatString: #,0.00
+		displayFolder: Measures
+		/// Avg days waiting for the 'Waitlist by match priority' visual.
+
+	partition wl_priority = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ExtractFolder & "\wl_priority.csv"),
+				        [Delimiter=",", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {
+				        {"Match_Priority", type text},
+				        {"entries", Int64.Type},
+				        {"avg_waiting", type number},
+				        {"avg_score", type number},
+				        {"past_requested", Int64.Type}
+				    })
+				in
+				    Typed
