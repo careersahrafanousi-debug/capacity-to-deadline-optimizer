@@ -1,0 +1,377 @@
+Exception_ID,Rule_ID,Record_ID,Severity,Description,Action_Taken
+EX-00001,DQ-01,APT-005459,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00002,DQ-01,APT-012288,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00003,DQ-01,APT-009614,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00004,DQ-01,APT-006332,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00005,DQ-01,APT-003890,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00006,DQ-01,APT-012418,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00007,DQ-01,APT-001030,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00008,DQ-01,APT-000039,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00009,DQ-01,APT-010029,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00010,DQ-01,APT-007632,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00011,DQ-01,APT-009442,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00012,DQ-01,APT-005187,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00013,DQ-01,APT-010583,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00014,DQ-01,APT-002515,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00015,DQ-01,APT-001076,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00016,DQ-01,APT-010446,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00017,DQ-01,APT-010964,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00018,DQ-01,APT-009926,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00019,DQ-01,APT-002737,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00020,DQ-01,APT-008122,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00021,DQ-01,APT-003714,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00022,DQ-01,APT-000760,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00023,DQ-01,APT-009258,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00024,DQ-01,APT-005184,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00025,DQ-01,APT-002220,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00026,DQ-01,APT-003445,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00027,DQ-01,APT-012916,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00028,DQ-01,APT-002367,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00029,DQ-01,APT-009928,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00030,DQ-01,APT-001117,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00031,DQ-01,APT-011831,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00032,DQ-01,APT-008963,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00033,DQ-01,APT-001694,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00034,DQ-01,APT-008380,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00035,DQ-01,APT-012452,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00036,DQ-01,APT-012654,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00037,DQ-01,APT-005647,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00038,DQ-01,APT-006977,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00039,DQ-01,APT-000800,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00040,DQ-01,APT-001888,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00041,DQ-01,APT-006463,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00042,DQ-01,APT-012766,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00043,DQ-01,APT-008996,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00044,DQ-01,APT-002900,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00045,DQ-01,APT-008414,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00046,DQ-01,APT-002798,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00047,DQ-01,APT-007121,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00048,DQ-01,APT-002970,High,Duplicate Appointment_ID.,First occurrence retained
+EX-00049,DQ-03,APT-010291,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00050,DQ-03,APT-000289,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00051,DQ-03,APT-001809,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00052,DQ-03,APT-011052,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00053,DQ-03,APT-005859,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00054,DQ-03,APT-008877,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00055,DQ-03,APT-007464,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00056,DQ-03,APT-005864,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00057,DQ-03,APT-001428,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00058,DQ-03,APT-001229,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00059,DQ-03,APT-011295,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00060,DQ-03,APT-009346,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00061,DQ-03,APT-011952,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00062,DQ-03,APT-009478,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00063,DQ-03,APT-005363,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00064,DQ-03,APT-004398,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00065,DQ-03,APT-008610,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00066,DQ-03,APT-006781,Critical,Unrecognized status value 'PENDING-CONFIRM'.,Excluded from reporting
+EX-00067,DQ-04,APT-003036,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00068,DQ-04,APT-010104,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00069,DQ-04,APT-011500,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00070,DQ-04,APT-008636,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00071,DQ-04,APT-009515,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00072,DQ-04,APT-012135,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00073,DQ-04,APT-010479,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00074,DQ-04,APT-011820,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00075,DQ-04,APT-004244,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00076,DQ-04,APT-012249,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00077,DQ-04,APT-000182,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00078,DQ-04,APT-002947,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00079,DQ-04,APT-009996,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00080,DQ-04,APT-009626,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00081,DQ-04,APT-012945,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00082,DQ-04,APT-001480,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00083,DQ-04,APT-001184,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00084,DQ-04,APT-004630,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00085,DQ-04,APT-008844,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00086,DQ-04,APT-005702,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00087,DQ-04,APT-009071,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00088,DQ-04,APT-012330,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00089,DQ-04,APT-006865,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00090,DQ-04,APT-007578,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00091,DQ-04,APT-006189,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00092,DQ-04,APT-007559,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00093,DQ-04,APT-013961,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00094,DQ-04,APT-011563,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00095,DQ-04,APT-001749,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00096,DQ-04,APT-000021,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00097,DQ-04,APT-008426,Critical,Appointment_DateTime missing or unparseable.,Excluded from reporting
+EX-00098,DQ-06,APT-004880,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00099,DQ-06,APT-005472,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00100,DQ-06,APT-006054,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00101,DQ-06,APT-006100,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00102,DQ-06,APT-006525,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00103,DQ-06,APT-000095,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00104,DQ-06,APT-002284,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00105,DQ-06,APT-006324,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00106,DQ-06,APT-013118,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00107,DQ-06,APT-002742,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00108,DQ-06,APT-011212,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00109,DQ-06,APT-004581,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00110,DQ-06,APT-007179,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00111,DQ-06,APT-001424,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00112,DQ-06,APT-013967,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00113,DQ-06,APT-012106,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00114,DQ-06,APT-003128,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00115,DQ-06,APT-000556,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00116,DQ-06,APT-013180,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00117,DQ-06,APT-001153,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00118,DQ-06,APT-013402,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00119,DQ-06,APT-011483,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00120,DQ-06,APT-004215,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00121,DQ-06,APT-005051,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00122,DQ-06,APT-011376,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00123,DQ-06,APT-003851,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00124,DQ-06,APT-012617,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00125,DQ-06,APT-009922,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00126,DQ-06,APT-007557,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00127,DQ-06,APT-011754,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00128,DQ-06,APT-011420,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00129,DQ-06,APT-011435,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00130,DQ-06,APT-012963,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00131,DQ-06,APT-007581,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00132,DQ-06,APT-004837,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00133,DQ-06,APT-010690,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00134,DQ-06,APT-011564,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00135,DQ-06,APT-001898,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00136,DQ-06,APT-006218,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00137,DQ-06,APT-000295,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00138,DQ-06,APT-009990,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00139,DQ-06,APT-001171,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00140,DQ-06,APT-006947,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00141,DQ-06,APT-000419,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00142,DQ-06,APT-009805,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00143,DQ-06,APT-002796,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00144,DQ-06,APT-006648,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00145,DQ-06,APT-005053,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00146,DQ-06,APT-009201,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00147,DQ-06,APT-010417,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00148,DQ-06,APT-007240,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00149,DQ-06,APT-013908,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00150,DQ-06,APT-010120,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00151,DQ-06,APT-005204,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00152,DQ-06,APT-002241,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00153,DQ-06,APT-004524,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00154,DQ-06,APT-007517,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00155,DQ-06,APT-006329,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00156,DQ-06,APT-009969,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00157,DQ-06,APT-008827,High,Cancelled with no cancellation date; fill window cannot be calculated.,"Retained, excluded from fill-opportunity analysis"
+EX-00158,DQ-07,APT-009301,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00159,DQ-07,APT-010461,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00160,DQ-07,APT-008282,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00161,DQ-07,APT-001437,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00162,DQ-07,APT-013223,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00163,DQ-07,APT-003474,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00164,DQ-07,APT-012740,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00165,DQ-07,APT-005911,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00166,DQ-07,APT-008542,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00167,DQ-07,APT-005939,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00168,DQ-07,APT-007677,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00169,DQ-07,APT-012576,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00170,DQ-07,APT-011290,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00171,DQ-07,APT-005475,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00172,DQ-07,APT-007597,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00173,DQ-07,APT-004564,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00174,DQ-07,APT-009831,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00175,DQ-07,APT-008343,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00176,DQ-07,APT-001176,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00177,DQ-07,APT-005986,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00178,DQ-07,APT-010205,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00179,DQ-07,APT-013440,High,Cancellation date outside the request-to-appointment window.,"Cancellation date nulled, record retained"
+EX-00180,DQ-09,APT-003082,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00181,DQ-09,APT-010214,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00182,DQ-09,APT-000277,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00183,DQ-09,APT-007801,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00184,DQ-09,APT-004480,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00185,DQ-09,APT-006818,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00186,DQ-09,APT-001534,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00187,DQ-09,APT-010002,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00188,DQ-09,APT-011622,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00189,DQ-09,APT-006332,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00190,DQ-09,APT-005339,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00191,DQ-09,APT-000776,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00192,DQ-09,APT-010511,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00193,DQ-09,APT-003330,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00194,DQ-09,APT-006491,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00195,DQ-09,APT-003078,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00196,DQ-09,APT-002983,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00197,DQ-09,APT-003504,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00198,DQ-09,APT-005395,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00199,DQ-09,APT-013932,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00200,DQ-09,APT-010827,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00201,DQ-09,APT-007089,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00202,DQ-09,APT-004185,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00203,DQ-09,APT-002539,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00204,DQ-09,APT-013295,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00205,DQ-09,APT-010622,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00206,DQ-09,APT-013926,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00207,DQ-09,APT-004905,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00208,DQ-09,APT-009050,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00209,DQ-09,APT-002829,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00210,DQ-09,APT-008462,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00211,DQ-09,APT-011742,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00212,DQ-09,APT-011417,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00213,DQ-09,APT-010600,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00214,DQ-09,APT-008811,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00215,DQ-09,APT-004698,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00216,DQ-09,APT-008507,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00217,DQ-09,APT-006924,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00218,DQ-09,APT-013705,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00219,DQ-09,APT-007477,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00220,DQ-09,APT-006994,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00221,DQ-09,APT-001020,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00222,DQ-09,APT-012915,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00223,DQ-09,APT-005345,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00224,DQ-09,APT-007673,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00225,DQ-09,APT-008067,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00226,DQ-09,APT-008006,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00227,DQ-09,APT-000246,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00228,DQ-09,APT-006135,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00229,DQ-09,APT-002146,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00230,DQ-09,APT-005021,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00231,DQ-09,APT-000480,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00232,DQ-09,APT-003171,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00233,DQ-09,APT-007293,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00234,DQ-09,APT-006145,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00235,DQ-09,APT-001632,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00236,DQ-09,APT-005017,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00237,DQ-09,APT-010295,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00238,DQ-09,APT-000517,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00239,DQ-09,APT-011934,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00240,DQ-09,APT-008016,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00241,DQ-09,APT-008035,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00242,DQ-09,APT-013829,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00243,DQ-09,APT-009978,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00244,DQ-09,APT-001655,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00245,DQ-09,APT-012898,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00246,DQ-09,APT-013059,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00247,DQ-09,APT-010255,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00248,DQ-09,APT-002535,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00249,DQ-09,APT-011003,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00250,DQ-09,APT-009042,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00251,DQ-09,APT-009629,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00252,DQ-09,APT-007931,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00253,DQ-09,APT-009994,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00254,DQ-09,APT-002991,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00255,DQ-09,APT-001556,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00256,DQ-09,APT-009821,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00257,DQ-09,APT-008281,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00258,DQ-09,APT-001535,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00259,DQ-09,APT-000214,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00260,DQ-09,APT-012666,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00261,DQ-09,APT-000666,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00262,DQ-09,APT-004655,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00263,DQ-09,APT-010576,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00264,DQ-09,APT-007164,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00265,DQ-09,APT-009173,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00266,DQ-09,APT-008568,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00267,DQ-09,APT-010199,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00268,DQ-09,APT-007754,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00269,DQ-09,APT-004909,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00270,DQ-09,APT-009624,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00271,DQ-09,APT-003447,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00272,DQ-09,APT-009230,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00273,DQ-09,APT-010448,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00274,DQ-09,APT-003763,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00275,DQ-09,APT-002848,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00276,DQ-09,APT-007308,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00277,DQ-09,APT-006221,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00278,DQ-09,APT-008308,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00279,DQ-09,APT-003227,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00280,DQ-09,APT-002769,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00281,DQ-09,APT-012011,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00282,DQ-09,APT-013257,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00283,DQ-09,APT-004769,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00284,DQ-09,APT-007406,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00285,DQ-09,APT-005043,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00286,DQ-09,APT-010658,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00287,DQ-09,APT-003671,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00288,DQ-09,APT-013713,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00289,DQ-09,APT-008303,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00290,DQ-09,APT-008597,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00291,DQ-09,APT-008865,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00292,DQ-09,APT-003928,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00293,DQ-09,APT-007918,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00294,DQ-09,APT-008837,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00295,DQ-09,APT-003562,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00296,DQ-09,APT-006325,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00297,DQ-09,APT-001575,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00298,DQ-09,APT-008421,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00299,DQ-09,APT-011926,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00300,DQ-09,APT-002914,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00301,DQ-09,APT-006637,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00302,DQ-09,APT-013850,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00303,DQ-09,APT-002693,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00304,DQ-09,APT-012560,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00305,DQ-09,APT-013044,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00306,DQ-09,APT-006661,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00307,DQ-09,APT-005866,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00308,DQ-09,APT-012389,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00309,DQ-09,APT-012490,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00310,DQ-09,APT-011215,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00311,DQ-09,APT-005734,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00312,DQ-09,APT-006542,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00313,DQ-09,APT-000968,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00314,DQ-09,APT-010259,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00315,DQ-09,APT-002198,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00316,DQ-09,APT-009885,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00317,DQ-09,APT-005968,Medium,Reminder_Sent used a non-standard value.,Normalized to Yes/No
+EX-00318,DQ-13,WL-00643,Critical,Waitlist specialty missing or invalid.,Excluded from reporting
+EX-00319,DQ-13,WL-00881,Critical,Waitlist specialty missing or invalid.,Excluded from reporting
+EX-00320,DQ-13,WL-00885,Critical,Waitlist specialty missing or invalid.,Excluded from reporting
+EX-00321,DQ-13,WL-00892,Critical,Waitlist specialty missing or invalid.,Excluded from reporting
+EX-00322,DQ-13,WL-00911,Critical,Waitlist specialty missing or invalid.,Excluded from reporting
+EX-00323,DQ-13,WL-01020,Critical,Waitlist specialty missing or invalid.,Excluded from reporting
+EX-00324,DQ-13,WL-01056,Critical,Waitlist specialty missing or invalid.,Excluded from reporting
+EX-00325,DQ-13,WL-01146,Critical,Waitlist specialty missing or invalid.,Excluded from reporting
+EX-00326,DQ-13,WL-01189,Critical,Waitlist specialty missing or invalid.,Excluded from reporting
+EX-00327,DQ-13,WL-01214,Critical,Waitlist specialty missing or invalid.,Excluded from reporting
+EX-00328,DQ-13,WL-01414,Critical,Waitlist specialty missing or invalid.,Excluded from reporting
+EX-00329,DQ-13,WL-01484,Critical,Waitlist specialty missing or invalid.,Excluded from reporting
+EX-00330,DQ-13,WL-01545,Critical,Waitlist specialty missing or invalid.,Excluded from reporting
+EX-00331,DQ-13,WL-01641,Critical,Waitlist specialty missing or invalid.,Excluded from reporting
+EX-00332,DQ-14,WL-00003,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00333,DQ-14,WL-00055,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00334,DQ-14,WL-00098,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00335,DQ-14,WL-00192,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00336,DQ-14,WL-00195,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00337,DQ-14,WL-00198,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00338,DQ-14,WL-00296,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00339,DQ-14,WL-00338,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00340,DQ-14,WL-00359,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00341,DQ-14,WL-00392,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00342,DQ-14,WL-00587,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00343,DQ-14,WL-00853,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00344,DQ-14,WL-00938,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00345,DQ-14,WL-01002,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00346,DQ-14,WL-01027,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00347,DQ-14,WL-01029,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00348,DQ-14,WL-01044,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00349,DQ-14,WL-01061,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00350,DQ-14,WL-01100,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00351,DQ-14,WL-01186,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00352,DQ-14,WL-01234,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00353,DQ-14,WL-01403,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00354,DQ-14,WL-01622,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00355,DQ-14,WL-01636,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00356,DQ-14,WL-01783,High,Requested_By_Date precedes Date_Added.,Requested_By_Date nulled; urgency scored as unknown
+EX-00357,DQ-15,WL-00063,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00358,DQ-15,WL-00109,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00359,DQ-15,WL-00203,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00360,DQ-15,WL-00431,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00361,DQ-15,WL-00449,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00362,DQ-15,WL-00467,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00363,DQ-15,WL-00585,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00364,DQ-15,WL-00659,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00365,DQ-15,WL-00760,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00366,DQ-15,WL-00768,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00367,DQ-15,WL-00807,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00368,DQ-15,WL-00813,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00369,DQ-15,WL-00873,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00370,DQ-15,WL-00913,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00371,DQ-15,WL-00975,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00372,DQ-15,WL-01221,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00373,DQ-15,WL-01287,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00374,DQ-15,WL-01535,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00375,DQ-15,WL-01580,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
+EX-00376,DQ-15,WL-01646,High,Offer_Accepted is Yes but no offered slot date exists.,Offer_Accepted reset to Unknown
