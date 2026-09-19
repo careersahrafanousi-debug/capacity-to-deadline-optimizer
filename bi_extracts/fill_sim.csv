@@ -1,0 +1,4 @@
+scenario,slots,pct_of_completed,Note
+30% refill rate,152,1.62,"Modeled opportunity, subject to validation with scheduling staff"
+50% refill rate,254,2.7,"Modeled opportunity, subject to validation with scheduling staff"
+70% refill rate,355,3.78,"Modeled opportunity, subject to validation with scheduling staff"

@@ -1,0 +1,5 @@
+Match_Priority,entries,avg_waiting,avg_score,past_requested
+Critical,316,53.0,86.0,262
+High,704,47.2,71.6,446
+Moderate,569,40.8,58.0,212
+Low,197,28.3,43.2,26

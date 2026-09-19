@@ -1,0 +1,5 @@
+band,appointments,no_show_pct,cancel_pct
+0-14 days,3300,6.32,9.36
+15-30 days,5468,7.93,9.78
+31-60 days,4044,9.34,8.33
+60+ days,1139,13.79,6.32

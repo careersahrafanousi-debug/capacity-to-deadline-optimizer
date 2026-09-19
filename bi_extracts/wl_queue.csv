@@ -1,0 +1,26 @@
+Waitlist_ID,Specialty,Days_Waiting,Days_To_Requested_By,Preferred_Time,Travel_Category,Notification_Opt_In,score,Match_Priority
+WL-00315,Pulmonology,144,-130.0,No preference,Under 15 miles,Yes,100.0,Critical
+WL-00106,Pulmonology,112,-52.0,Morning,15 to 40 miles,Yes,100.0,Critical
+WL-01550,Pulmonology,97,-83.0,Morning,Over 40 miles,Yes,100.0,Critical
+WL-00399,Pulmonology,75,-68.0,Morning,Under 15 miles,Yes,100.0,Critical
+WL-01169,Pulmonology,65,-51.0,Morning,Under 15 miles,Yes,100.0,Critical
+WL-00748,Pulmonology,58,-28.0,Morning,15 to 40 miles,Yes,100.0,Critical
+WL-00114,Pulmonology,50,-29.0,Morning,Under 15 miles,Yes,100.0,Critical
+WL-01696,Pulmonology,49,-35.0,Morning,Over 40 miles,Yes,100.0,Critical
+WL-01604,Pulmonology,45,0.0,No preference,Under 15 miles,Yes,100.0,Critical
+WL-01065,Pulmonology,43,-22.0,No preference,Under 15 miles,Yes,100.0,Critical
+WL-00284,Pulmonology,40,-10.0,Morning,15 to 40 miles,Yes,100.0,Critical
+WL-00096,Pulmonology,34,-20.0,Morning,Under 15 miles,Yes,100.0,Critical
+WL-01613,Pulmonology,33,-19.0,Morning,Under 15 miles,Yes,100.0,Critical
+WL-01764,Pulmonology,30,-9.0,No preference,Over 40 miles,Yes,100.0,Critical
+WL-00980,Pulmonology,139,-94.0,No preference,Under 15 miles,Yes,95.0,Critical
+WL-01067,Pulmonology,129,-39.0,Morning,Over 40 miles,Yes,95.0,Critical
+WL-01762,Pulmonology,110,-20.0,No preference,Under 15 miles,Yes,95.0,Critical
+WL-00903,Pulmonology,94,-4.0,Morning,Under 15 miles,Yes,95.0,Critical
+WL-00951,Pulmonology,90,-45.0,Morning,Under 15 miles,Yes,95.0,Critical
+WL-00229,Pulmonology,89,-44.0,Morning,Under 15 miles,Yes,95.0,Critical
+WL-01756,Pulmonology,84,-70.0,No preference,Under 15 miles,Yes,95.0,Critical
+WL-00206,Pulmonology,81,-36.0,No preference,Under 15 miles,Yes,95.0,Critical
+WL-00856,Pulmonology,73,-66.0,Morning,15 to 40 miles,Yes,95.0,Critical
+WL-00493,Pulmonology,72,-12.0,Morning,15 to 40 miles,Yes,95.0,Critical
+WL-01052,Pulmonology,63,-3.0,Morning,Under 15 miles,Yes,95.0,Critical

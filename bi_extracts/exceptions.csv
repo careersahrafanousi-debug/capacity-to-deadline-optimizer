@@ -1,0 +1,10 @@
+Rule_ID,Severity,Action_Taken,exceptions
+DQ-09,Medium,Normalized to Yes/No,138
+DQ-06,High,"Retained, excluded from fill-opportunity analysis",60
+DQ-01,High,First occurrence retained,48
+DQ-04,Critical,Excluded from reporting,31
+DQ-14,High,Requested_By_Date nulled; urgency scored as unknown,25
+DQ-07,High,"Cancellation date nulled, record retained",22
+DQ-15,High,Offer_Accepted reset to Unknown,20
+DQ-03,Critical,Excluded from reporting,18
+DQ-13,Critical,Excluded from reporting,14

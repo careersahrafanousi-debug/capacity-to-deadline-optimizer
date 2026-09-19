@@ -1,0 +1,7 @@
+Specialty,entries,avg_waiting,slots_per_patient,past_requested
+Orthopedics,299,43.4,0.247,157
+Neurology,289,41.6,0.256,136
+Endocrinology,288,45.5,0.267,167
+Gastroenterology,323,43.0,0.272,171
+Cardiology,288,44.1,0.309,149
+Pulmonology,299,47.0,0.351,166

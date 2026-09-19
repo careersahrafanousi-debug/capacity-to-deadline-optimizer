@@ -1,0 +1,7 @@
+Cancellation_Reason,cancellations,avg_notice_days,refillable
+Provider unavailable,237,3.5,98
+Transportation,229,3.3,96
+No reason given,211,3.3,79
+Patient illness,203,3.5,84
+Insurance issue,188,3.5,70
+Patient request,185,3.7,80
