@@ -4,6 +4,16 @@ Patients wait 30 days on average for a specialty appointment while 507 cancelled
 unfilled. This project quantifies the access gap at Frontier Specialty Care Network, then
 builds a scored waitlist queue that tells a scheduler which patient to call when a slot opens.
 
+**Live dashboard: [https://careersahrafanousi-debug.github.io/capacity-to-deadline-optimizer/dashboard/](https://careersahrafanousi-debug.github.io/capacity-to-deadline-optimizer/dashboard/)**
+
+Built by [`src/build_dashboard.py`](src/build_dashboard.py) from the query set in
+[`dashboard/dashboard_config.json`](dashboard/dashboard_config.json), run against `data/scheduling.db`.
+Every number on the page comes out of a SQL query held in that config file, so the page
+cannot drift away from the analysis in [`sql/`](sql/) — regenerate it with
+`python src/load_sqlite.py && python src/build_dashboard.py`. Chosen over a `.pbix`
+because a reviewer can open a URL and cannot open a binary.
+
+
 Fictional organization: **Frontier Specialty Care Network**. All data synthetic.
 
 ---
@@ -235,7 +245,9 @@ acceptance.
   not observed, and even in real data they would not establish causation.
 - The fill simulation assumes recovered slots produce completed visits at the same rate as
   ordinary bookings, which is optimistic.
-- Power BI `.pbix` not committed; see [`docs/10_dashboard_spec.md`](docs/10_dashboard_spec.md).
+- No `.pbix` committed. The dashboard is built instead as a live HTML page at
+  [https://careersahrafanousi-debug.github.io/capacity-to-deadline-optimizer/dashboard/](https://careersahrafanousi-debug.github.io/capacity-to-deadline-optimizer/dashboard/) by `src/build_dashboard.py`; the Power BI model and
+  measure design remain specified in [`docs/10_dashboard_spec.md`](docs/10_dashboard_spec.md).
 
 ## How to run it
 
